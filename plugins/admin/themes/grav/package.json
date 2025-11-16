@@ -23,7 +23,7 @@
     "exif-js": "^2.3.0",
     "immutable": "^4.0.0",
     "immutablediff": "^0.4.4",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.1.1",
     "mout": "^1.2.3",
     "popper.js": "^1.14.4",
     "rangetouch": "^2.0.1",

@@ -16,3 +16,4 @@ content:
             - _contact
 ---
 
+Bienvenue au CRABE!

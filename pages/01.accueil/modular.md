@@ -1,6 +1,6 @@
 ---
 title: Home
-menu: Home
+menu: Accueil
 onpage_menu: false
 body_classes: 'modular header-image fullwidth'
 content:

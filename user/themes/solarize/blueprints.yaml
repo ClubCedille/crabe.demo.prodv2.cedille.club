@@ -1,0 +1,39 @@
+name: Solarize
+version: 0.3.0
+description: Grav port of Solarize theme by Templated
+icon: rebel
+author:
+  name: Hugh Barnes
+  email: dev@hubns.com
+homepage: https://github.com/hughbris/grav-theme-solarize
+demo: https://behold.metamotive.co.nz/solarize
+keywords: grav, theme, templated, green
+bugs: https://github.com/hughbris/grav-theme-solarize/issues
+readme: https://github.com/hughbris/grav-theme-solarize/blob/develop/README.md
+docs: https://github.com/hughbris/grav-theme-solarize/blob/develop/README.md
+license: MIT
+
+form:
+  validation: loose
+  fields:
+
+    dropdown.enabled:
+        type: toggle
+        label: Dropdown in Menu
+        highlight: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
+
+    conformance.jquery:
+        type: toggle
+        label: Use source theme's jQuery version
+        help: See https://github.com/hughbris/grav-theme-solarize/issues/15 if you plan to set this false
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool

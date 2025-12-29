@@ -1,10 +1,36 @@
 ---
-title: Équipe
-media_order: 1714514844602.jpg
+title: Equipe
 ---
 
-# Votre équipe du CRABE
+#### Benjamin Mah
+Capitaine
 
-![1714514844602](1714514844602.jpg "1714514844602")
-## Benjamin Mah
-### Capitaine
+#### Louis-David Gauthier
+Chef d'équipe
+
+#### Nicolas Bellerive-Blais
+Chef d'équipe
+
+#### Elias Barmani
+Trésorier
+
+#### Rémy Martin
+Communications
+
+#### Samuel K-B
+Mécano
+
+#### Alexis Papin
+Mécano
+
+#### Justin Setton
+Mécano
+
+#### Mathieu Dufour
+Logistiques d'atelier
+
+#### Anthony Stefanelli
+Projet électrique
+
+#### Gabrielle Beaudin
+Liaison de BDD

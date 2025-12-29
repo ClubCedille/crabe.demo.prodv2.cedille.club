@@ -1,0 +1,121 @@
+{% if page.header.section.settings.module.enabled %}
+
+{% set selfid = 'module-' ~ page.template|md5|slice(0, 8) ~ '-' ~ page.slug|md5|slice(0, 8)  %}
+<div class="price-area {{selfid}}">
+    <div class="row container"><div class="container-inner"><div class="section_wrap">
+        {% if page.header.section.title.text or page.header.section.title.subHeading %}
+            <div class="primary-title">
+                {% if page.header.section.settings.title.show %}
+
+                    {% import 'macros/macros.html.twig' as utils %}
+                    {{ utils.render_headings(page, page.header.section.title.subHeading) }}
+
+                {% endif %}
+                {% if page.header.section.title.text %}
+                <p>{{page.header.section.title.text |markdown}}</p>
+                {% endif %}
+            </div>
+        {% endif %}
+
+        <div class="price-card-g-wrapper {{selfid}}">
+            {% for card in page.header.section.content.cards %}
+            <div class="price-card {{selfid}} {{ card.highlight ? 'highlight' }}">
+                {% if card.price or card.priceText %}
+
+                {% import 'macros/macros.html.twig' as utils %}
+                {% set pricehsize = utils.validate_hsize(page.header.section.settings.pricing.hsize, 5)|trim %}
+                <h{{pricehsize}} class="price">{{card.price ? card.price ~ '.– ' }}
+                {% if card.priceText %}
+                     <span class="d-block">{{ card.priceText }}</span>
+                {% endif %}
+                </h{{pricehsize}}>
+                {% endif %}
+                {% if card.text %}
+                    <p>{{ card.text }}</p>
+                {% endif %}
+                {% if card.link and card.anchor %}
+                    <a href="{{card.link}}" class="box-btn {{ card.highlight ? 'type-2' : 'type-1' }}" {% if card.open.type %}target="_blank"{% endif %}>{{card.anchor}}<i class="far fa-angle-right"></i></a>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div></div></div>
+</div>
+{% endif %}
+
+<style>
+.price-card-g-wrapper.{{selfid}} .price-card  {
+    
+    {% if page.header.section.settings.column == 1 %}
+    width: 100%;
+    {% elseif page.header.section.settings.column == 2 %}
+    width: 48%;
+    {% elseif page.header.section.settings.column == 3 %}
+    width: 30%;
+    {% elseif page.header.section.settings.column == 4 %}
+    width: 23%;
+    {% elseif page.header.section.settings.column == 5 %}
+    width: 18.5%;
+    {% elseif page.header.section.settings.column == 6 %}
+    width: 16%;
+    {% else %}
+        width: 30%;
+    {% endif %}
+
+}
+
+
+@media (max-width: 991px) {
+    
+.price-card-g-wrapper.{{selfid}} .price-card  {
+    
+    {% if page.header.section.settings.columnmobile == 1 %}
+    width: 100%;
+    {% elseif page.header.section.settings.columnmobile == 2 %}
+    width: 47%;
+    {% elseif page.header.section.settings.columnmobile == 3 %}
+    width: 30%;
+    {% elseif page.header.section.settings.columnmobile == 4 %}
+    width: 22.5%;
+    {% elseif page.header.section.settings.columnmobile == 5 %}
+    width: 18%;
+    {% elseif page.header.section.settings.columnmobile == 6 %}
+    width: 15.5%;
+    {% else %}
+        width: 22.5%;
+    {% endif %}
+
+}
+}
+
+@media (max-width: 468px) {
+.price-card-g-wrapper.{{selfid}} .price-card  {
+    
+    width: 100%;
+}
+       
+}
+
+
+
+{% if page.header.section.settings.bgcolor %}
+.price-area.{{selfid}} {
+    background-color: {{page.header.section.settings.bgcolor}};
+}
+{% endif %}
+
+
+{% if page.header.section.settings.pricecolor %}
+.price-card.{{selfid}} .price{
+    color: {{page.header.section.settings.pricecolor}};
+}
+{% endif %}
+
+{% if page.header.section.settings.padding %}
+.price-area.{{selfid}} {
+    padding: {{page.header.section.settings.padding}};
+}
+{% endif %}
+
+
+</style>

@@ -1,0 +1,172 @@
+{% if page.header.section.settings.module.enabled %}
+</div></div>
+{% set selfid = 'module-' ~ page.template|md5|slice(0, 8) ~ '-' ~ page.slug|md5|slice(0, 8)  %}
+<div class="team-area {{selfid}}{% if page.header.section.settings.design.enabled == 1 %} team-design{% endif %}">
+    <div class="container"><div class="container-inner">
+        {% if page.header.section.settings.title.show %}
+        <div class="secondary-title">
+                {% import 'macros/macros.html.twig' as utils %}
+                {{ utils.render_headings(page, page.header.section.title.subHeading) }}
+        </div>
+        {% endif %}
+        <div class="row">
+            {% for member in page.header.section.content.members %}
+            {% set img = (member.img | first).name %}
+
+
+            <div class="{% if page.header.section.settings.column == 1 %}col-lg-12
+                        {% elseif page.header.section.settings.column == 2 %}col-lg-6
+                        {% elseif page.header.section.settings.column == 3 %}col-lg-4
+                        {% elseif page.header.section.settings.column == 4 %}col-lg-3
+                        {% elseif page.header.section.settings.column == 6 %}col-lg-2
+                        {% else %}col-lg-6{% endif %}  mb-30">
+                {% if member.onlyshowtext == 1 %}
+                    <div class="team-onlyshowtext">
+                        <h3>{{ member.name }}</h3>
+                        <p>{{ member.additional_txt }}</p>
+                    </div>
+                {% else %}
+                    <div class="team-member{% if page.header.section.settings.design.enabled == 1 %} team-member--hover {% endif %}">
+                        <div class="member-img">
+                            {% set resize = 4 / 3 %}
+                            {% set cropzoom = 0 %}
+                            {% if page.header.section.settings.nocropzoom.enabled == 1 %}
+                                {% set cropzoom = 1 %}
+                            {% endif %}
+                            
+                            {# Get image from page media if it exists, otherwise use theme path #}
+                            {% set validImage = false %}
+                            {% set image = null %}
+                            {% set imageUrl = '' %}
+
+                            {% if img is defined and img is not empty %}
+                                {% if attribute(page.media, img) %}
+                                    {% set image = page.media[img] %}
+                                    {% set imageUrl = image.url %}
+                                    {% set validImage = true %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% if not validImage and member.img is defined %}
+                                {% set imgKey = member.img|keys|first %}
+                                {% if imgKey is defined and attribute(page.media, imgKey) %}
+                                    {% set image = page.media[imgKey] %}
+                                    {% set imageUrl = image.url %}
+                                    {% set validImage = true %}
+                                {% endif %}
+                            {% endif %}
+
+                            {% if not validImage and img is defined %}
+                                {# Fallback for when no valid image is found #}
+                                {% set imageUrl = url('theme://custom/images/' ~ img) %}
+                            {% endif %}
+
+                            {% set is_svg = imageUrl|lower ends with '.svg' %}
+
+                            {% if theme_var('style.compress') and validImage %}
+                                {% include 'partials/imagesizing.html.twig' with {
+                                    'image': image, 
+                                    'title' : member.name, 
+                                    'alt': member.alt, 
+                                    'objectfit': page.header.objectfit, 
+                                    'scale': 0, 
+                                    'resize': 0,
+                                    'classes': 'media',
+                                    'mult': 1
+                                } %}
+                            {% elseif validImage %}
+                                {% if is_svg %}
+                                    <img class="media {{selfid}}" alt="{{ member.alt }}" src="{{ imageUrl }}" />
+                                {% elseif cropzoom %}
+                                    <img class="media {{selfid}}" alt="{{ member.alt }}" src="{{ image.resize(1280).url }}" />
+                                {% else %}
+                                    {% set resize_ratio = 4 / 3 %}
+                                    {% if image.width > 0 and image.height > 0 %}
+                                        <img class="media {{selfid}}" alt="{{ member.alt }}" src="{{ image.cropZoom(1280,1280 * resize_ratio).url }}" />
+                                    {% else %}
+                                        <img class="media {{selfid}}" alt="{{ member.alt }}" src="{{ url('theme://images/placeholder.png') }}" />
+                                    {% endif %}
+                                {% endif %}
+                            {% else %}
+                                <img class="media {{selfid}}" alt="{{ member.alt|default('Team member') }}" src="{{ imageUrl }}" onerror="this.src='{{ url('theme://images/placeholder.png') }}'" />
+                            {% endif %}
+                        </div>
+
+                        {# If design.enabled == 1, we want an overlay that appears on hover #}
+                        {% if page.header.section.settings.design.enabled == 1 %}
+                            <div class="team-member-overlay">
+                                <h3>{{ member.name }}</h3>
+                                <ul class="ct-list">
+                                    {% if member.linkedin.linkedinProfile %}
+                                    <li>
+                                        <i class="fal fa-envelope"></i>
+                                        <a href="mailto:{{ member.mail }}" class="d-inline-block">{{ member.mail }}</a>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-linkedin"></i>
+                                        <a href="{{ member.linkedin.linkedinProfile }}" target="_blank"
+                                        class="d-inline-block text-decoration-underline">
+                                            {{ member.linkedin.linkedin_user }}
+                                        </a>
+                                    </li>
+                                    {% endif %}
+                                    {% if member.phone %}
+                                    <li>
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <a href="tel:{{ member.phone }}">{{ member.phone }}</a>
+                                    </li>
+                                    {% endif %}
+                                </ul>
+                                
+                                {% if member.additional_txt or member.designation %}
+                                <p>{% if member.designation %}{{member.designation}}<br /><br />{% endif %}{{ member.additional_txt|nl2br }}</p>
+                                {% endif %}
+                                {% if member.mail %}<a href="mailto:{{member.mail}}" class="mailtokachel">{{member.mail}}</a>{% endif %}
+                            </div>
+                        {% else %}
+                            <div class="secondary-title member-content mb-0">
+                                <h6 class="subh">{{member.designation}}</h6>
+                                <h3>{{member.name}}</h3>
+                                <ul class="ct-list">
+                                    {% if member.linkedin.linkedinProfile %}
+                                    <li><i class="fal fa-envelope"></i><a href="mailto:{{member.mail}}" class="d-inline-block">{{member.mail}}</a></li>
+                                    <li><i class="fab fa-linkedin"></i><a href="{{member.linkedin.linkedinProfile}}" target="_blank"
+                                            class="d-inline-block text-decoration-underline">{{member.linkedin.linkedin_user}}</a>
+                                    </li>
+                                    {% endif %}
+                                    {% if member.phone %}
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:{{member.phone}}">{{member.phone}}</a></li>
+                                    {% endif %}
+                                </ul>
+                                {% if member.additional_txt %}
+                                <p>{{member.additional_txt}}</p>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                    </div>
+                {% endif %}
+            </div>
+
+
+            {% endfor %}
+        </div>
+    </div></div>
+</div>
+<div class="container"><div class="container-inner">
+{% endif %}
+
+<style>
+{% if page.header.section.settings.bgcolor %}
+.team-area.{{selfid}}{
+    background-color: {{page.header.section.settings.bgcolor}};
+}
+{% endif %}
+
+
+{% if page.header.section.settings.padding %}
+.team-area.{{selfid}} {
+    padding: {{page.header.section.settings.padding}};
+}
+{% endif %}
+
+</style>

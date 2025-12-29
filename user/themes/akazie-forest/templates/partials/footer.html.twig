@@ -1,0 +1,26 @@
+<footer class="footer-area test">
+    <div class="footer-top">
+        <div class="container-fluid cs-padding footer_inner">
+            <div class="ft-g-wrapper">
+                {% include 'partials/footercolumns.html.twig' with {'mobilefooter': false} %}
+            </div>
+        </div>
+    </div>
+    {% if theme_var('footer.bottom.enabled') %}
+    <div class="footer-bottom">
+        <div class="container-fluid cs-padding  footer_inner">
+            <div class="row">
+            
+                {% if theme_var('footer.copyright.enabled') %}
+                <div class="col-md-6">
+                    <p class="m-0">{{ theme_var('footer.copyright.text') }}</p>
+                </div>
+                {% endif %}
+
+                
+                {% include 'partials/footerbottomcolumns.html.twig' %}
+            </div>
+        </div>
+    </div>
+    {% endif %}  
+</footer>

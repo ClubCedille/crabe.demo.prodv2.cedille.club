@@ -1,0 +1,85 @@
+title: C.R.A.B.E
+default_lang: en
+author:
+  name: C.R.A.B.E
+  email: crabe@ens.etsmtl.ca
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Centre de réparation et ajustement de bicyclette de l''ÉTS - Club étudiant et atelier communautaire de l''École de technologie supérieure'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog
+social:
+  -
+    url: 'https://twitter.com/getgrav'
+    icon: twitter
+  -
+    url: '#'
+    icon: facebook
+  -
+    url: blog.rss
+    icon: rss
+contact:
+  address:
+    -
+      line: '222 Ave C South'
+    -
+      line: 'Saskatoon, Saskatchewan'
+    -
+      line: 'Canada S7K 2N5'
+  gps: 1.306.222.3456
+othermenu:
+  -
+    text: About
+    url: about
+  -
+    text: 'Privacy Policy'
+    url: '#'
+  -
+    text: Contact
+    url: contact
+quicklinks:
+  -
+    text: Portfolio
+    url: 'base_url:portfolio'
+  -
+    text: About
+    url: 'base_url:about'
+  -
+    text: Services
+    url: 'base_url:services'
+  -
+    text: Archive
+    url: 'base_url:archive'
+  -
+    text: Blog
+    url: 'base_url:blog'
+  -
+    text: 'Contact Us'
+    url: 'base_url:contact'
+header_options:
+  arrows: 'true'
+  autoslide: 'false'
+  autoslideHoverStop: 'false'
+  interval: '2000'
+  loop: 'false'
+  transition: zoom
+  itemsForSlide: '0'
+  touch: 'true'
+  swipe: 'true'
+footer:
+  description: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.'
+  contact_title: 'Contact Info'
+  links_title: 'Quick Links'
+  newsletter_title: Newsletter
+  newsletter_description: 'Etiam porta sem malesuada magna mollis euismod.'
+  copyright: 'Copyright 2013 Deliver. All Rights Reserved.'
+  feedburner: ''

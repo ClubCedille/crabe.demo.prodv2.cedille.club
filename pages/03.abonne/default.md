@@ -1,5 +1,8 @@
 ---
 title: Abonnement
+banner_pic: "atelier.jpg"
+banner:
+    headline: Abonnement
 ---
 
 # Abonnez-vous à notre atelier !

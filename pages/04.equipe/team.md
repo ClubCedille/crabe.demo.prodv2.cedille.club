@@ -1,5 +1,9 @@
 ---
 title: Équipe
+body_classes: homepage
+banner_pic: "atelier.jpg"
+banner:
+    headline: Équipe
 portals: # could be used for: key staff, testimonials, service previews, ...
     byline: "Voici l'équipe qui gére votre atelier communautaire :"
     current:

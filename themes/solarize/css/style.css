@@ -108,7 +108,6 @@
 	header.major {
 		padding-bottom: 3em;
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 		header.major h2 {
@@ -321,11 +320,13 @@
 			}
 
 	ul.special-icons {
+        display: flex;
 		margin: 0em;
 		padding: 0em;
 	}
 
 		ul.special-icons > li {
+            flex: 1;
 			position: relative;
 			padding: 0.50em 0em 0.50em 0em;
 		}

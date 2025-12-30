@@ -1,8 +1,8 @@
 ---
 title: FAQ
-banner_pic: "atelier.jpg"
+banner_pic: atelier.jpg
 banner:
-    headline: Foire aux questions
+    headline: 'Foire aux questions'
 ---
 
 ### Qu'est-ce que le CRABE ?

@@ -1,6 +1,6 @@
 ---
 title: Abonnement
-banner_pic: "atelier.jpg"
+banner_pic: atelier.jpg
 banner:
     headline: Abonnement
 ---
@@ -18,16 +18,21 @@ banner:
 
 * L’abonnement peut être acheté en tout temps. La date de fin est fixée au 31 août quelle que soit la date d’achat.
 
-
 ## Étapes
 
-1. Si vous êtes étudiant(e), inscrivez-vous en tant que membre du CRABE sur MonÉTS > Formulaires > Adhésion aux club étudiants > CRABE.
+**1 - Adhésion sur MontÉTS (étudiant(e)s seulement)**
 
-2. Achetez votre abonnement ici : https://www.zeffy.com/fr-CA/ticketing/ca63464e-f124-451e-983b-8e03c13ce612.
+Si vous êtes étudiant(e), inscrivez-vous en tant que membre du CRABE sur MonÉTS > Formulaires > Adhésion aux club étudiants > CRABE.
 
-3. Suivez la formation de sécurité obligatoire (30 minutes) avec un membre du CRABE. Vous serez contacté par courriel avec plus d’informations. Cette étape s’applique uniquement aux nouveaux abonnés.
+**2 - Achat**
 
-4. Suivez la formation de base obligatoire sur Moodle > Régie des clubs étudiants.
+Achetez votre abonnement ici : https://www.zeffy.com/fr-CA/ticketing/ca63464e-f124-451e-983b-8e03c13ce612.
 
-5. Profitez de l’accès à l’atelier du CRABE !
+**3 - Formation**
+
+Suivez la formation de sécurité obligatoire (30 minutes) avec un membre du CRABE. Vous serez contacté par courriel avec plus d’informations. Cette étape s’applique uniquement aux nouveaux abonnés.
+
+**4 - Accès**
+
+Profitez de l’accès à l’atelier du CRABE !
 

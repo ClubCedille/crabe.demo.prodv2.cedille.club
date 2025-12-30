@@ -1,5 +1,8 @@
 ---
 title: Atelier
+banner_pic: "atelier.jpg"
+banner:
+    headline: Atelier
 onpage_menu: false
 body_classes: 'modular header-lite fullwidth about'
 bg_color: '#B4B093'

@@ -2,7 +2,7 @@
 title: CRABE
 menu: Home
 body_classes: homepage
-banner_pic: "atelier.jpg"
+banner_pic: atelier.jpg
 banner:
     headline: CRABE
     follower: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'

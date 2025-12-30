@@ -1,6 +1,6 @@
 ---
 title: Contactez-nous
-banner_pic: "atelier.jpg"
+banner_pic: atelier.jpg
 onpage_menu: false
 body_classes: 'modular header-lite fullwidth'
 bg_color: '#B4B093'

@@ -1,0 +1,8 @@
+/*
+
+!.gitignore
+!/config
+!/pages
+!/plugins
+!/themes
+!README.md

@@ -25,5 +25,16 @@ notices:
             icon: leaf
             heading: 'L''innovation'
             point: 'Les idées de génie ont toujours une place au sein de notre club. Que ce soit la création d''un outil avec notre imprimante 3D ou la conception d''un logiciel permettant les administrateurs de gérer les articles dans l''inventaire, nous croyons que la génie peut faire avancer le club tout en restant efficace.'
+activities:
+    title: 'Plus qu''un atelier'
+    subtitle: 'Sorties de vélos, mécanique et même des projets en génie !'
+    description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe des étudiant.e.s très passionné.e.s par le vélo. À chaque été, le CRABE propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et du génie pour rendre notre atelier plus performant et efficace !'
+    picture1: cyclistes.jpeg
+    picture2: atelier-en-action.jpg
+    picture3: imprimante-3d-piece.jpg
+join:
+    title: 'Rejoignez notre équipe !'
+    text: 'Nous serons très ravis de vous accueillir au sein de notre club ! Que vous ayez beaucoup de connaissances sur la mécanique du vélo, vous êtes un(e) passionné(e) ou vous voulez participer à un projet de génie, nous avons une place pour toutes et tous.'
+    link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
 ---
 

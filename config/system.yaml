@@ -99,7 +99,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -121,7 +121,7 @@ twig:
   cache: true
   debug: true
   auto_reload: true
-  autoescape: false
+  autoescape: true
   undefined_functions: true
   undefined_filters: true
   safe_functions: {  }
@@ -146,7 +146,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
-  display: 0
+  display: true
   log: true
 log:
   handler: file
@@ -187,7 +187,7 @@ media:
   unsupported_inline_types: {  }
   allowed_fallback_types: {  }
   auto_metadata_exif: false
-  upload_limit: 134217728
+  upload_limit: 41943040
 session:
   enabled: true
   initialize: true
@@ -204,6 +204,7 @@ session:
 gpm:
   releases: stable
   official_gpm_only: true
+  verify_peer: true
 http:
   method: auto
   enable_proxy: true

@@ -1,0 +1,10 @@
+{% if page.header.join %}
+{% set intro = page.header.join %}
+	<div class="wrapper style2 evenpart">
+		<section class="container">
+            <h1>{{ intro.title }}</h1>
+            <div>{{ intro.text }}</div>
+            <a href="{{ intro.link }}">Rejoindre</a>
+		</section>
+	</div>
+{% endif %}

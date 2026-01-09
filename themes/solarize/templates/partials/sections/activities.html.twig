@@ -1,0 +1,23 @@
+{% set data_source = data_source|default(page) %}
+{% if data_source.header.activities %}
+{% set act = data_source.header.activities %}
+<!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
+	<div class="wrapper green-sect">
+        <div class="green-sect-container">
+            <div>
+                <h1>{{ act.title }}</h1>
+                <h2>{{ act.subtitle }}</h2>
+                <div>{{ act.description }}</div>
+            </div>
+        </div>
+        <div class="green-sect-container">
+            <div>
+                <img src="{{ data_source.media[act.picture1].url }}">
+            </div>
+            <div>
+                <img src="{{ data_source.media[act.picture2].url }}">
+                <img src="{{ data_source.media[act.picture3].url }}">
+            </div>
+        </div>
+	</div>
+{% endif %}

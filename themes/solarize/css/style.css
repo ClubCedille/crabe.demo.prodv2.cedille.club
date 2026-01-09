@@ -70,6 +70,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 2em;
+}
+
 h2 {
     font-size: 1.5em;
 }
@@ -139,6 +143,17 @@ footer .container {
     background: #222222 url("images/crabe-logo.png") no-repeat;
     height: 150px;
     width: 150px;
+}
+
+.green-sect {
+    background-color: #82b440;
+    color: white;
+}
+
+.green-sect-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
 }
 
 /* Form */

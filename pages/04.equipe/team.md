@@ -178,10 +178,3 @@ portals:
             role: 'Membre du conseil d''administration'
 ---
 
-![lofi-lizard](lofi-lizard.PNG "lofi-lizard")
-#### Mathieu Dufour
-Logistiques d'atelier
-
-![lofi-lizard](lofi-lizard.PNG "lofi-lizard")
-#### Anthony Stefanelli
-Projet électrique

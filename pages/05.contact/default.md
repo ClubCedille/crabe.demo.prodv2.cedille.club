@@ -5,7 +5,7 @@ onpage_menu: false
 body_classes: 'modular header-lite fullwidth'
 bg_color: '#B4B093'
 banner:
-    headline: Abonnement
+    headline: Contactez-nous
 ---
 
 **Courriel:** crabe@ens.etsmtl.ca

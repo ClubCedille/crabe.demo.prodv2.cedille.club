@@ -26,7 +26,7 @@
                 </header>
                 <div class="row">
                     {% for item in advantages.items %}
-                    <div class="3u">
+                    <div class="4u">
                         <b>{{item.icon}} {{item.title}}</b>
                         <p>{{item.description}}</p>
                     </div>
@@ -46,11 +46,15 @@
                 </header>
                 <div class="row">
                     {% for step in procedure.steps %}
-                    <b>{{item.title}}</b>
-                    <p>{{item.description}}</p>
+                    <div class="step">
+                        <b>{{ loop.index }}. {{ step.title }}</b>
+                        <p>
+                            {{step.description}}
+                            <a href={{ step.link }}>{{ step.link }}</a>
+                        </p>
+                    </div>
                     {% endfor %}
                 </div>
-                <p>{{advantages.note}}</p>
             </section>
         </div>
     {% endif %}

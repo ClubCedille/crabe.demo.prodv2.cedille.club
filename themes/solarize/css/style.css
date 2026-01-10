@@ -838,3 +838,8 @@ input[type="button"].small,
 img {
     max-width: 100%;
 }
+
+/* Subscription */
+.step {
+    margin-bottom: 12px;
+}

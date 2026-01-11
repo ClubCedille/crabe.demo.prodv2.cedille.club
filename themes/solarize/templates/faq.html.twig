@@ -1,0 +1,30 @@
+{% extends 'partials/base.html.twig' %}
+{% set data_source = data_source|default(page) %}
+
+{% block banner %}
+
+	{% include 'partials/banner.html.twig' %}
+
+{% endblock banner %}
+
+{% block body %}
+
+    {% if data_source.header.faq %}
+        {% set faq = data_source.header.faq %}
+        <div class="wrapper primary-2">
+            <section class="container">
+                <div class="faq">
+                    {% for question in faq.questions %}
+                    <div class="question-answer-sect">
+                        <h2>{{ question.question }}</h2>
+                        {% for a in question.answer %}
+                            <p>{{ a }}</p>
+                        {% endfor %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+        </div>
+    {% endif %}
+
+{% endblock body %}

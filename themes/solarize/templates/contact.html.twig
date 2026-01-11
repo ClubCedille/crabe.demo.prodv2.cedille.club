@@ -1,0 +1,51 @@
+{% extends 'partials/base.html.twig' %}
+{% set data_source = data_source|default(page) %}
+
+{% block banner %}
+
+	{% include 'partials/banner.html.twig' %}
+
+{% endblock banner %}
+
+{% block body %}
+
+    <div class="wrapper plain">
+        <section class="container">
+            <header class="major">
+                <h2>Nos coordonnées</h2>
+                <span class="byline">{{ portals.legacy_description }}</span>
+            </header>
+            <div id="coordinates">
+                {% if data_source.header.coordinates %}
+                    {% set coordinates = data_source.header.coordinates %}
+                    {% if coordinates.email %}
+                        <div>
+                            <b>Courriel :</b> {{ coordinates.email }}
+                        </div>                    
+                    {% endif %}
+                    {% if coordinates.instagram %}
+                        <div>
+                            <b>Instagram :</b> {{ coordinates.instagram }}
+                        </div>                    
+                    {% endif %}
+                    {% if coordinates.office %}
+                        <div>
+                            <b>Bureau :</b> {{ coordinates.office }}
+                        </div>
+                    {% endif %}
+                    {% if coordinates.workshop %}
+                        <div>
+                            <b>Atelier :</b> {{ coordinates.workshop }}
+                        </div>
+                    {% endif %}
+                {% endif %}
+            </div>
+            {% if data_source.header.note %}
+            <div>
+                {{ data_source.header.note }}
+            </div>
+            {% endif %}
+        </section>
+    </div>
+
+{% endblock body %}

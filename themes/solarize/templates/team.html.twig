@@ -16,14 +16,16 @@
             <section id="current-team" class="container team-sect">
                 <header class="major">
                     <h2>Équipe</h2>
-                    <span class="byline">{{ portals.team_description }}</span>
+                    <span>{{ portals.team_description }}</span>
                 </header>
                 <div class="team-container">
                     {% for portal in portals.current %}
-                    <div class="3u member-profile">
-                        <img src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}">
-                        <h2>{{ portal.name }}</h2>
-                        <p>{{ portal.role|raw }}</p>
+                    <div class="member-profile">
+                        <div class="member-img-container">
+                            <img src="{{ data_source.media[portal.thumbnail].url }}">
+                        </div>
+                        <h2 class="member-name">{{ portal.name }}</h2>
+                        <div class="role">{{ portal.role|raw }}</div>
                     </div>
                     {% endfor %}
                 </div>
@@ -33,14 +35,16 @@
             <section id="old-team" class="container team-sect">
                 <header class="major">
                     <h2>Ancienn(ne)s membres</h2>
-                    <span class="byline">{{ portals.legacy_description }}</span>
+                    <span>{{ portals.legacy_description }}</span>
                 </header>
                 <div class="team-container">
                     {% for portal in portals.former %}
-                    <div class="3u member-profile">
-                        <img src="{{ data_source.media[portal.thumbnail].resize(162,162).url }}">
-                        <h2>{{ portal.name }}</h2>
-                        <p>{{ portal.role|raw }}</p>
+                    <div class="member-profile">
+                        <div class="member-img-container">
+                            <img src="{{ data_source.media[portal.thumbnail].url }}">
+                        </div>
+                        <h2 class="member-name">{{ portal.name }}</h2>
+                        <div class="role">{{ portal.role|raw }}</div>
                     </div>
                     {% endfor %}
                 </div>

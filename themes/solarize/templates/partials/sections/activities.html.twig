@@ -10,13 +10,11 @@
                 <div>{{ act.description }}</div>
             </div>
         </div>
-        <div class="green-sect-container">
-            <div>
-                <img src="{{ data_source.media[act.picture1].url }}">
-            </div>
-            <div>
-                <img src="{{ data_source.media[act.picture2].url }}">
-                <img src="{{ data_source.media[act.picture3].url }}">
+        <div class="green-sect-container collage">
+            <div class="photo-sect">
+                {% for pic in act.pictures %}
+                <img id="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
+                {% endfor %}
             </div>
         </div>
 	</div>

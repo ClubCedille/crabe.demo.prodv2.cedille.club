@@ -202,4 +202,3 @@ portals:
             name: Antoine Sifoni
             role: Membre du conseil d'administration
 ---
-

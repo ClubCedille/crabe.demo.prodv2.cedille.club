@@ -1,6 +1,7 @@
 .team-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 7px;
+    grid-template-columns: auto auto auto auto;
 }
 
 .member-profile {

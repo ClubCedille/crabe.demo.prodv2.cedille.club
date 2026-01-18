@@ -712,7 +712,7 @@ input[type="button"].small,
 }
 
 #banner .container {
-    padding: 0em 8em;
+    padding: 0em 15em;
 }
 
 #banner h2 {
@@ -732,6 +732,7 @@ input[type="button"].small,
 }
 
 #banner span {
+    background-color: #222222;
     padding: 1em 0em;
 }
 
@@ -833,4 +834,16 @@ input[type="button"].small,
 /* FAQ */
 .question-answer-sect {
     margin-bottom: 26px;
+}
+
+.btn {
+    border: 1px solid green;
+    padding: 2rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    transition: 240ms;
+    background-color: green;
+    color: white;
 }

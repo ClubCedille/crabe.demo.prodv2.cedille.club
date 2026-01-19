@@ -11,13 +11,12 @@
 
 	{% if page.header.intro %}
     {% set intro = page.header.intro %}
-    <!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
-        <div class="wrapper style2 evenpart">
-            <section class="container">
-                <h2>{{ intro.title }}</h2>
-                <div>{{ intro.text }}</div>
-            </section>
-        </div>
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h2>{{ intro.title }}</h2>
+            <div>{{ intro.text }}</div>
+        </section>
+    </div>
     {% endif %}
 
     {% if page.header.notices %}
@@ -78,7 +77,9 @@
             <section class="container">
                 <h1>{{ intro.title }}</h1>
                 <div>{{ intro.text }}</div>
-                <a class="btn" href="{{ intro.link }}">Rejoindre</a>
+                <div>
+                    <a class="btn" href="{{ intro.link }}">Rejoindre</a>
+                </div>
             </section>
         </div>
     {% endif %}

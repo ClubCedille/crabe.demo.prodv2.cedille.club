@@ -847,3 +847,22 @@ input[type="button"].small,
     background-color: green;
     color: white;
 }
+
+.photo-sect img {
+    border-radius: 40px;
+}
+
+#btn-join-team {
+    background-color: rgb(46, 156, 110);
+    border-radius: 12px;
+    padding: 0.7em;
+}
+
+#btn-join-team:hover {
+    background-color: rgb(63, 182, 132);
+}
+
+#btn-join-team,
+#btn-join-team:hover {
+    transition: 200ms;
+}

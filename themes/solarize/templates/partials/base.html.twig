@@ -41,7 +41,10 @@
 		{% do assets.addCss('theme://css/style.css', {'group': 'noscript'}) %}
 		{% do assets.addCss('theme://css/fontawesome.min.css') %}
 		{% do assets.addCss('theme://css/home.css') %}
+		{% do assets.addCss('theme://css/workshop.css') %}
+		{% do assets.addCss('theme://css/membership.css') %}
 		{% do assets.addCss('theme://css/team.css') %}
+		{% do assets.addCss('theme://css/contact.css') %}
 		{% if browser.getBrowser == 'msie' and browser.getVersion <= 8 %}
 			{# do assets.addCss('theme://css/ie/v8.css', {'group', 'ie'}) #}
 			{% do assets.addCss('theme://css/ie/v8.css') %}

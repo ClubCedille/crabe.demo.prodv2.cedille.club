@@ -1,6 +1,6 @@
 ---
-title: CRABE
-menu: Home
+title: home
+menu: Accueil
 body_classes: homepage
 banner_pic: atelier.jpg
 banner:

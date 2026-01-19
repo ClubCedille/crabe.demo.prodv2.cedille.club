@@ -1,0 +1,46 @@
+{% extends 'partials/base.html.twig' %}
+{% set data_source = data_source|default(page) %}
+{% set header = data_source.header %}
+
+{% block banner %}
+
+	{% include 'partials/banner.html.twig' %}
+
+{% endblock banner %}
+
+{% block body %}
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ header.page_header }}</h1>
+            {% for desc in header.description %}
+                <p>{{ desc }}</p>
+            {% endfor %}
+            {% for sect in header.sections %}
+            <div class="workshop-aspect-sect">
+                <h2>{{ sect.title }}</h2>
+                
+                {% for desc in sect.description %}
+                <p>{{ desc }}</p>
+                {% endfor %}
+
+                {% if sect.pictures %}
+                <div class="photo-sect">
+                    {% for pic in sect.pictures %}
+                    <img id="picture-{{ loop.index0 % 4 + 1 }}" src={{ data_source.media[pic].url }}>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </section>
+	</div>
+
+    <div class="wrapper style4 plain">
+        <section class="container">
+            <h2>{{ header.subscription.title }}</h2>
+            {% for desc in header.subscription.description %}
+            <p>{{ desc }}</p>
+            {% endfor %}
+        </section>
+    </div>
+{% endblock body %}

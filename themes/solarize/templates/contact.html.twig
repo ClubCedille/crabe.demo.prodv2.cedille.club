@@ -9,7 +9,7 @@
 
 {% block body %}
 
-    <div class="wrapper plain">
+    <div class="wrapper style2 evenpart">
         <section class="container">
             <header class="major">
                 <h2>Nos coordonnées</h2>
@@ -18,26 +18,65 @@
             <div id="coordinates">
                 {% if data_source.header.coordinates %}
                     {% set coordinates = data_source.header.coordinates %}
-                    {% if coordinates.email %}
-                        <div>
-                            <b>Courriel :</b> {{ coordinates.email }}
-                        </div>                    
-                    {% endif %}
-                    {% if coordinates.instagram %}
-                        <div>
-                            <b>Instagram :</b> {{ coordinates.instagram }}
-                        </div>                    
-                    {% endif %}
-                    {% if coordinates.office %}
-                        <div>
-                            <b>Bureau :</b> {{ coordinates.office }}
-                        </div>
-                    {% endif %}
-                    {% if coordinates.workshop %}
-                        <div>
-                            <b>Atelier :</b> {{ coordinates.workshop }}
-                        </div>
-                    {% endif %}
+                    <div class="contact-col" id="communication-methods">
+                        {% if coordinates.email %}
+                            <div class="contact-sect">
+                                <div>
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-type">Courriel</div>
+                                    <div class="contact-info">{{ coordinates.email }}</div>
+                                </div>
+                            </div>                    
+                        {% endif %}
+                        {% if coordinates.instagram %}
+                            <div class="contact-sect">
+                                <div>
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-type">Instagram</div>
+                                    <div class="contact-info">{{ coordinates.instagram }}</div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="contact-col" id="location">
+                        {% if coordinates.address %}
+                            <div class="contact-sect">
+                                <div>
+                                    <i class="fa-solid fa-map-pin"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-type">Adresse</div>
+                                    <div class="contact-info">{{ coordinates.address }}</div>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if coordinates.office %}
+                            <div class="contact-sect">
+                                <div>
+                                    <i class="fa-solid fa-building"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-type">Bureau</div>
+                                    <div class="contact-info">{{ coordinates.office }}</div>
+                                </div>
+                            </div>
+                        {% endif %}
+                        {% if coordinates.workshop %}
+                            <div class="contact-sect">
+                                <div>
+                                    <i class="fa-solid fa-shop"></i>
+                                </div>
+                                <div>
+                                    <div class="contact-type">Atelier</div>
+                                    <div class="contact-info">{{ coordinates.workshop }}</div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
                 {% endif %}
             </div>
             {% if data_source.header.note %}

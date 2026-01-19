@@ -1,11 +1,10 @@
 .team-container {
     display: grid;
     gap: 7px;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .member-profile {
-    flex: 1 0 21%;
     margin-bottom: 40px;
 }
 

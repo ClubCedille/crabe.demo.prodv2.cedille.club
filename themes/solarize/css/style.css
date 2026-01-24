@@ -34,7 +34,7 @@ body, input, select, textarea {
     line-height: 1.65em;
 }
 
-a {
+a:not(footer a) {
     color: #82b440;
     text-decoration: underline;
 }
@@ -133,10 +133,6 @@ footer > :last-child {
 
 footer.major {
     padding-top: 3em;
-}
-
-footer .container {
-    display: flex;
 }
 
 #ets-logo {
@@ -292,7 +288,7 @@ ul.icons {
 ul.icons li {
     display: inline-block;
     line-height: 1em;
-    padding: 0.5em 1em;
+    margin-right: 0.8em;
 }
 
 ul.icons li:first-child {
@@ -316,7 +312,11 @@ ul.icons li a {
 
 ul.icons li a:hover {
     color: inherit;
-    opacity: 1;
+}
+
+footer a:hover {
+    opacity: 0.72;
+    transition: 200ms;
 }
 
 ul.actions {
@@ -766,7 +766,6 @@ input[type="button"].small,
 
 #footer {
     padding-top: 2.5em;
-    text-align: center;
     color: white;
 }
 
@@ -789,12 +788,32 @@ input[type="button"].small,
     text-align: center;
 }
 
-/* Copyright */
+.contact-container {
+    display: flex;
+    margin-bottom: 8px;
+}
 
+.contact-container i {
+    margin-right: 8px;
+}
+
+#coordinates {
+    margin-bottom: 26px;
+}
+
+footer .container {
+    display: flex;
+}
+
+.links {
+    width: 100%;
+}
+
+/* Copyright */
 #copyright {
     position: relative;
     text-align: center;
-    padding: 3em 0em 1.5em;
+    padding: 1em 0em 1.5em;
     color: inherit;
     opacity: .80;
 }

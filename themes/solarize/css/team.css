@@ -10,7 +10,7 @@
 
 .member-profile img {
     border-radius: 50%;
-    border: 10px solid;
+    border: 6px solid;
     border-color: white;
     height: 160px;
     max-width: 100%;
@@ -19,6 +19,8 @@
 }
 
 .member-img-container {
+    display: flex;
+    justify-content: center;
     margin-bottom: 15px;
     width: 100%;
 }

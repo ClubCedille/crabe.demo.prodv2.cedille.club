@@ -19,69 +19,62 @@
     </div>
     {% endif %}
 
-    {% if page.header.notices %}
-    {% set notices = page.header.notices %}
-        <div class="wrapper style4 plain">
-            <section class="container">
-                <header class="major">
-                    <h2>{{ notices.heading }}</h2>
-                    <span class="byline">{{ notices.byline }}</span>
-                </header>
-                <div class="row flush">
-                    {% for row_num in 0..notices.items|length if (row_num % columns == 0) %}
-                        <ul class="special-icons">
-                        {% for item in notices.items|slice(row_num, columns) %}
-                            <li>
-                                <span class="fa-solid fa-{{ item.icon }}"></span>
-                                <h3>{% spaceless %}
-                                    {% if item.target %}
-                                        <a href="{{ item.target }}">{{ item.heading }}</a>
-                                    {% else %}
-                                        {{ item.heading }}
-                                    {% endif %}
-                                {% endspaceless %}</h3>
-                                <p>{{ item.point }}</p>
-                            </li>
-                        {% endfor %}
-                        </ul>
+    {% if page.header.mission %}
+    {% set notices = page.header.mission %}
+    <div class="wrapper style4 plain">
+        <section class="container">
+            <header class="major">
+                <h2>{{ notices.heading }}</h2>
+                <span class="byline">{{ notices.byline }}</span>
+            </header>
+            <div class="row flush">
+                <div class="mission-box-container">
+                    {% for item in notices.items %}
+                    <div class="mission-box">
+                        <div class="flex">
+                            <span class="mission-icon fa-solid fa-{{ item.icon }}"></span>
+                            <h3>{{ item.heading }}</h3>
+                        </div>
+                        <p>{{ item.point }}</p>
+                    </div>
                     {% endfor %}
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+    </div>
     {% endif %}
 
     {% if data_source.header.activities %}
     {% set act = data_source.header.activities %}
-    <!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
-        <div class="wrapper green-sect">
-            <div class="green-sect-container">
-                <div>
-                    <h1>{{ act.title }}</h1>
-                    <h2>{{ act.subtitle }}</h2>
-                    <div>{{ act.description }}</div>
-                </div>
-            </div>
-            <div class="green-sect-container collage">
-                <div class="photo-sect">
-                    {% for pic in act.pictures %}
-                    <img id="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
-                    {% endfor %}
-                </div>
+    <div class="wrapper green-sect">
+        <div class="green-sect-container">
+            <div>
+                <h1>{{ act.title }}</h1>
+                <h2>{{ act.subtitle }}</h2>
+                <div>{{ act.description }}</div>
             </div>
         </div>
+        <div class="green-sect-container collage">
+            <div class="photo-sect">
+                {% for pic in act.pictures %}
+                <img id="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
     {% endif %}
 
 	{% if page.header.join %}
     {% set intro = page.header.join %}
-        <div class="wrapper style2 evenpart">
-            <section class="container">
-                <h1>{{ intro.title }}</h1>
-                <div>{{ intro.text }}</div>
-                <div>
-                    <a class="btn" href="{{ intro.link }}">Rejoindre</a>
-                </div>
-            </section>
-        </div>
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ intro.title }}</h1>
+            <div>{{ intro.text }}</div>
+            <div>
+                <a class="btn" href="{{ intro.link }}">Rejoindre</a>
+            </div>
+        </section>
+    </div>
     {% endif %}
 
 {% endblock body %}

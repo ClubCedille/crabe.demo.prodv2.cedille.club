@@ -13,6 +13,8 @@
 {% block head %}
 	<title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ site.title|default('Solarize by TEMPLATED')|e('html') }}</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 	{% include 'partials/metadata.html.twig' %}
 
@@ -44,7 +46,6 @@
 		{% do assets.addCss('theme://css/workshop.css') %}
 		{% do assets.addCss('theme://css/membership.css') %}
 		{% do assets.addCss('theme://css/team.css') %}
-		{% do assets.addCss('theme://css/contact.css') %}
 		{% if browser.getBrowser == 'msie' and browser.getVersion <= 8 %}
 			{# do assets.addCss('theme://css/ie/v8.css', {'group', 'ie'}) #}
 			{% do assets.addCss('theme://css/ie/v8.css') %}

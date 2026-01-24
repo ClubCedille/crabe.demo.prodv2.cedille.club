@@ -1,12 +1,12 @@
 ---
 title: Équipe
 body_classes: homepage
-banner_pic: atelier.jpg
+banner_pic: atelier-pavillon-a.jpeg
 banner:
     headline: Équipe
 join:
-    text: Devenez membre
-    link: https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0
+    text: 'Devenez membre'
+    link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
 portals:
     team_description: 'Voici l''équipe qui gére votre atelier communautaire :'
     legacy_description: 'Voici les anciens et les anciennes membres du C.R.A.B.E qui ont contribués à bâtir l''héritage du CRABE'

@@ -9,7 +9,7 @@ banner:
 intro:
     title: 'Club étudiant de vélo'
     text: 'Mis sur pied par les étudiants de l’École de technologie supérieure, le CRABE, pour Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS, est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
-notices:
+mission:
     heading: 'Notre mission'
     byline: 'Notre mission comporte trois axes principaux'
     items:
@@ -30,7 +30,7 @@ activities:
     subtitle: 'Sorties de vélos, mécanique et même des projets en génie !'
     description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe des étudiant.e.s très passionné.e.s par le vélo. À chaque été, le CRABE propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et du génie pour rendre notre atelier plus performant et efficace !'
     pictures:
-        - atelier-en-action.jpg
+        - atelier-mecanique-2022.jpg
         - cyclistes.jpeg
         - imprimante-3d-piece.jpg
         - martin-tour.jpg

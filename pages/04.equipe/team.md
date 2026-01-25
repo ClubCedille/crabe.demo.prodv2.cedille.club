@@ -5,13 +5,11 @@ banner_pic: atelier-pavillon-a.JPG
 banner:
     headline: Équipe
 join:
-    text: 'Rejoindre nos rangs'
+    text: 'Devenez membre'
     link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
 team:
     current_team_header: Équipe
-    team_description: 'Voici l''équipe qui gére votre atelier communautaire :'
-    former_members_header: 'Ancienn(ne)s membres'
-    legacy_description: 'Voici les anciens et les anciennes membres du C.R.A.B.E qui ont contribués à bâtir l''héritage du CRABE'
+    former_members_header: 'Anciens et anciennes membres'
     default_pic: crabe-logo.JPG
     current:
         -

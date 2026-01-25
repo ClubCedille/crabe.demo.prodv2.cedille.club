@@ -12,7 +12,10 @@
         <div class="wrapper style2 evenpart">
             <section class="container">
                 <h1>{{ intro.title }}</h1>
-                <div>{{ intro.description }}</div>
+                <div class="description">
+                    {% for d in intro.description %}
+                    <div>{{ d }}</div>
+                    {% endfor %}
             </section>
         </div>
     {% endif %}
@@ -44,9 +47,7 @@
     {% set procedure = data_source.header.procedure %}
         <div class="wrapper style2 evenpart">
             <section id="team" class="container">
-                <header class="major">
-                    <h2>{{procedure.title}}</h2>
-                </header>
+                <h2>{{procedure.title}}</h2>
                 <div class="row">
                     {% for step in procedure.steps %}
                     <div class="step">

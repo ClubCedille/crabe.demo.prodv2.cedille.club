@@ -100,9 +100,11 @@ sup {
 }
 
 hr {
-    border-top: solid 1px #82b440;
-    border: 0;
-    margin-bottom: 1.5em;
+    margin: 1.5em 0;
+}
+
+.wrapper.secondary hr {
+    border: 1px solid white;
 }
 
 blockquote {
@@ -878,7 +880,7 @@ footer .container {
 
 .page-join-btn:hover {
     transition: 240ms;
-    background-color: green;
+    background-color: rgb(97, 172, 97);
     color: white;
 }
 
@@ -895,4 +897,8 @@ footer .container {
 #btn-join-team,
 #btn-join-team:hover {
     transition: 200ms;
+}
+
+.description * {
+    margin-bottom: 16px;
 }

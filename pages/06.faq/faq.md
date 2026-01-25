@@ -1,6 +1,6 @@
 ---
 title: FAQ
-banner_pic: atelier.jpg
+banner_pic: velo-dossards.jpg
 banner:
     headline: Foire aux questions
 faq:

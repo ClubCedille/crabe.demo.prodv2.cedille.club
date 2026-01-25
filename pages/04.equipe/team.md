@@ -1,72 +1,65 @@
 ---
 title: Équipe
 body_classes: homepage
-banner_pic: atelier-pavillon-a.jpeg
+banner_pic: atelier-pavillon-a.JPG
 banner:
     headline: Équipe
 join:
-    text: 'Devenez membre'
+    text: 'Rejoindre nos rangs'
     link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
-portals:
+team:
+    current_team_header: Équipe
     team_description: 'Voici l''équipe qui gére votre atelier communautaire :'
+    former_members_header: 'Ancienn(ne)s membres'
     legacy_description: 'Voici les anciens et les anciennes membres du C.R.A.B.E qui ont contribués à bâtir l''héritage du CRABE'
+    default_pic: crabe-logo.JPG
     current:
         -
-            thumbnail: benjamin-mah.jpg
             name: 'Benjamin Mah'
             role: Capitaine
+            thumbnail: benjamin-mah.jpg
         -
-            thumbnail: crabe-logo.jpg
             name: 'Louis-David Gauthier'
-            role: 'Chef déquipe'
+            role: Co-capitaine
         -
-            thumbnail: crabe-logo.jpg
             name: 'Nicolas Bellerive-Blais'
             role: 'Chef déquipe'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Elias Barmani'
             role: Trésorier
         -
-            thumbnail: crabe-logo.jpg
-            name: 'Gabrielle Beaudin'
-            role: 'Liason du BDD'
-        -
-            thumbnail: crabe-logo.jpg
             name: 'Axel Bouchetti'
             role: 'Chargé de projets logistiques'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Rémy Martin'
             role: Communications
         -
-            thumbnail: crabe-logo.jpg
             name: 'Alexis Papin'
             role: Mécanicien
+            thumbnail: alexis-papin.jpg
         -
-            thumbnail: crabe-logo.jpg
             name: 'Justin Setton'
             role: Mécanicien
         -
-            thumbnail: crabe-logo.jpg
             name: 'Samuel Klein-Blain'
             role: Mécanicien
+            thumbnail: samuel-klein-blain.jpg
         -
-            thumbnail: crabe-logo.jpg
             name: 'Mathieu Dufour'
             role: 'Chargé de projets logistiques'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Anthony Stefanelli'
             role: 'Chargé de projets électriques'
+        -
+            name: 'Gabrielle Beaudin'
+            role: 'Liason du BDD'
     former:
         -
-            thumbnail: alek-vincent.jpg
             name: 'Alex Vincent'
             role: Co-capitaine
             duration: '2022 - 2025'
+            thumbnail: alek-vincent.jpg
         -
-            thumbnail: crabe-logo.jpg
             name: 'Alexandre Bureau'
             role: Trésorier
             duration: '2023 - 2025'
@@ -76,12 +69,10 @@ portals:
             role: Capitaine
             duration: '2019 - 2024'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Odile Gauthier-Plamondon'
             role: 'Pôle d''activitées et communication'
             duration: '2023 - 2024'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Léonie Groulx'
             role: 'Projets mécaniques'
             duration: '2022 - 2024'
@@ -91,117 +82,99 @@ portals:
             role: Co-capitaine
             duration: '2021 - 2023'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Laurent Tremblay'
             role: 'Projets informatique et sorties'
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Berengère Colin'
             role: 'Projets mécaniques'
             duration: '2022 - 2023'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Robensley Dessalines'
             role: 'Responsable atelier'
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Yassine Zikri'
             role: Mécanicien
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Roxane le Vot'
             role: 'Communications et activités'
             duration: '2022 - 2023'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Christiana Dumitrascu'
             role: 'Pôle d''activités et communication'
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Naomi Catwell'
             role: 'Projet Mécaniques'
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Kim Lefebvre'
             role: 'Projets spéciaux'
             duration: 2022
         -
-            thumbnail: crabe-logo.jpg
             name: 'Simon Colombel'
             role: 'Encadrant sorties'
             duration: 2022
         -
-            thumbnail: crabe-logo.jpg
             name: 'Christine Lin'
             role: Trésorière
             duration: 2022
         -
-            thumbnail: crabe-logo.jpg
             name: 'Romaric Fotso'
             role: 'Projet Mécaniques'
             duration: 2023
         -
-            thumbnail: crabe-logo.jpg
             name: 'Marie Chanal'
             role: Informatique
             duration: 2022
         -
-            thumbnail: crabe-logo.jpg
             name: 'Ariela Somfelean Teodora'
             role: Informatique
             duration: 2022
         -
-            thumbnail: crabe-logo.jpg
             name: 'Paul Sade'
             role: 'Electronique et programmation'
             duration: 2022
         -
-            thumbnail: jonathan-lecuyer-lesperance.jpg
-            name: 'Jonathan Lécuyer LEspérance'
+            name: 'Jonathan Lécuyer L''Espérance'
             role: 'Responsable informatique'
+            thumbnail: jonathan-lecuyer-lesperance.jpg
         -
-            thumbnail: felix-antoine-tremblay.jpg
             name: 'Félix-Antoine Tremblay'
             role: 'Responsable des communications'
+            thumbnail: felix-antoine-tremblay.jpg
         -
-            thumbnail: raphaelle-jutras-michaud.jpg
             name: 'Raphaëlle Jutras Michaud'
             role: 'Responsable des activités'
+            thumbnail: raphaelle-jutras-michaud.jpg
         -
-            thumbnail: camille-champagne.jpg
             name: 'Camille Champagne'
             role: 'Responsable des activités'
+            thumbnail: camille-champagne.jpg
         -
-            thumbnail: simon-lesage.jpg
             name: 'Simon Lesage'
             role: 'Responsable de latelier'
+            thumbnail: simon-lesage.jpg
         -
-            thumbnail: andrew-leongr.jpg
             name: 'Andrew Leongr'
             role: 'Membre du conseil d''administration'
+            thumbnail: andrew-leongr.jpg
         -
-            thumbnail: julien-bercier.jpg
             name: 'Julien Bercier'
             role: 'Membre du conseil d''administration'
+            thumbnail: julien-bercier.jpg
         -
-            thumbnail: crabe-logo.jpg
             name: 'Simon Tassé'
             role: 'Membre du conseil d''administration'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Sam Archik'
             role: 'Membre du conseil d''administration'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Nicolas Lamarre'
             role: 'Membre du conseil d''administration'
         -
-            thumbnail: crabe-logo.jpg
             name: 'Antoine Sifoni'
             role: 'Membre du conseil d''administration'
 ---

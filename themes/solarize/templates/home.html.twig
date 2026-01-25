@@ -14,7 +14,11 @@
     <div class="wrapper style2 evenpart">
         <section class="container">
             <h2>{{ intro.title }}</h2>
-            <div>{{ intro.text }}</div>
+            <div class="introduction-container">
+                {% for t in intro.text %}
+                <div class="intro-text">{{ t }}</div>
+                {% endfor %}
+            </div>
         </section>
     </div>
     {% endif %}
@@ -31,7 +35,7 @@
                 <div class="mission-box-container">
                     {% for item in notices.items %}
                     <div class="mission-box">
-                        <div class="flex">
+                        <div class="mission-header">
                             <span class="mission-icon fa-solid fa-{{ item.icon }}"></span>
                             <h3>{{ item.heading }}</h3>
                         </div>
@@ -65,13 +69,13 @@
     {% endif %}
 
 	{% if page.header.join %}
-    {% set intro = page.header.join %}
+    {% set join = page.header.join %}
     <div class="wrapper style2 evenpart">
         <section class="container">
-            <h1>{{ intro.title }}</h1>
-            <div>{{ intro.text }}</div>
-            <div>
-                <a class="btn" href="{{ intro.link }}">Rejoindre</a>
+            <h1>{{ join.title }}</h1>
+            <div>{{ join.text }}</div>
+            <div class="join-btn-container">
+                <a class="page-join-btn" href="{{ join.link }}">{{ join.button }} <i class="fa-solid fa-circle-chevron-right"></i></a>
             </div>
         </section>
     </div>

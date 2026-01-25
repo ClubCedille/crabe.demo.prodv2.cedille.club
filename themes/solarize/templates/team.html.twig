@@ -2,46 +2,56 @@
 {% set data_source = data_source|default(page) %}
 
 {% block banner %}
-
 	{% include 'partials/banner.html.twig' %}
-
 {% endblock banner %}
 
 {% block body %}
 
-    {% if data_source.header.portals %}
-        {% set portals = data_source.header.portals %}
+    {% if data_source.header.team %}
+        {% set team = data_source.header.team %}
         <div class="wrapper primary-2">
             <section id="current-team" class="container team-sect">
                 <header class="major">
-                    <h2>Équipe</h2>
-                    <span>{{ portals.team_description }}</span>
+                    <h2>{{team.current_team_header}}</h2>
+                    <span>{{ team.team_description }}</span>
                 </header>
                 <div class="team-container">
-                    {% for portal in portals.current %}
+                    {% for portal in team.current %}
                     <div class="member-profile">
                         <div class="member-img-container">
-                            <img src="{{ data_source.media[portal.thumbnail].url }}">
+                            {% if portal.thumbnail %}
+                            {% set pic = portal.thumbnail %}
+                            {% else %}
+                            {% set pic = team.default_pic %}
+                            {% endif %}
+                            <img src="{{ data_source.media[pic].url }}">
                         </div>
                         <h2 class="member-name">{{ portal.name }}</h2>
                         <div class="role">{{ portal.role|raw }}</div>
                     </div>
                     {% endfor %}
                 </div>
-                <a class="btn" href="{{ header.join.link }}">{{ header.join.text }}</a>
+                <div class="join-btn-container">
+                    <a class="page-join-btn" href="{{ header.join.link }}">{{ header.join.text }} <i class="fa-solid fa-circle-chevron-right"></i></a>
+                </div>
             </section>
         </div>
         <div class="wrapper secondary">
             <section id="old-team" class="container team-sect">
                 <header class="major">
-                    <h2>Ancienn(ne)s membres</h2>
-                    <span>{{ portals.legacy_description }}</span>
+                    <h2>{{team.former_members_header}}</h2>
+                    <span>{{ team.legacy_description }}</span>
                 </header>
                 <div class="team-container">
-                    {% for portal in portals.former %}
+                    {% for portal in team.former %}
                     <div class="member-profile">
                         <div class="member-img-container">
-                            <img src="{{ data_source.media[portal.thumbnail].url }}">
+                            {% if portal.thumbnail %}
+                            {% set pic = portal.thumbnail %}
+                            {% else %}
+                            {% set pic = team.default_pic %}
+                            {% endif %}
+                            <img src="{{ data_source.media[pic].url }}">
                         </div>
                         <h2 class="member-name">{{ portal.name }}</h2>
                         <div class="role">{{ portal.role|raw }}</div>

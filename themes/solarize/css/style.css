@@ -39,6 +39,11 @@ a:not(footer a) {
     text-decoration: underline;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 strong, b {
     font-weight: 700;
 }
@@ -855,20 +860,26 @@ footer .container {
     margin-bottom: 26px;
 }
 
-.btn {
+.photo-sect img {
+    border-radius: 40px;
+}
+
+.join-btn-container {
+    margin: 3em 0; 
+}
+
+.page-join-btn {
     border: 1px solid green;
-    padding: 2rem;
+    border-radius: 6px;
+    font-weight: 600;
+    padding: 1.2rem;
     text-decoration: none;
 }
 
-.btn:hover {
+.page-join-btn:hover {
     transition: 240ms;
     background-color: green;
     color: white;
-}
-
-.photo-sect img {
-    border-radius: 40px;
 }
 
 #btn-join-team {

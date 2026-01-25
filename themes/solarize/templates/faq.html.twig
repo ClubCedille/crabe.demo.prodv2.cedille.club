@@ -15,11 +15,16 @@
             <section class="container">
                 <div class="faq">
                     {% for question in faq.questions %}
-                    <div class="question-answer-sect">
-                        <h2>{{ question.question }}</h2>
-                        {% for a in question.answer %}
-                            <p>{{ a }}</p>
-                        {% endfor %}
+                    <div class="question-answer-sect" data-qa-id="{{ loop.index0 }}">
+                        <div class="question-header">
+                            <div class="question-text">{{ question.question }}</div>
+                            <div class="collapse-arrow"><i class="fa-solid fa-angle-down"></i></div>
+                        </div>
+                        <div class="answer-sect">
+                            {% for a in question.answer %}
+                                <p>{{ a }}</p>
+                            {% endfor %}
+                        </div>
                     </div>
                     {% endfor %}
                 </div>

@@ -1,4 +1,7 @@
 {% extends 'partials/base.html.twig' %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/faq.css') %}
+{% endblock %}
 {% set data_source = data_source|default(page) %}
 
 {% block banner %}

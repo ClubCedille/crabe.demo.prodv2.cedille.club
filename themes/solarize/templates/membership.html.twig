@@ -1,5 +1,8 @@
 {% extends 'partials/base.html.twig' %}
 {% set data_source = data_source|default(page) %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/membership.css') %}
+{% endblock %}
 {% block banner %}
 
 	{% include 'partials/banner.html.twig' %}

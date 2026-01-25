@@ -2,6 +2,9 @@
 {% set data_source = data_source|default(page) %}
 {% set columns = 3 %}
 {% set column_units = column_units ?: (12 // columns) %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/home.css') %}
+{% endblock %}
 
 {% block banner %}
 	{% include 'partials/banner.html.twig' %}
@@ -13,7 +16,7 @@
     {% set intro = page.header.intro %}
     <div class="wrapper style2 evenpart">
         <section class="container">
-            <h2>{{ intro.title }}</h2>
+            <h1>{{ intro.title }}</h1>
             <div class="introduction-container">
                 {% for t in intro.text %}
                 <div class="intro-text">{{ t }}</div>

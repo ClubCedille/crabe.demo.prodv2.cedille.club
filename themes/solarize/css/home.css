@@ -39,3 +39,11 @@
 .mission-icon {
     margin: 5px 6px 0 0;
 }
+
+.mission-header {
+    display: flex;
+}
+
+.intro-text {
+    margin-bottom: 16px;
+}

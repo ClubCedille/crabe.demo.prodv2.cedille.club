@@ -1,13 +1,13 @@
 ---
 title: Abonnement
-banner_pic: atelier.jpg
+banner_pic: livres-velo.jpg
 banner:
     headline: Abonnement
 introduction:
     title: 'Abonnez-vous à notre atelier !'
     description: 'Nous offrons notre atelier aux membres de la communauté de l''ÉTS (étudiant(e), professeur(e), personnel, etc.). Établi en 2007, l''atelier est géré par un regroupement des étudiants passionnés par le vélo. L''atelier est constamment en évolution pour répondre aux besoins et aux changements.'
 advantages:
-    title: Pourquoi acheter un abonnement ?
+    title: 'Pourquoi acheter un abonnement ?'
     items:
         -
             icon: 🚪

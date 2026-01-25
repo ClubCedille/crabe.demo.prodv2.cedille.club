@@ -14,7 +14,6 @@
 	<title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ site.title|default('Solarize by TEMPLATED')|e('html') }}</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 	{% include 'partials/metadata.html.twig' %}
 
@@ -68,29 +67,17 @@
 <body class="homepage">
 
 	{% block header %}
-
-		<!-- Header Wrapper -->
-			<div class="wrapper style1" style="background: #222222 url('/user/themes/solarize/css/images/{{ banner_pic }}') no-repeat; background-size: cover;">
-
-			<!-- Header -->
-				<div id="header">
-					<div class="container">
-
-						<!-- Logo -->
-							<h1><a href="{{ home_url }}" id="logo">{{ site.title }}</a></h1>
-
-						<!-- Nav -->
-							<nav id="nav">
-								{% include 'partials/navigation.html.twig' %}
-							</nav>
-
-					</div>
-				</div>
-
-				{% block banner %}{% endblock banner %}
-
-			</div>
-
+    <div class="wrapper style1" style="background: #222222 url('/user/themes/solarize/css/images/{{ banner_pic }}') no-repeat; background-size: cover;">
+        <div id="header">
+            <div class="container">
+                <h1><a href="{{ home_url }}" id="logo">{{ site.title }}</a></h1>
+                <nav id="nav">
+                    {% include 'partials/navigation.html.twig' %}
+                </nav>
+            </div>
+        </div>
+        {% block banner %}{% endblock banner %}
+    </div>
 	{% endblock header %}
 
 	{% block body %}

@@ -2,13 +2,15 @@
 title: home
 menu: Accueil
 body_classes: homepage
-banner_pic: atelier.jpg
+banner_pic: atelier-outils.jpg
 banner:
     headline: CRABE
     follower: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 intro:
     title: 'Club étudiant de vélo'
-    text: 'Mis sur pied par les étudiants de l’École de technologie supérieure, le CRABE, pour Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS, est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
+    text: 
+        - 'Mis sur pied par les étudiants de l’École de technologie supérieure, le CRABE, pour Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS, est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
+        - "Le CRABE est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier."
 mission:
     heading: 'Notre mission'
     byline: 'Notre mission comporte trois axes principaux'
@@ -38,5 +40,6 @@ join:
     title: 'Rejoignez notre équipe !'
     text: 'Nous serons très ravis de vous accueillir au sein de notre club ! Que vous ayez beaucoup de connaissances sur la mécanique du vélo, vous êtes un(e) passionné(e) ou vous voulez participer à un projet de génie, nous avons une place pour toutes et tous.'
     link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
+    button: Rejoindre
 ---
 

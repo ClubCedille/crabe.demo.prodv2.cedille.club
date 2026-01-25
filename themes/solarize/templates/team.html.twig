@@ -13,7 +13,7 @@
             <section id="current-team" class="container team-sect">
                 <header class="major">
                     <h2>{{team.current_team_header}}</h2>
-                    <span>{{ team.team_description }}</span>
+                    <hr>
                 </header>
                 <div class="team-container">
                     {% for portal in team.current %}
@@ -40,7 +40,7 @@
             <section id="old-team" class="container team-sect">
                 <header class="major">
                     <h2>{{team.former_members_header}}</h2>
-                    <span>{{ team.legacy_description }}</span>
+                    <hr>
                 </header>
                 <div class="team-container">
                     {% for portal in team.former %}

@@ -34,6 +34,10 @@ faq:
             answer:
                 - 'À l’occasion, il peut nous arriver de vendre des vélos pour libérer de la place dans nos zones d’entreposage. Suivez notre compte Instagram pour rester à l''affût !'
         -
+            question: 'Vendez-vous des articles de vélo ?'
+            answer:
+                - 'Oui, nous vendons des articles de vélo. Nous sommes en train de mettre en place un système où la communauté de l''ÉTS peut acheter des articles. Pour l''instant, nous vous invitons à nous contacter par courriel !'
+        -
             question: 'Est-ce que je peux emprunter des outils ?'
             answer:
                 - 'Non, tous les outils et les équipements doivent rester dans l’atelier.'

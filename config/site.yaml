@@ -1,7 +1,19 @@
-title: Grav
+title: null
+default_lang: fr
 author:
-  name: Joe Bloggs
-  email: 'joe@example.com'
+  name: C.R.A.B.E
+  email: crabe@ens.etsmtl.ca
+taxonomies:
+  - category
+  - tag
 metadata:
-    description: 'Grav is an easy to use, yet powerful, open source flat-file CMS'
-
+  description: 'Club étudiant de vélo à l''ÉTS. Atelier de vélo communautaire situé au coeur du campus. '
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+redirects: null
+routes: null
+blog:
+  route: /blog

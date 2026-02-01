@@ -1,12 +1,17 @@
 {% if page.header.banner %}
 <div id="banner">
     <section class="container">
+        {% if page.header.banner.club_logo %}
+        <img id="banner-club-logo" src={{ data_source.media[page.header.banner.club_logo].url }}>
+        {% endif %}
+        {% if page.header.banner.headline %}
         <h2>{{ page.header.banner.headline }}</h2>
+        {% endif %}
         {% if page.header.banner.follower %}
-            <span>{{ page.header.banner.follower }}</span>
+        <span>{{ page.header.banner.follower }}</span>
         {% endif %}
         {% if page.header.banner.blurb %}
-            <p>{{ page.header.banner.blurb }}</p>
+        <p>{{ page.header.banner.blurb }}</p>
         {% endif %}
     </section>
 </div>

@@ -853,11 +853,6 @@ footer .container {
     font-weight: 400;
 }
 
-/* Subscription */
-.step {
-    margin-bottom: 12px;
-}
-
 .collage img {
     border-radius: 40px;
 }
@@ -926,6 +921,13 @@ footer .container {
 
 .description * {
     margin-bottom: 16px;
+}
+
+#banner-club-logo {
+    border-radius: 120px;
+    height: 220px;
+    width: 220px;
+    margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1495px) {

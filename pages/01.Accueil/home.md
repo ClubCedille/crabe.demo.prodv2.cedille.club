@@ -4,6 +4,7 @@ menu: Accueil
 body_classes: homepage
 banner_pic: atelier-outils.jpg
 banner:
+    club_logo: crabe-with-text.JPG
     follower: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 intro:
     title: 'Club étudiant de vélo'

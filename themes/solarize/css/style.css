@@ -11,6 +11,7 @@
 
 body {
     background: #222222;
+    transition: 300ms;
 }
 
 body.loading * {
@@ -857,13 +858,37 @@ footer .container {
     margin-bottom: 12px;
 }
 
-/* FAQ */
-.question-answer-sect {
-    margin-bottom: 26px;
+.collage img {
+    border-radius: 40px;
+}
+
+.photo-sect {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 .photo-sect img {
     border-radius: 40px;
+    height: 610px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.picture-1 {
+    grid-column: 1 / span 2;
+}
+
+.picture-2 {
+    grid-column: 3 / span 3;
+}
+
+.picture-3 {
+    grid-column: 1 / span 3;
+}
+
+.picture-4 {
+    grid-column: 4 / span 2;
 }
 
 .join-btn-container {
@@ -901,4 +926,28 @@ footer .container {
 
 .description * {
     margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 1495px) {
+    .photo-sect img {
+        height: 525px;
+    }
+}
+
+@media only screen and (max-width: 1295px) {
+    .photo-sect img {
+        height: 425px;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    .photo-sect {
+        display: block;
+    }
+
+    .photo-sect img {
+        height: 100%;
+        max-height: 750px;
+        margin-bottom: 20px;
+    }
 }

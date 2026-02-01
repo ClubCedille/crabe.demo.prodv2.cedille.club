@@ -13,7 +13,7 @@ intro:
         - "Le CRABE est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier."
 mission:
     heading: 'Notre mission'
-    byline: 'Notre mission comporte trois axes principaux'
+    byline: 'Notre mission comporte trois axes principaux :'
     items:
         -
             icon: cogs

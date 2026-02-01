@@ -1,6 +1,6 @@
 .picture-full {
     grid-column: 1 / span 5;
-    height: 650px !important;
+    height: 650px;
 }
 
 .workshop-aspect-sect {

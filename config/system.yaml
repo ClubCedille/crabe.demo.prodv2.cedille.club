@@ -27,7 +27,7 @@ languages:
   pages_fallback_only: false
   debug: false
 home:
-  alias: /home
+  alias: /accueil
   hide_in_urls: false
 pages:
   type: regular
@@ -41,7 +41,7 @@ pages:
     count: 20
   dateformat:
     default: null
-    short: 'jS M Y'
+    short: 'Y-m-d G:i'
     long: 'F jS \a\t g:ia'
   publish_dates: true
   process:
@@ -168,7 +168,7 @@ debugger:
   twig: true
 images:
   adapter: gd
-  default_image_quality: 85
+  default_image_quality: 100
   cache_all: false
   cache_perms: '0755'
   debug: false
@@ -198,7 +198,7 @@ session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: grav-site
+  name: crabe-site
   uniqueness: path
   secure: false
   secure_https: true

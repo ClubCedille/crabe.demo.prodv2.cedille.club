@@ -7,8 +7,8 @@ introduction:
     title: 'Abonnez-vous à notre atelier !'
     description:
         - 'Nous offrons un abonnement à notre atelier aux membres de la communauté de l''ÉTS (étudiant(e), professeur(e), personnel, etc.).  Notre atelier est l''endroit idéal pour ceux et celles qui cherchent réparer son vélo sans se ruiner. Fondée en 2007, l''atelier est géré par un regroupement d''étudiant(e)s passionné(e)s par le vélo.'
-        - "Tarif : $ 30 pour l'année scolaire actuel."
-        - "Validité : Jusqu'au 31 août, quelle que soit la date d'achat."
+        - 'Tarif : $ 30 pour l''année scolaire actuel.'
+        - 'Validité : Jusqu''au 31 août, quelle que soit la date d''achat.'
 advantages:
     title: 'Pourquoi acheter un abonnement ?'
     items:
@@ -37,12 +37,12 @@ advantages:
             title: 'Prix abordable'
             description: '30 $ vous permet d''avoir un acces illimité à notre atelier jusqu''au 31 août (fin de l''année scolaire). Dans la plupart des cas, acheter un outil spécialisé est plus cher que notre abonnement !'
 procedure:
-    title: 'Étapes'
+    title: Étapes
     steps:
         -
             title: 'S''adhérer sur MontÉTS (étudiant(e)s seulement)'
             description: 'Si vous êtes étudiant(e), commencez par vous inscrire comme membre du C.R.A.B.E sur MonÉTS > Formulaires > Adhésion aux club étudiants > CRABE. Vous pouvez aussi accèder la page d''inscription directement : '
-            link: https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0
+            link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
         -
             title: 'Acheter l''abonnement sur Zeffy'
             description: 'Voici notre page Zeffy pour effectuer le paiement :'

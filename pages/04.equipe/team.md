@@ -9,7 +9,7 @@ join:
     link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
 team:
     current_team_header: Équipe
-    former_members_header: 'Ancien(ne)s membres'
+    former_members_header: 'Ancien.ne.s membres'
     default_pic: crabe-logo.JPG
     current:
         -

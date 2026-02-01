@@ -896,7 +896,7 @@ footer .container {
 }
 
 .page-join-btn {
-    border: 1px solid green;
+    border: 1px solid rgb(97, 172, 97);
     border-radius: 6px;
     font-weight: 600;
     padding: 1.2rem;

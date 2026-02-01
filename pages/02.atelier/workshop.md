@@ -6,11 +6,11 @@ banner:
 page_header: 'Un endroit pour entretenir et réparer ton vélo'
 description:
     - 'Situé au cœur du campus, l’atelier du C.R.A.B.E. est un espace communautaire dédié à la mécanique cycliste sous toutes ses formes. Depuis 2007, notre mission est de donner aux membres de la communauté de l’ÉTS les outils et les connaissances nécessaires pour prendre soin de leur vélo en toute autonomie.'
-    - "En favorisant l’entretien et la revalorisation de pièces usagées, l'atelier du C.R.A.B.E. agit comme un pilier de la mobilité durable à l’ÉTS. Nous croyons qu'un vélo bien entretenu est le meilleur outil pour transformer nos déplacements quotidiens et contribuer à un avenir plus vert."
+    - 'En favorisant l’entretien et la revalorisation de pièces usagées, l''atelier du C.R.A.B.E. agit comme un pilier de la mobilité durable à l’ÉTS. Nous croyons qu''un vélo bien entretenu est le meilleur outil pour transformer nos déplacements quotidiens et contribuer à un avenir plus vert.'
 tour:
-    title: "Tour de l'atelier"
+    title: 'Tour de l''atelier'
     description:
-        - "Venez voir les piliers qui forment notre atelier !"
+        - 'Venez voir les piliers qui forment notre atelier !'
     sections:
         -
             title: 'Partie mécanique'
@@ -60,3 +60,4 @@ subscription:
             symbol: '*'
         - 'Abonnement offert seulement aux membres de la communauté de l’École de technologie supérieure.'
 ---
+

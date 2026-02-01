@@ -1,16 +1,15 @@
 ---
-title: home
+title: Accueil
 menu: Accueil
 body_classes: homepage
 banner_pic: atelier-outils.jpg
 banner:
-    headline: C.R.A.B.E.
     follower: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 intro:
     title: 'Club étudiant de vélo'
-    text: 
-        - 'Mis sur pied par les étudiants de l’École de technologie supérieure, le C.R.A.B.E. (Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS) est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
-        - "Le C.R.A.B.E. est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier."
+    text:
+        - 'Mis sur pied par les étudiants de l’École de technologie supérieure en 2007, le C.R.A.B.E. (Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS) est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante.'
+        - 'Le C.R.A.B.E. est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier.'
 mission:
     heading: 'Notre mission'
     byline: 'Notre mission comporte trois axes principaux :'

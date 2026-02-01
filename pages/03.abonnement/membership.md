@@ -25,7 +25,7 @@ advantages:
             title: 'Point d''arrêt en cas de pépin'
             description: 'Crevaison ou chaîne brisée en plein trajet ? Si vous êtes près de l''ÉTS, l''atelier est votre point de ravitaillement. Il suffit de scanner votre carte ÉTS pour accèder aux outils et corriger le problème sur place !'
         -
-            icon: 🚵
+            icon: 🙋‍♂️
             title: 'Soutenir les étudiants'
             description: 'Les revenus que nous recevons sont réinvestis à notre atelier, que ce soit pour l''achat de nouveaux outils, l''acquisition de nouveaux composants ou même l''amélioration d''une installation existante.'
         -

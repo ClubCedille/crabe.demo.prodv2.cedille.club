@@ -21,9 +21,9 @@ faq:
             answer:
                 - 'Seuls les membres de la communauté de l''ÉTS (étudiant(e), professeur(e), membres du personnel, etc.) peuvent s''abonner à notre atelier. Consultez notre page d''abonnement pour plus d''informations !'
         -
-            question: 'Est-ce que l''accord d''accès est immédiat si j''achète un abonnement ?'
+            question: 'Si j''achète un abonnement, mon accès sera-t-il activé automatiquement ?'
             answer:
-                - 'Non, l''accord d''accès n''est pas immédiat. Un membre du C.R.A.B.E doit initier le processus pour activer l''accès à votre carte étudiante. Selon votre situation, vous allez devoir compléter quelques formations avant l''accord d''accès.'
+                - 'Non, l''accès n''est pas activé automatiquement. Un membre du C.R.A.B.E doit initier le processus pour activer l''accès à votre carte étudiante. Selon votre situation, vous allez devoir compléter quelques formations avant l''accord d''accès.'
         -
             question: 'Quelles sont les activités proposées par le club ?'
             answer:

@@ -46,7 +46,7 @@ tour:
         -
             title: 'Documentation et poste de travail'
             description:
-                - 'Le CRABE est certes un atelier, mais surtout un lieu d’apprentissage. Il y a à votre disposition des guides et manuels sur le vélo en tout genre.'
+                - 'Le C.R.A.B.E. est certes un atelier, mais surtout un lieu d’apprentissage. Il y a à votre disposition des guides et manuels sur le vélo en tout genre.'
                 - 'Un ordinateur est également là pour vos recherches internet. Il dispose d’Ansys et de Solidworks pour concevoir et dimensionner des pièces pour vos projets, que vous pourrez par la suite faire imprimer en PLA, ASA ou PETG via notre imprimante.'
             pictures:
                 - docs-1.jpg

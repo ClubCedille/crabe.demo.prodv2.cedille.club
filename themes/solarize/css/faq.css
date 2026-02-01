@@ -1,3 +1,7 @@
+.question-answer-sect {
+    margin-bottom: 17px;
+}
+
 .question-header {
     border-bottom: 1px solid gray;
     display: flex;

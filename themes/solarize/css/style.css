@@ -894,6 +894,7 @@ footer .container {
     border: 1px solid rgb(97, 172, 97);
     border-radius: 6px;
     font-weight: 600;
+    letter-spacing: 1px;
     padding: 1.2rem;
     text-decoration: none;
 }

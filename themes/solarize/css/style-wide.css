@@ -6,7 +6,7 @@
 
 /* Basic */
 
-	body, input, select, textarea {
-		font-size: 12pt;
-		line-height: 1.8em;
-	}
+body, input, select, textarea {
+    font-size: 12pt;
+    line-height: 1.8em;
+}

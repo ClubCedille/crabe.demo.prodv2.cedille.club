@@ -54,20 +54,22 @@
     {% if data_source.header.activities %}
     {% set act = data_source.header.activities %}
     <div class="wrapper green-sect">
-        <div class="green-sect-container">
-            <div>
-                <h1>{{ act.title }}</h1>
-                <h2>{{ act.subtitle }}</h2>
-                <div>{{ act.description }}</div>
+        <section class="container">
+            <div class="green-sect-container">
+                <div>
+                    <h1>{{ act.title }}</h1>
+                    <h2>{{ act.subtitle }}</h2>
+                    <div>{{ act.description }}</div>
+                </div>
             </div>
-        </div>
-        <div class="green-sect-container collage">
-            <div class="photo-sect">
-                {% for pic in act.pictures %}
-                <img id="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
-                {% endfor %}
+            <div class="green-sect-container collage">
+                <div class="photo-sect">
+                    {% for pic in act.pictures %}
+                    <img class="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
+                    {% endfor %}
+                </div>
             </div>
-        </div>
+        </section>
     </div>
     {% endif %}
 

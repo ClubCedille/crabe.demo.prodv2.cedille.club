@@ -45,6 +45,7 @@ team:
         -
             name: 'Mathieu Dufour'
             role: 'Chargé de projets logistiques'
+            thumbnail: mathieu-dufour.jpg
         -
             name: 'Anthony Stefanelli'
             role: 'Chargé de projets électriques'

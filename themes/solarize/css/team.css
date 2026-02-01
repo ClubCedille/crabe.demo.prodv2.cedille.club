@@ -40,3 +40,21 @@
     font-size: 18px;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 900px) {
+    .team-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .team-container {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .team-container {
+    grid-template-columns: 1fr;
+    }
+}

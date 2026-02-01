@@ -21,7 +21,7 @@ team:
             role: Co-capitaine
         -
             name: 'Nicolas Bellerive-Blais'
-            role: 'Chef déquipe'
+            role: 'Chef d''équipe'
         -
             name: 'Elias Barmani'
             role: Trésorier

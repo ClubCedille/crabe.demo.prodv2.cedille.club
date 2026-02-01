@@ -1,6 +1,6 @@
 .membership-reasons {
     display: grid;
-    gap: 20px;
+    gap: 35px;
     grid-template-columns: 1fr 1fr 1fr;
     margin-bottom: 20px;
 }

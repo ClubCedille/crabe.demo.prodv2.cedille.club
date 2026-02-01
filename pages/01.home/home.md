@@ -4,13 +4,13 @@ menu: Accueil
 body_classes: homepage
 banner_pic: atelier-outils.jpg
 banner:
-    headline: CRABE
+    headline: C.R.A.B.E.
     follower: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 intro:
     title: 'Club étudiant de vélo'
     text: 
-        - 'Mis sur pied par les étudiants de l’École de technologie supérieure, le CRABE, pour Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS, est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
-        - "Le CRABE est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier."
+        - 'Mis sur pied par les étudiants de l’École de technologie supérieure, le C.R.A.B.E. (Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS) est un atelier communautaire de réparation de vélos. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Les membres peuvent donc accéder en tout temps l’atelier via leur carte étudiante. Il est possible d’obtenir de l’assistance d’un mécanicien bénévole si nécessaire.'
+        - "Le C.R.A.B.E. est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement des étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover l’atelier."
 mission:
     heading: 'Notre mission'
     byline: 'Notre mission comporte trois axes principaux :'
@@ -18,7 +18,7 @@ mission:
         -
             icon: cogs
             heading: 'L''apprentissage'
-            point: 'L’atelier permet aux membres de la communauté universitaire de partager les outils, l’équipement et les connaissances nécessaires pour veiller au bon fonctionnement de leurs vélos. Le CRABE offre aussi de l’aide mécanique et des formations qui permettent partager nos connaissances.'
+            point: 'L’atelier permet aux membres de la communauté universitaire de partager les outils, l’équipement et les connaissances nécessaires pour veiller au bon fonctionnement de leurs vélos. Le C.R.A.B.E. offre aussi de l’aide mécanique et des formations qui permettent partager nos connaissances.'
         -
             icon: leaf
             heading: 'L''écologie'
@@ -30,7 +30,7 @@ mission:
 activities:
     title: 'Plus qu''un atelier'
     subtitle: 'Sorties de vélos, mécanique et même des projets en génie !'
-    description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe des étudiant.e.s très passionné.e.s par le vélo. À chaque été, le CRABE propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et du génie pour rendre notre atelier plus performant et efficace !'
+    description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe des étudiant.e.s très passionné.e.s par le vélo. À chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et du génie pour rendre notre atelier plus performant et efficace !'
     pictures:
         - atelier-mecanique-2022.jpg
         - cyclistes.jpeg
@@ -39,7 +39,7 @@ activities:
 join:
     title: 'Rejoignez notre équipe !'
     text: 'Nous serons très ravis de vous accueillir au sein de notre club ! Que vous ayez beaucoup de connaissances sur la mécanique du vélo, vous êtes un(e) passionné(e) ou vous voulez participer à un projet de génie, nous avons une place pour toutes et tous.'
-    link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
+    link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=C.R.A.B.E.&categorie=0'
     button: Rejoindre
 ---
 

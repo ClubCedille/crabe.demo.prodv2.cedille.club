@@ -10,7 +10,7 @@ join:
 team:
     current_team_header: Équipe
     former_members_header: 'Ancien.ne.s membres'
-    default_pic: crabe-logo.JPG
+    default_pic: crabe-logo.jpg
     current:
         -
             name: 'Benjamin Mah'

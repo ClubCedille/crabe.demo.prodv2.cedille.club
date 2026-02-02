@@ -1,6 +1,7 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 {{ dump("#{grav.theme.getBlueprint.name} #{grav.theme.getBlueprint.version}") }}
 {% set body_classes = header.body_classes %}
+{% set banner_pic = header.banner_pic %}
 <!DOCTYPE HTML>
 <!--
 	Solarize by TEMPLATED
@@ -10,12 +11,13 @@
 <html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
 <head>
 {% block head %}
-	<title>{% if header.title %}{{ header.title|e('html') }} - {% endif %}{{ site.title|default('Solarize by TEMPLATED')|e('html') }}</title>
+	<title>{% if header.title %}{{ header.title|e('html') }}{% endif %} - C.R.A.B.E</title>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	{% include 'partials/metadata.html.twig' %}
 
-	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+	<link rel="icon" type="image/png" href="{{ url('theme://images/favicon/favicon.svg') }}" />
 	<link rel="canonical" href="{{ page.url(true, true) }}" />
 
 	{% block javascripts %}
@@ -28,6 +30,7 @@
 		{% do assets.addJs('theme://js/skel.min.js') %}
 		{% do assets.addJs('theme://js/skel-layers.min.js') %}
 		{% do assets.addJs('theme://js/init.js', {'group': 'init', 'data-theme-root': theme_url} ) %}
+		{% do assets.addJs('theme://js/faq.js') %}
 	{% endblock %}
 
 	{% block stylesheets %}
@@ -38,6 +41,8 @@
 
 		{% do assets.addCss('theme://css/skel.css', {'group': 'noscript'}) %}
 		{% do assets.addCss('theme://css/style.css', {'group': 'noscript'}) %}
+		{% do assets.addCss('theme://css/fontawesome.min.css') %}
+        {% block pagestyles %}{% endblock %}
 		{% if browser.getBrowser == 'msie' and browser.getVersion <= 8 %}
 			{# do assets.addCss('theme://css/ie/v8.css', {'group', 'ie'}) #}
 			{% do assets.addCss('theme://css/ie/v8.css') %}
@@ -57,32 +62,19 @@
 {% endblock head %}
 </head>
 
-<body class="{{ body_classes }}">
+<body class="homepage">
 
 	{% block header %}
-
-		<!-- Header Wrapper -->
-			<div class="wrapper style1">
-
-			<!-- Header -->
-				<div id="header">
-					<div class="container">
-
-						<!-- Logo -->
-							<h1><a href="{{ home_url }}" id="logo">{{ site.title }}</a></h1>
-
-						<!-- Nav -->
-							<nav id="nav">
-								{% include 'partials/navigation.html.twig' %}
-							</nav>
-
-					</div>
-				</div>
-
-				{% block banner %}{% endblock banner %}
-
-			</div>
-
+    <div class="wrapper style1" style="background: #222222 url('/user/themes/solarize/images/{{ banner_pic }}') no-repeat; background-size: cover;">
+        <div id="header">
+            <div class="container">
+                <nav id="nav">
+                    {% include 'partials/navigation.html.twig' %}
+                </nav>
+            </div>
+        </div>
+        {% block banner %}{% endblock banner %}
+    </div>
 	{% endblock header %}
 
 	{% block body %}

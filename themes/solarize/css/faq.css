@@ -1,0 +1,33 @@
+.question-answer-sect {
+    margin-bottom: 17px;
+}
+
+.question-header {
+    border-bottom: 1px solid gray;
+    display: flex;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 12px 0;
+}
+
+.question-header:hover {
+    cursor: pointer;
+}
+
+.answer-sect {
+    padding: 12px 0;
+}
+
+.question-text {
+    width: 100%;
+}
+
+.collapse-arrow {
+    margin-right: 12px;
+    height: 32px;
+    width: 32px;
+}
+
+.collapse-arrow i {
+    transition: 200ms;
+}

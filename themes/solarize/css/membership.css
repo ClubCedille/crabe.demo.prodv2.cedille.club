@@ -1,0 +1,19 @@
+.membership-reasons {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+
+.membership-buy-reason-sect {
+    display: flex;
+}
+
+.membership-perk-icon {
+    font-size: 26px;
+    margin-right: 10px;
+}
+
+.step {
+    margin-bottom: 22px;
+}

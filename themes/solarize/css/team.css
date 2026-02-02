@@ -1,0 +1,60 @@
+.team-container {
+    display: grid;
+    gap: 7px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.member-profile {
+    margin-bottom: 40px;
+}
+
+.member-profile img {
+    border-radius: 50%;
+    border: 6px solid;
+    border-color: white;
+    height: 160px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 160px;
+}
+
+.member-img-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.team-sect {
+    margin-bottom: 38px;
+    text-align: center;
+}
+
+.member-name {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) {
+    .team-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .team-container {
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .team-container {
+    grid-template-columns: 1fr;
+    }
+}

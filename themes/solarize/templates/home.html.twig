@@ -1,4 +1,10 @@
 {% extends 'partials/base.html.twig' %}
+{% set data_source = data_source|default(page) %}
+{% set columns = 3 %}
+{% set column_units = column_units ?: (12 // columns) %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/home.css') %}
+{% endblock %}
 
 {% block banner %}
 	{% include 'partials/banner.html.twig' %}
@@ -6,9 +12,78 @@
 
 {% block body %}
 
-	{% include 'partials/sections/hook.html.twig' with { text_copy: page.content } %}
-	{% include 'partials/sections/cta.html.twig' %}
-	{% include 'partials/sections/quilt.html.twig' %}
-	{% include 'partials/sections/portals.html.twig' %}
+	{% if page.header.intro %}
+    {% set intro = page.header.intro %}
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ intro.title }}</h1>
+            <div class="introduction-container">
+                {% for t in intro.text %}
+                <div class="intro-text">{{ t }}</div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+    {% endif %}
+
+    {% if page.header.mission %}
+    {% set notices = page.header.mission %}
+    <div class="wrapper style4 plain">
+        <section class="container">
+            <header class="major">
+                <h2>{{ notices.heading }}</h2>
+                <span class="byline">{{ notices.byline }}</span>
+            </header>
+            <div class="row flush">
+                <div class="mission-box-container">
+                    {% for item in notices.items %}
+                    <div class="mission-box">
+                        <div class="mission-header">
+                            <span class="mission-icon fa-solid fa-{{ item.icon }}"></span>
+                            <h3>{{ item.heading }}</h3>
+                        </div>
+                        <p>{{ item.point }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </div>
+    {% endif %}
+
+    {% if data_source.header.activities %}
+    {% set act = data_source.header.activities %}
+    <div class="wrapper green-sect">
+        <section class="container">
+            <div class="green-sect-container">
+                <div>
+                    <h1>{{ act.title }}</h1>
+                    <h2>{{ act.subtitle }}</h2>
+                    <div>{{ act.description }}</div>
+                </div>
+            </div>
+            <div class="green-sect-container collage">
+                <div class="photo-sect">
+                    {% for pic in act.pictures %}
+                    <img class="picture-{{ loop.index0 % 4 + 1 }}" src="{{ data_source.media[pic].url }}">
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </div>
+    {% endif %}
+
+	{% if page.header.join %}
+    {% set join = page.header.join %}
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ join.title }}</h1>
+            <div>{{ join.text }}</div>
+            <div class="join-btn-container">
+                <a class="page-join-btn" href="{{ join.link }}">{{ join.button }} <i class="fa-solid fa-circle-chevron-right"></i></a>
+            </div>
+        </section>
+    </div>
+    {% endif %}
 
 {% endblock body %}

@@ -1,0 +1,40 @@
+#picture-1 {
+    grid-column: 1 / span 2;
+}
+
+#picture-2 {
+    grid-column: 3 / span 3;
+}
+
+#picture-3 {
+    grid-column: 1 / span 3;
+}
+
+#picture-4 {
+    grid-column: 4 / span 2;
+}
+
+.mission-box-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+
+.mission-icon {
+    color: #52ad52;
+    margin: 5px 6px 0 0;
+}
+
+.mission-header {
+    display: flex;
+}
+
+.intro-text {
+    margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 900px) {
+    .mission-box-container {
+        grid-template-columns: none;
+    }
+}

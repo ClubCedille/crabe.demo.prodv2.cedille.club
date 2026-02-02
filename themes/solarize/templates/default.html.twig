@@ -1,5 +1,11 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block banner %}
+
+	{% include 'partials/banner.html.twig' %}
+
+{% endblock banner %}
+
 {% block body %}
 <!-- Main -->
 	<div id="main" class="wrapper style4 plain">
@@ -12,7 +18,5 @@
 			</section>
 		</div>
 	</div>
-
-	{% include 'partials/sections/portals.html.twig' with { 'data_source': page.find('/') } %}
 
 {% endblock body %}

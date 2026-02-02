@@ -53,11 +53,7 @@ tour:
 subscription:
     title: 'Abonnez-vous !'
     description:
-        - 'Vous aimez ce que nous proposons ? Envie d’accéder à notre atelier de vélo et de participer dans la mobilité durable ? Achetez un abonnement ! Pour un prix abordable, vous profitez de nos installations tout en soutenant un club étudiant engagé. Visitez notre page d''abonnement pour acheter votre abonnement !'
+        - 'Vous aimez ce que nous proposons ? Envie d’accéder à notre atelier de vélo et de participer dans la mobilité durable ? Achetez un abonnement ! Pour un prix abordable, vous profitez de nos installations tout en soutenant un club étudiant engagé. Visitez notre <a href=''/abonnement''>page d''abonnement</a> pour acheter votre abonnement !'
         - 'Vous souhaitez faire un tour de notre atelier ? Écrivez-nous par courriel avec vos disponibilités !'
-    footnotes:
-        -
-            symbol: '*'
-        - 'Abonnement offert seulement aux membres de la communauté de l’École de technologie supérieure.'
 ---
 

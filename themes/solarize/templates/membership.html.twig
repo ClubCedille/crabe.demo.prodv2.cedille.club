@@ -17,7 +17,7 @@
                 <h1>{{ intro.title }}</h1>
                 <div class="description">
                     {% for d in intro.description %}
-                    <div>{{ d }}</div>
+                    <div>{{ d|raw }}</div>
                     {% endfor %}
             </section>
         </div>

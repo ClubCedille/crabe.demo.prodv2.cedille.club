@@ -63,7 +63,7 @@
             <h2>{{ header.subscription.title }}</h2>
             <div class="description">
                 {% for desc in header.subscription.description %}
-                <p>{{ desc }}</p>
+                <p>{{ desc|raw }}</p>
                 {% endfor %}
             </div>
         </section>

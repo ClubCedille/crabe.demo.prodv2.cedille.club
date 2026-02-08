@@ -1,0 +1,10 @@
+{% if page.header.intro %}
+{% set intro = page.header.intro %}
+<!-- Section One aka Even(ly)Part(ed) aka 'hook' (frontmatter) -->
+	<div class="wrapper style2 evenpart">
+		<section class="container">
+            <h2>{{ intro.title }}</h2>
+            <div>{{ intro.text }}</div>
+		</section>
+	</div>
+{% endif %}

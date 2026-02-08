@@ -1,0 +1,16 @@
+.picture-full {
+    grid-column: 1 / span 5;
+    height: 650px;
+}
+
+.workshop-aspect-sect {
+    margin-bottom: 30px;
+}
+
+.workshop-aspect-sect p {
+    margin-bottom: 16px;
+}
+
+.tour-intro {
+    margin-bottom: 40px;
+}

@@ -1,12 +1,11 @@
 absolute_urls: false
-timezone: ''
-default_locale: null
+timezone: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
 force_ssl: false
 force_lowercase_urls: true
-custom_base_url: ''
+custom_base_url: null
 username_regex: '^[a-z0-9_-]{3,16}$'
 pwd_regex: '(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
 intl_enabled: true
@@ -16,7 +15,7 @@ http_x_forwarded:
   port: true
   ip: true
 languages:
-  supported: {  }
+  supported: null
   default_lang: null
   include_default_lang: true
   include_default_lang_file_extension: true
@@ -25,11 +24,10 @@ languages:
   session_store_active: false
   http_accept_language: false
   override_locale: false
-  content_fallback: {  }
   pages_fallback_only: false
   debug: false
 home:
-  alias: /home
+  alias: /accueil
   hide_in_urls: false
 pages:
   type: regular
@@ -43,7 +41,7 @@ pages:
     count: 20
   dateformat:
     default: null
-    short: 'jS M Y'
+    short: 'Y-m-d G:i'
     long: 'F jS \a\t g:ia'
   publish_dates: true
   process:
@@ -76,13 +74,13 @@ pages:
     - json
     - rss
     - atom
-  append_url_extension: ''
+  append_url_extension: null
   expires: 604800
   cache_control: null
   last_modified: false
   etag: true
   vary_accept_encoding: false
-  redirect_default_code: 302
+  redirect_default_code: '302'
   redirect_trailing_slash: 1
   redirect_default_route: 0
   ignore_files:
@@ -99,7 +97,7 @@ pages:
       - form
       - forms
 cache:
-  enabled: false
+  enabled: true
   check:
     method: file
   driver: auto
@@ -114,14 +112,22 @@ cache:
   gzip: false
   allow_webserver_gzip: false
   redis:
-    socket: false
+    socket: '0'
     password: null
     database: null
+    server: null
+    port: null
+  memcache:
+    server: null
+    port: null
+  memcached:
+    server: null
+    port: null
 twig:
-  cache: true
+  cache: false
   debug: true
   auto_reload: true
-  autoescape: false
+  autoescape: true
   undefined_functions: true
   undefined_filters: true
   safe_functions: {  }
@@ -146,7 +152,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
 errors:
-  display: 0
+  display: 1
   log: true
 log:
   handler: file
@@ -162,7 +168,7 @@ debugger:
   twig: true
 images:
   adapter: gd
-  default_image_quality: 85
+  default_image_quality: 100
   cache_all: false
   cache_perms: '0755'
   debug: false
@@ -171,7 +177,7 @@ images:
   cls:
     auto_sizes: false
     aspect_ratio: false
-    retina_scale: 1
+    retina_scale: '1'
   defaults:
     loading: auto
     decoding: auto
@@ -184,15 +190,15 @@ images:
     watermark_all: false
 media:
   enable_media_timestamp: false
-  unsupported_inline_types: {  }
-  allowed_fallback_types: {  }
+  unsupported_inline_types: null
+  allowed_fallback_types: null
   auto_metadata_exif: false
-  upload_limit: 134217728
+  upload_limit: 41943040
 session:
   enabled: true
   initialize: true
   timeout: 1800
-  name: grav-site
+  name: crabe-site
   uniqueness: path
   secure: false
   secure_https: true
@@ -204,6 +210,7 @@ session:
 gpm:
   releases: stable
   official_gpm_only: true
+  verify_peer: true
 http:
   method: auto
   enable_proxy: true

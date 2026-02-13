@@ -622,6 +622,14 @@ input[type="button"].small,
     text-align: center;
 }
 
+.menu-item-link:not(#btn-join-team):hover {
+    color: rgb(188, 201, 193);
+}
+
+.current-page-item {
+    color: rgb(162, 241, 162);
+}
+
 #logo {
     line-height: 2em;
     letter-spacing: 2px;

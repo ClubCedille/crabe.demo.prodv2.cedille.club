@@ -17,3 +17,16 @@
 .step {
     margin-bottom: 22px;
 }
+
+@media only screen and (max-width: 900px) {
+    .membership-reasons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .membership-reasons {
+        grid-template-columns: 1fr;
+        overflow-x: auto;
+    }
+}

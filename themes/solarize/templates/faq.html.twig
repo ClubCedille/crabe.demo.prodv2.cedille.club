@@ -23,9 +23,9 @@
                             <div class="question-text">{{ question.question }}</div>
                             <div class="collapse-arrow"><i class="fa-solid fa-angle-down"></i></div>
                         </div>
-                        <div class="answer-sect">
+                        <div class="answer-sect description">
                             {% for a in question.answer %}
-                                <p>{{ a }}</p>
+                                <p>{{ a|raw }}</p>
                             {% endfor %}
                         </div>
                     </div>

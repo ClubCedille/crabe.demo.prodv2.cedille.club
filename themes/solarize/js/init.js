@@ -34,7 +34,7 @@
 				},
 				titleBar: {
 					breakpoints: 'narrower',
-					height: 44,
+					height: 52,
 					html: '<span class="toggle" data-action="toggleLayer" data-args="navPanel"></span><span class="title" data-action="copyHTML" data-args="logo"></span>',
 					position: 'top-left',
 					side: 'top',

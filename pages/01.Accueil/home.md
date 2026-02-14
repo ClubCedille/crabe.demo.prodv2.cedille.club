@@ -28,7 +28,7 @@ mission:
             heading: 'L''innovation'
             point: 'Les idées de génie ont toujours une place au sein de notre club. Que ce soit la création d''un outil avec notre imprimante 3D ou la conception d''un logiciel qui permettre aux administrateurs de gérer les articles dans l''inventaire, nous croyons que le génie peut améliorer et bonifier l''expérience d''atelier.'
 activities:
-    title: 'Plus qu''un atelier!'
+    title: 'Plus qu''un atelier'
     subtitle: 'Sorties de vélos, mécanique et même des projets en génie!'
     description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe d''étudiant.e.s passionné.e.s par le vélo. Chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et celui du génie pour rendre notre atelier plus performant et efficace!'
     pictures:

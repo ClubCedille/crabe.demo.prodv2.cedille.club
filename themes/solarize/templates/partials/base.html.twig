@@ -1,7 +1,6 @@
 {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 {{ dump("#{grav.theme.getBlueprint.name} #{grav.theme.getBlueprint.version}") }}
 {% set body_classes = header.body_classes %}
-{% set banner_pic = header.banner_pic %}
 <!DOCTYPE HTML>
 <!--
 	Solarize by TEMPLATED
@@ -66,7 +65,7 @@
 
 	{% block header %}
     {% if banner_pic %}
-    <div class="wrapper style1" style="background: #222222 url('/user/themes/solarize/images/{{ banner_pic }}') no-repeat; background-size: cover;">
+    <div class="wrapper style1" style="background: #222222 url('{{ banner_pic }}') no-repeat; background-size: cover;">
     {% else %}
     <div class="wrapper style1" style="background: #222222;">
     {% endif %}

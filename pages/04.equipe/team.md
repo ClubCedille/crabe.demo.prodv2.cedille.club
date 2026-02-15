@@ -1,7 +1,7 @@
 ---
 title: Équipe
 body_classes: homepage
-banner_pic: atelier-pavillon-a.JPG
+banner_pic: atelier-pavillon-a.jpg
 banner:
     headline: Équipe
 join:
@@ -19,18 +19,23 @@ team:
         -
             name: 'Louis-David Gauthier'
             role: Co-capitaine
-        -
-            name: 'Nicolas Bellerive-Blais'
-            role: 'Chef d''équipe'
+            thumbnail: louis-david-gauthier.jpg
         -
             name: 'Elias Barmani'
             role: Trésorier
+            thumbnail: elias-barmani.jpg
+        -
+            name: 'Nicolas Bellerive-Blais'
+            role: Mécanicien
+            thumbnail: nicolas-bellerive-blais.jpg
         -
             name: 'Axel Bouchetti'
             role: 'Chargé de projets logistiques'
+            thumbnail: axel-bouchetti.jpg
         -
             name: 'Rémy Martin'
             role: Communications
+            thumbnail: remy-martin.jpeg
         -
             name: 'Alexis Papin'
             role: Mécanicien
@@ -38,6 +43,7 @@ team:
         -
             name: 'Justin Setton'
             role: Mécanicien
+            thumbnail: justin-setton.jpg
         -
             name: 'Samuel Klein-Blain'
             role: Mécanicien
@@ -49,9 +55,11 @@ team:
         -
             name: 'Anthony Stefanelli'
             role: 'Chargé de projets électriques'
+            thumbnail: anthony-stefanelli.jpg
         -
             name: 'Gabrielle Beaudin'
-            role: 'Liason du BDD'
+            role: 'Liaison du BDD'
+            thumbnail: gabrielle-beaudin.jpg
     former:
         -
             name: 'Alex Vincent'
@@ -62,32 +70,46 @@ team:
             name: 'Alexandre Bureau'
             role: Trésorier
             duration: '2023 - 2025'
+            thumbnail: alexandre-bureau.jpg
         -
-            thumbnail: martin-ortega.jpg
             name: 'Martin Ortega'
             role: Capitaine
             duration: '2019 - 2024'
+            thumbnail: martin-ortega.jpg
         -
             name: 'Odile Gauthier-Plamondon'
-            role: 'Pôle d''activitées et communication'
+            role: 'Pôle d''activités et communication'
             duration: '2023 - 2024'
+            thumbnail: odile-gauthier-plamondon.jpg
         -
             name: 'Léonie Groulx'
             role: 'Projets mécaniques'
             duration: '2022 - 2024'
+        -
+            name: 'Stanislas Teillet'
+            role: 'Encadrant sorties'
+            duration: '2023 - 2024'
+        -
+            name: 'Mohammed Hazime'
+            role: Développeur
+            duration: 2024
         -
             thumbnail: gabriel-niquet.jpg
             name: 'Gabriel Niquet'
             role: Co-capitaine
             duration: '2021 - 2023'
         -
-            name: 'Laurent Tremblay'
-            role: 'Projets informatique et sorties'
-            duration: 2023
-        -
             name: 'Berengère Colin'
             role: 'Projets mécaniques'
             duration: '2022 - 2023'
+        -
+            name: 'Roxane le Vot'
+            role: 'Communications et activités'
+            duration: '2022 - 2023'
+        -
+            name: 'Laurent Tremblay'
+            role: 'Projets informatique et sorties'
+            duration: 2023
         -
             name: 'Robensley Dessalines'
             role: 'Responsable atelier'
@@ -97,16 +119,16 @@ team:
             role: Mécanicien
             duration: 2023
         -
-            name: 'Roxane le Vot'
-            role: 'Communications et activités'
-            duration: '2022 - 2023'
-        -
             name: 'Christiana Dumitrascu'
             role: 'Pôle d''activités et communication'
             duration: 2023
         -
             name: 'Naomi Catwell'
-            role: 'Projet Mécaniques'
+            role: 'Projets mécaniques'
+            duration: 2023
+        -
+            name: 'Romaric Fotso'
+            role: 'Projets mécaniques'
             duration: 2023
         -
             name: 'Kim Lefebvre'
@@ -120,10 +142,6 @@ team:
             name: 'Christine Lin'
             role: Trésorière
             duration: 2022
-        -
-            name: 'Romaric Fotso'
-            role: 'Projet Mécaniques'
-            duration: 2023
         -
             name: 'Marie Chanal'
             role: Informatique
@@ -154,7 +172,7 @@ team:
             thumbnail: camille-champagne.jpg
         -
             name: 'Simon Lesage'
-            role: 'Responsable de latelier'
+            role: 'Responsable de l''atelier'
             thumbnail: simon-lesage.jpg
         -
             name: 'Andrew Leongr'

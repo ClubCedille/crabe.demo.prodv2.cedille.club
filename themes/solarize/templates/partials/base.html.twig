@@ -65,7 +65,11 @@
 <body class="homepage">
 
 	{% block header %}
+    {% if banner_pic %}
     <div class="wrapper style1" style="background: #222222 url('/user/themes/solarize/images/{{ banner_pic }}') no-repeat; background-size: cover;">
+    {% else %}
+    <div class="wrapper style1" style="background: #222222;">
+    {% endif %}
         <div id="header">
             <div class="container">
                 <nav id="nav">

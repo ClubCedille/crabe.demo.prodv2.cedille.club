@@ -1,9 +1,10 @@
 ---
-title: Page not Found
+title: 'Page non trouvée'
 robots: 'noindex,nofollow'
-body_classes: "modular header-lite fullwidth error"
+body_classes: 'modular header-lite fullwidth error'
 template: error
 routable: false
 http_response_code: 404
+text: "Page non trouvée."
 ---
-Woops. Looks like this page doesn't exist.
+

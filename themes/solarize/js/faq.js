@@ -27,8 +27,10 @@ $(document).ready(function() {
         // Slide answer section open/close
         questionId = $(this).parent().attr("data-qa-id");
         if (current == questionId) {
+            // Set current as if the user just entered the page (no answer section to manipulate)
             current = null;
         } else {
+            // Show/hide answer
             $(this).parent().find(".answer-sect").slideToggle(300);
 
             // Track current question

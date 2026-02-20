@@ -70,6 +70,10 @@ faq:
                 - '5. Système d''inventaire pour centraliser le suivi de nos articles.'
                 - 'Et bien plus encore! Nous proposons des projets qui intéressent nos membres et qui laisseront un vrai impact sur la communauté.'
         -
+            question: 'Quel est le niveau d''implication minimum attendu au C.R.A.B.E?'
+            answer:
+                - 'Nous valorisons la participation de chaque membre, peu importe le temps consacré au club. Vous choississez le niveau d''implication qui vous convient.  Nous comprenons que les horaires peuvent être chargés, donc nous nous adaptons afin de vous accueillir au sein de notre club et de vous aider à trouver un bon équilibre avec vos études. Chaque petit coup de pouce compte pour faire rouler le club.'
+        -
             question: 'Ma question n''apparaît pas.'
             answer:
                 - 'Aucun problème - nous vous invitons à nous contacter par courriel ou par Instagram. Nous vous répondrons toujours avec plaisir!'

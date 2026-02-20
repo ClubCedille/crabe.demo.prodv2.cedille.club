@@ -19,7 +19,7 @@ advantages:
         -
             icon: ⚙️
             title: 'Éventail de pièces usagées à prix compétitifs'
-            description: 'Accédez à un large éventail de pièces usagées et neuves à prix abordable. Certains articles de notre inventaire sont offerts exclusivement à nos abonné.e.s.'
+            description: 'Accédez à un large éventail de pièces usagées et neuves à prix abordable. De plus, certains articles de notre inventaire sont offerts exclusivement à nos abonné.e.s tels que les chaînes et les lumières.'
         -
             icon: 🚩
             title: 'Point d''arrêt en cas de pépin'

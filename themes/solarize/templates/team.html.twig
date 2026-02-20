@@ -1,8 +1,9 @@
+{% set data_source = data_source|default(page) %}
+{% set banner_pic = data_source.media[data_source.header.banner_pic].url %}
 {% extends 'partials/base.html.twig' %}
 {% block pagestyles %}
     {% do assets.addCss('theme://css/team.css') %}
 {% endblock %}
-{% set data_source = data_source|default(page) %}
 
 {% block banner %}
 	{% include 'partials/banner.html.twig' %}

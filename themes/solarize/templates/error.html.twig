@@ -1,0 +1,14 @@
+{% extends 'partials/base.html.twig' %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/team.css') %}
+{% endblock %}
+{% set data_source = data_source|default(page) %}
+
+{% block body %}
+    <div class="wrapper primary-2 single-wrapper">
+        <section class="container">
+            <h1>{{ data_source.header.http_response_code }}</h1>
+            <h2>{{ data_source.header.text }}</h2>
+        </section>
+    </div>
+{% endblock body %}

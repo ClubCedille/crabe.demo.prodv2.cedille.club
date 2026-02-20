@@ -26,8 +26,10 @@ $(document).ready(function() {
 
         // Slide answer section open/close
         questionId = $(this).parent().attr("data-qa-id");
-        if (current != questionId) {
-            $(this).next(".answer-sect").slideToggle(300);
+        if (current == questionId) {
+            current = null;
+        } else {
+            $(this).parent().find(".answer-sect").slideToggle(300);
 
             // Track current question
             current = questionId;

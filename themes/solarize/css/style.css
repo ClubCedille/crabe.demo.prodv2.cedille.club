@@ -289,11 +289,15 @@ ul.default li {
     padding: 0.40em 0em;
 }
 
-ul.icons {
+/* ul.icons {
     cursor: default;
     padding-bottom: 2em;
     text-align: left;
     width: calc(100% - 125px);
+} */
+
+ul {
+    padding: 0;
 }
 
 ul.icons li {
@@ -572,6 +576,11 @@ input[type="button"].small,
     padding-right: 6em;
 }
 
+.container:not(#banner .container) {
+    margin: 0 auto;
+    width: 1400px;
+}
+
 .wrapper.style3 p,
 .wrapper.cta p {
     font-size: 1.6em;
@@ -726,7 +735,6 @@ input[type="button"].small,
 }
 
 /* Banner */
-
 #banner {
     padding: 6em 0em 3em 0em;
     text-align: center;
@@ -787,7 +795,6 @@ input[type="button"].small,
 }
 
 /* Footer */
-
 #footer {
     padding-top: 2.5em;
     color: white;

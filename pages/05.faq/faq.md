@@ -28,7 +28,7 @@ faq:
             question: 'Quelles sont les activités proposées par le club?'
             answer:
                 - 'Le club propose plusieurs activités liées au vélo, surtout en été :'
-                - <b>1. Sorties de vélo et le Tour de l''île :</b> Chaque été, le C.R.A.B.E. propose des sorties de vélo sur l''île de Montréal aux membres de la communauté de l''ÉTS. C''est l''occassion parfaite pour profiter du soleil et de belles températures!
+                - <b>1. Sorties de vélo et le Tour de l'île :</b> Chaque été, le C.R.A.B.E. propose des sorties de vélo sur l''île de Montréal aux membres de la communauté de l''ÉTS. C''est l''occassion parfaite pour profiter du soleil et de belles températures!
                 - <b>2. Ateliers mécaniques :</b> Avant le début de la saison du vélo, nous organisons des ateliers mécaniques pour réparer gratuitement les vélos de membres de l''ÉTS.
                 - <b>3. Conférences du vélo :</b> Nous proposons des conférences qui ont but d''enseigner et partager des astuces, que ce soit le vélo d''hiver ou le bikepacking.
                 - <b>4. Friperie :</b> À l''occassion, nous recevons des vélos abandonnés. Quand c'est possible, nous réparons les vélos pour ensuite les vendre à un prix très abordable.
@@ -69,6 +69,10 @@ faq:
                 - '4. Campagne de partage de connaissances et promotion de la mobilité durable.'
                 - '5. Système d''inventaire pour centraliser le suivi de nos articles.'
                 - 'Et bien plus encore! Nous proposons des projets qui intéressent nos membres et qui laisseront un vrai impact sur la communauté.'
+        -
+            question: 'Qui peut rejoindre le club?'
+            answer:
+                - 'Tout étudiant ou toute étudiante de l''ÉTS peut rejoindre notre club. Il suffit d''être curieux et prêt à apprendre! Nous valorisons la diversité, l''accessibilité et l''inclusivité au sein de notre équipe. Peu importe votre expérience, vos connaissances ou votre genre, nous croyons que chaque voix compte pour contribuer à un futur plus vert.'
         -
             question: 'Quel est le niveau d''implication minimum attendu au C.R.A.B.E?'
             answer:

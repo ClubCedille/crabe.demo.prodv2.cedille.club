@@ -59,7 +59,7 @@ em, i {
 }
 
 p, ul, ol, dl, table, blockquote {
-    /* margin: 0 0 2em 0; */
+    margin: 0;
 }
 
 p {
@@ -290,12 +290,9 @@ ul.default li {
     padding: 0.40em 0em;
 }
 
-/* ul.icons {
-    cursor: default;
+ul.icons {
     padding-bottom: 2em;
-    text-align: left;
-    width: calc(100% - 125px);
-} */
+}
 
 ul {
     padding: 0;
@@ -617,9 +614,12 @@ input[type="button"].small,
 
 /* Header */
 #header {
+    background: rgba(0, 0, 0, 0.55);
     color: white;
     height: 4em;
-    background: rgba(0, 0, 0, 0.55);
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
 #header .container {
@@ -743,7 +743,7 @@ input[type="button"].small,
 }
 
 #banner .container {
-    padding: 0em 15em;
+    padding: 0em 17em;
 }
 
 #banner h2 {
@@ -759,17 +759,17 @@ input[type="button"].small,
     display: block;
     letter-spacing: 1px;
     text-transform: uppercase;
+    line-height: 2.3rem;
     font-size: 1.6em;
     font-weight: 300;
 }
 
 #banner span {
     background-color: #222222;
-    padding: 1em 0em;
+    padding: 1em;
 }
 
 /* Main */
-
 #main {
     padding: 4em 0;
 }
@@ -969,7 +969,13 @@ footer .container {
     }
 
     .container:not(#banner .container, #header .container) {
-        padding: 20px 12px 30px;
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 20px 24px 30px;
+    }
+
+    .wrapper {
+        padding: 2em 0em;
     }
 }
 
@@ -981,7 +987,7 @@ footer .container {
 
 @media only screen and (max-width: 1050px) {
     .container:not(#banner .container, #header .container) {
-        padding: 20px 24px 30px;
+        padding: 20px 20px 30px;
     }
 
     .photo-sect {
@@ -1111,7 +1117,7 @@ footer .container {
     }
 
     #banner .container {
-        padding: 0em;
+        padding: 0 1em;
     }
 
     #banner h2 {

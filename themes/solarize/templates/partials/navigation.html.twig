@@ -22,6 +22,12 @@
     {% endfor %}
 {% endmacro %}
 
+
+<div href="javascript:void(0);" id="mobile-menu-icon" class="icon">
+    <a>
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
 <ul>
     {% if config.theme.dropdown.enabled %}
         {{ _self.loop(pages) }}

@@ -30,6 +30,7 @@
 		{% do assets.addJs('theme://js/skel-layers.min.js') %}
 		{#% do assets.addJs('theme://js/init.js', {'group': 'init', 'data-theme-root': theme_url} ) %#}
 		{% do assets.addJs('theme://js/faq.js') %}
+		{% do assets.addJs('theme://js/global.js') %}
 	{% endblock %}
 
 	{% block stylesheets %}
@@ -63,19 +64,17 @@
 
 <body class="homepage">
 
+    <div id="header">
+        <nav id="nav">
+            {% include 'partials/navigation.html.twig' %}
+        </nav>
+    </div>
 	{% block header %}
     {% if banner_pic %}
     <div class="wrapper style1" style="background: #222222 url('{{ banner_pic }}') no-repeat; background-size: cover;">
     {% else %}
     <div class="wrapper style1" style="background: #222222;">
     {% endif %}
-        <div id="header">
-            <div class="container">
-                <nav id="nav">
-                    {% include 'partials/navigation.html.twig' %}
-                </nav>
-            </div>
-        </div>
         {% block banner %}{% endblock banner %}
     </div>
 	{% endblock header %}

@@ -601,6 +601,10 @@ input[type="button"].small,
     width: 100%;
 }
 
+.single-wrapper {
+    min-height: 67vh;
+}
+
 /* Header */
 #header {
     color: white;

@@ -64,96 +64,74 @@ team:
         -
             name: 'Alex Vincent'
             role: Co-capitaine
-            duration: '2022 - 2025'
             thumbnail: alek-vincent.jpg
         -
             name: 'Alexandre Bureau'
             role: Trésorier
-            duration: '2023 - 2025'
             thumbnail: alexandre-bureau.jpg
         -
             name: 'Martin Ortega'
             role: Capitaine
-            duration: '2019 - 2024'
             thumbnail: martin-ortega.jpg
         -
             name: 'Odile Gauthier-Plamondon'
             role: 'Pôle d''activités et communication'
-            duration: '2023 - 2024'
             thumbnail: odile-gauthier-plamondon.jpg
         -
             name: 'Léonie Groulx'
             role: 'Projets mécaniques'
-            duration: '2022 - 2024'
         -
             name: 'Stanislas Teillet'
             role: 'Encadrant sorties'
-            duration: '2023 - 2024'
         -
             name: 'Mohammed Hazime'
             role: Développeur
-            duration: 2024
         -
             thumbnail: gabriel-niquet.jpg
             name: 'Gabriel Niquet'
             role: Co-capitaine
-            duration: '2021 - 2023'
         -
             name: 'Berengère Colin'
             role: 'Projets mécaniques'
-            duration: '2022 - 2023'
         -
             name: 'Roxane le Vot'
             role: 'Communications et activités'
-            duration: '2022 - 2023'
         -
             name: 'Laurent Tremblay'
             role: 'Projets informatique et sorties'
-            duration: 2023
         -
             name: 'Robensley Dessalines'
             role: 'Responsable atelier'
-            duration: 2023
         -
             name: 'Yassine Zikri'
             role: Mécanicien
-            duration: 2023
         -
             name: 'Christiana Dumitrascu'
             role: 'Pôle d''activités et communication'
-            duration: 2023
         -
             name: 'Naomi Catwell'
             role: 'Projets mécaniques'
-            duration: 2023
         -
             name: 'Romaric Fotso'
             role: 'Projets mécaniques'
-            duration: 2023
         -
             name: 'Kim Lefebvre'
             role: 'Projets spéciaux'
-            duration: 2022
         -
             name: 'Simon Colombel'
             role: 'Encadrant sorties'
-            duration: 2022
         -
             name: 'Christine Lin'
             role: Trésorière
-            duration: 2022
         -
             name: 'Marie Chanal'
             role: Informatique
-            duration: 2022
         -
             name: 'Ariela Somfelean Teodora'
             role: Informatique
-            duration: 2022
         -
             name: 'Paul Sade'
             role: 'Electronique et programmation'
-            duration: 2022
         -
             name: 'Jonathan Lécuyer L''Espérance'
             role: 'Responsable informatique'

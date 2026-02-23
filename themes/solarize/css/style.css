@@ -781,26 +781,26 @@ input[type="button"].small,
 }
 
 /* Footer */
-#footer {
+footer {
     padding-top: 2.5em;
     color: white;
 }
 
-#footer hr {
+footer hr {
     border-bottom: 1px solid;
     border-color: inherit;
     opacity: .05;
 }
 
-#footer .major h2 {
+footer .major h2 {
     color: inherit;
 }
 
-#footer .major .byline {
+footer .major .byline {
     color: inherit;
 }
 
-#footer .copyright {
+footer .copyright {
     margin-top: 3em;
     text-align: center;
 }
@@ -1094,6 +1094,10 @@ footer .container {
 }
 
 @media only screen and (max-width: 680px) {
+    footer {
+        padding-top: 1.75em;
+    }
+
     footer .container {
         display: block;
         text-align: center;

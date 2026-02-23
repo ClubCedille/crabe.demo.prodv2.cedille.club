@@ -9,6 +9,10 @@ The C.R.A.B.E website represents the bicycle club at École de technologie supé
 
 See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).
 
+### Run Application
+
+Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8080.
+
 ## Acknowledgements
 Developer:
 * Benjamin Mah - C.R.A.B.E Captain [GitHub](https://github.com/benjaminm278)

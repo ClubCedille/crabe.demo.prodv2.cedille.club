@@ -8,11 +8,11 @@ faq:
         -
             question: 'Qu''est-ce que le C.R.A.B.E.?'
             answer:
-                - 'Le C.R.A.B.E. (Centre de réparation et ajustement de bicyclettes de l''ÉTS) est un club étudiant de vélo qui offre un atelier de réparation aux abonné(e)s pour réparer leurs vélos eux-mêmes. Nous valorisons le transport actif pour la communauté de l''ÉTS et nous initions des projets pour améliorer notre atelier. Nous organisons également diverses activités, telles que des sorties de vélo, des ateliers et des conférences.'
+                - 'Le C.R.A.B.E. (Centre de réparation et ajustement de bicyclettes de l''ÉTS) est un club étudiant de vélo qui offre un atelier de réparation aux abonné.e.s pour réparer leurs vélos eux-mêmes. Nous valorisons le transport actif pour la communauté de l''ÉTS et nous initions des projets pour améliorer notre atelier. Nous organisons également diverses activités, telles que des sorties de vélo, des ateliers et des conférences.'
         -
             question: 'Quand est-ce que l''atelier est accessible?'
             answer:
-                - 'L''atelier est accessible à nos abonné(e)s en même temps que l’ÉTS :'
+                - 'L''atelier est accessible à nos abonné.e.s en même temps que l’ÉTS :'
                 - '<b>Semaine :</b> 6 h 30 à 23 h'
                 - '<b>Fin de semaine :</b> 7 h 30 à 19 h'
                 - 'Attention : L''atelier fonctionne sur un modèle de libre-service, c''est-à-dire qu''aucun personnel n''est présent sur place. Vous devez être abonné.e pour y accéder avec votre carte étudiante. Si vous souhaitez découvrir notre atelier, contactez-nous!'

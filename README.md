@@ -13,6 +13,8 @@ See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more i
 
 Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8080.
 
+The CMS can be accessed at https://localhost:8080/admin.
+
 ## Acknowledgements
 Developer:
 * Benjamin Mah - C.R.A.B.E. Captain - [GitHub](https://github.com/benjaminm278)

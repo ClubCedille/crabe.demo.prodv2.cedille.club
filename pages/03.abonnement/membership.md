@@ -6,7 +6,7 @@ banner:
 introduction:
     title: 'Abonnez-vous à notre atelier!'
     description:
-        - 'Nous offrons un abonnement à notre atelier aux membres de la communauté de l''ÉTS (étudiant(e), professeur(e), personnel, etc.).  Notre atelier est l''endroit idéal pour ceux et celles qui cherchent à réparer son vélo sans se ruiner. Fondé en 2007, l''atelier est géré par un regroupement d''étudiant(e)s passionné(e)s par le vélo.'
+        - 'Nous offrons un abonnement à notre atelier aux membres de la communauté de l''ÉTS (étudiant.e, professeur.e, personnel, etc.).  Notre atelier est l''endroit idéal pour ceux et celles qui cherchent à réparer son vélo sans se ruiner. Fondé en 2007, l''atelier est géré par un regroupement d''étudiants passionnés par le vélo.'
         - '<b>Tarif</b> : 30$ pour l''année scolaire actuelle.'
         - '<b>Validité</b> : Jusqu''au 31 août, quelle que soit la date d''achat.'
 advantages:
@@ -41,12 +41,11 @@ procedure:
     steps:
         -
             title: 'Inscrivez-vous à notre club sur MontÉTS (étudiant.e.s seulement)'
-            description: 'Si vous êtes étudiant.e, commencez par vous inscrire comme membre du C.R.A.B.E. sur MonÉTS > Formulaires > Adhésion aux club étudiants > CRABE. Vous pouvez aussi accéder la page d''inscription directement : '
+            description: 'Si vous êtes étudiant.e, commencez par vous inscrire comme membre du C.R.A.B.E. sur MonÉTS > Formulaires > Adhésion aux club étudiants > CRABE. Vous pouvez aussi accéder la page d''inscription directement : <a href="https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0">https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0</a>.'
             link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
         -
             title: 'Acheter l''abonnement sur Zeffy'
-            description: 'Voici notre page Zeffy pour effectuer le paiement :'
-            link: 'https://www.zeffy.com/fr-CA/ticketing/ca63464e-f124-451e-983b-8e03c13ce612'
+            description: 'Voici notre page Zeffy pour effectuer le paiement : <a href="https://www.zeffy.com/fr-CA/ticketing/ca63464e-f124-451e-983b-8e03c13ce612">https://www.zeffy.com/fr-CA/ticketing/ca63464e-f124-451e-983b-8e03c13ce612</a>.'
         -
             title: 'Participer aux formations obligatoires'
             description: 'Si vous êtes un nouvel abonné ou une nouvelle abonnée, vous devez participer à une séance de formation avec un membre du C.R.A.B.E. Vous serez contacté par courriel à la suite de votre achat d''abonnement. Selon votre statut, vous devez aussi compléter une courte formation de base et sécurité (à votre rhythme).'

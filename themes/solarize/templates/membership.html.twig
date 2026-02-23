@@ -56,10 +56,7 @@
                     {% for step in procedure.steps %}
                     <div class="step">
                         <b>{{ loop.index }}. {{ step.title }}</b>
-                        <p>
-                            {{step.description}}
-                            <a href={{ step.link }}>{{ step.link }}</a>
-                        </p>
+                        <p>{{step.description|raw}}</p>
                     </div>
                     {% endfor %}
                 </div>

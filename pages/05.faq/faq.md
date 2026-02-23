@@ -8,18 +8,18 @@ faq:
         -
             question: 'Qu''est-ce que le C.R.A.B.E.?'
             answer:
-                - 'Le C.R.A.B.E. (Centre de réparation et ajustement de bicyclettes de l''ÉTS) est un club étudiant de vélo qui offre un atelier de réparation aux abonné(e)s pour réparer leurs vélos eux-mêmes. Nous valorisons le transport actif pour la communauté de l''ÉTS et nous initions des projets pour améliorer notre atelier. Nous organisons également diverses activités, telles que des sorties de vélo, des ateliers et des conférences.'
+                - 'Le C.R.A.B.E. (Centre de réparation et ajustement de bicyclettes de l''ÉTS) est un club étudiant de vélo qui offre un atelier de réparation aux abonné.e.s pour réparer leurs vélos eux-mêmes. Nous valorisons le transport actif pour la communauté de l''ÉTS et nous initions des projets pour améliorer notre atelier. Nous organisons également diverses activités, telles que des sorties de vélo, des ateliers et des conférences.'
         -
             question: 'Quand est-ce que l''atelier est accessible?'
             answer:
-                - 'L''atelier est accessible à nos abonné(e)s en même temps que l’ÉTS :'
+                - 'L''atelier est accessible à nos abonné.e.s en même temps que l’ÉTS :'
                 - '<b>Semaine :</b> 6 h 30 à 23 h'
                 - '<b>Fin de semaine :</b> 7 h 30 à 19 h'
                 - 'Attention : L''atelier fonctionne sur un modèle de libre-service, c''est-à-dire qu''aucun personnel n''est présent sur place. Vous devez être abonné.e pour y accéder avec votre carte étudiante. Si vous souhaitez découvrir notre atelier, contactez-nous!'
         -
             question: 'Qui peut s''abonner à notre atelier?'
             answer:
-                - 'Seuls les membres de la communauté de l''ÉTS (étudiant(e), professeur(e), membres du personnel, etc.) peuvent s''abonner à notre atelier. Consultez notre page <a href="/abonnement">d''abonnement</a> pour plus d''informations!'
+                - 'Seuls les membres de la communauté de l''ÉTS (étudiant.e, professeur.e, membre du personnel, etc.) peuvent s''abonner à notre atelier. Consultez notre page <a href="/abonnement">d''abonnement</a> pour plus d''informations!'
         -
             question: 'Si j''achète un abonnement, mon accès sera-t-il activé automatiquement?'
             answer:
@@ -28,7 +28,7 @@ faq:
             question: 'Quelles sont les activités proposées par le club?'
             answer:
                 - 'Le club propose plusieurs activités liées au vélo, surtout en été :'
-                - <b>1. Sorties de vélo et le Tour de l''île :</b> Chaque été, le C.R.A.B.E. propose des sorties de vélo sur l''île de Montréal aux membres de la communauté de l''ÉTS. C''est l''occassion parfaite pour profiter du soleil et de belles températures!
+                - <b>1. Sorties de vélo et le Tour de l'île :</b> Chaque été, le C.R.A.B.E. propose des sorties de vélo sur l''île de Montréal aux membres de la communauté de l''ÉTS. C''est l''occassion parfaite pour profiter du soleil et de belles températures!
                 - <b>2. Ateliers mécaniques :</b> Avant le début de la saison du vélo, nous organisons des ateliers mécaniques pour réparer gratuitement les vélos de membres de l''ÉTS.
                 - <b>3. Conférences du vélo :</b> Nous proposons des conférences qui ont but d''enseigner et partager des astuces, que ce soit le vélo d''hiver ou le bikepacking.
                 - <b>4. Friperie :</b> À l''occassion, nous recevons des vélos abandonnés. Quand c'est possible, nous réparons les vélos pour ensuite les vendre à un prix très abordable.
@@ -69,6 +69,10 @@ faq:
                 - '4. Campagne de partage de connaissances et promotion de la mobilité durable.'
                 - '5. Système d''inventaire pour centraliser le suivi de nos articles.'
                 - 'Et bien plus encore! Nous proposons des projets qui intéressent nos membres et qui laisseront un vrai impact sur la communauté.'
+        -
+            question: 'Qui peut rejoindre le club?'
+            answer:
+                - Tout.e étudiant.e de l'ÉTS peut rejoindre notre club quel que soit le programme (MEC, LOG, ÉLÉ, UX, CTN, etc.). Il suffit d'être curieux et prêt à apprendre! Nous valorisons la diversité, l'accessibilité et l'inclusivité au sein de notre équipe. Peu importe votre expérience, vos connaissances ou votre genre, nous croyons que chaque voix compte pour bâtir un futur plus vert.
         -
             question: 'Quel est le niveau d''implication minimum attendu au C.R.A.B.E?'
             answer:

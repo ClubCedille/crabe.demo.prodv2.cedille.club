@@ -17,10 +17,10 @@ tour:
             description:
                 - 'Nous nous engageons à réaliser l’atelier le plus complet possible. Vous y trouverez tous les outils essentiels d’une caisse à outils, mais également une grande sélection d’outillage spécialisé.'
             pictures:
-                - Atelier-1.jpg
-                - Atelier-2.jpg
-                - Atelier-4.jpg
-                - Atelier-5.jpg
+                - atelier-1.jpg
+                - atelier-2.jpg
+                - atelier-4.jpg
+                - atelier-5.jpg
         -
             title: 'Partie électrique'
             description:
@@ -40,8 +40,7 @@ tour:
         -
             title: 'Documentation et poste de travail'
             description:
-                - 'Le C.R.A.B.E. est certes un atelier, mais surtout un lieu d’apprentissage. Il y a à votre disposition des guides et manuels sur le vélo en tout genres.'
-                - 'Deux ordinateurs sont également mis à votre disposition pour vos recherches sur Internet. Il dispose d’Ansys et de Solidworks pour concevoir et dimensionner des pièces pour vos projets, que vous pourrez par la suite réaliser vos impressions 3D en PLA, ASA ou PETG grâce à notre imprimante 3D.'
+                - 'Le C.R.A.B.E. est certes un atelier, mais surtout un lieu d’apprentissage. Il y a à votre disposition des guides et manuels sur le vélo en tout genres. Deux ordinateurs sont également mis à votre disposition pour vos recherches sur Internet.'
             pictures:
                 - docs-1.jpg
 subscription:

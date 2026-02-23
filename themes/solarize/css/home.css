@@ -27,6 +27,11 @@
 
 .mission-header {
     display: flex;
+    margin-bottom: 1em;
+}
+
+.mission-header h3 {
+    margin: 0;
 }
 
 .intro-text {

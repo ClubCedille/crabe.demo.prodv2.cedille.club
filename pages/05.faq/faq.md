@@ -19,7 +19,7 @@ faq:
         -
             question: 'Qui peut s''abonner à notre atelier?'
             answer:
-                - 'Seuls les membres de la communauté de l''ÉTS (étudiant(e), professeur(e), membres du personnel, etc.) peuvent s''abonner à notre atelier. Consultez notre page <a href="/abonnement">d''abonnement</a> pour plus d''informations!'
+                - 'Seuls les membres de la communauté de l''ÉTS (étudiant.e, professeur.e, membre du personnel, etc.) peuvent s''abonner à notre atelier. Consultez notre page <a href="/abonnement">d''abonnement</a> pour plus d''informations!'
         -
             question: 'Si j''achète un abonnement, mon accès sera-t-il activé automatiquement?'
             answer:
@@ -72,7 +72,7 @@ faq:
         -
             question: 'Qui peut rejoindre le club?'
             answer:
-                - 'Tout étudiant ou toute étudiante de l''ÉTS peut rejoindre notre club. Il suffit d''être curieux et prêt à apprendre! Nous valorisons la diversité, l''accessibilité et l''inclusivité au sein de notre équipe. Peu importe votre expérience, vos connaissances ou votre genre, nous croyons que chaque voix compte pour contribuer à un futur plus vert.'
+                - Tout.e étudiant.e de l'ÉTS peut rejoindre notre club quel que soit le programme (MEC, LOG, ÉLÉ, UX, CTN, etc.). Il suffit d'être curieux et prêt à apprendre! Nous valorisons la diversité, l'accessibilité et l'inclusivité au sein de notre équipe. Peu importe votre expérience, vos connaissances ou votre genre, nous croyons que chaque voix compte pour bâtir un futur plus vert.
         -
             question: 'Quel est le niveau d''implication minimum attendu au C.R.A.B.E?'
             answer:

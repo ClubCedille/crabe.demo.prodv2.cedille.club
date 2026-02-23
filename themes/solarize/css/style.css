@@ -778,22 +778,6 @@ input[type="button"].small,
     text-align: left;
 }
 
-#main #sidebar section {
-    margin-top: 4em;
-}
-
-#main #sidebar section:first-child {
-    margin-top: 0;
-}
-
-#main #sidebar .major {
-    padding-bottom: 2em;
-}
-
-#main #sidebar .major h2 {
-    font-size: 1.8em;
-}
-
 /* Footer */
 #footer {
     padding-top: 2.5em;
@@ -1033,6 +1017,8 @@ footer .container {
     }
 
     #header {
+        background-color: transparent;
+        height: 78px;
         position: sticky;
         top: 0;
     }
@@ -1061,7 +1047,7 @@ footer .container {
 
     .homepage #nav {
         padding: 19px;
-        opacity: 0.9;
+        background-color: rgba(34, 34, 34, 0.95);
         text-align: left;
     }
 

@@ -1019,77 +1019,14 @@ footer .container {
         top: 0;
     }
 
-    /* Button */
-    input[type="submit"],
-    input[type="reset"],
-    input[type="button"],
-    .button {
-        display: block;
-        width: 100%;
-        max-width: 350px;
-        margin: 0em auto;
-        font-size: 1em;
-        font-weight: 600;
-    }
-
-    .wrapper.style2,
-    .wrapper.evenpart {
-        background: #f2f2f2;
-    }
-
-    .wrapper.style2 .major,
-    .wrapper.evenpart .major {
-        text-align: center !important;
-    }
-
-    .wrapper.style2 .major h2,
-    .wrapper.evenpart .major h2 {
-        font-size: 1.4em;
-    }
-
-    .wrapper.style2 .major .byline,
-    .wrapper.evenpart .major .byline {
-        font-size: 1em;
-    }
-
-    .wrapper.style2 h3,
-    .wrapper.evenpart h3 {
-        font-size: 1.2em;
-    }
-
-    .wrapper.style3 .container,
-    .wrapper.cta .container {
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    .wrapper.style3 p,
-    .wrapper.cta p {
-        font-size: 1em;
-    }
-
-    .wrapper.style4,
-    .wrapper.plain {
-        padding-bottom: 2em;
-    }
-
-    .wrapper.style5,
-    .wrapper.portals {
-        padding-bottom: 4em;
-    }
-
-    .wrapper.style5 img,
-    .wrapper.portals img {
-        width: 30%;
-    }
-
     /* Header */
     #mobile-menu-icon {
         display: contents;
     }
 
-    nav ul {
+    #nav > ul {
         display: none;
+        margin-top: 15px;
     }
 
     #nav > ul > li {

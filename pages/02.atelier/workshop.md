@@ -17,10 +17,10 @@ tour:
             description:
                 - 'Nous nous engageons à réaliser l’atelier le plus complet possible. Vous y trouverez tous les outils essentiels d’une caisse à outils, mais également une grande sélection d’outillage spécialisé.'
             pictures:
-                - atelier-1.jpg
-                - atelier-2.jpg
-                - atelier-4.jpg
-                - atelier-5.jpg
+                - Atelier-1.jpg
+                - Atelier-2.jpg
+                - Atelier-4.jpg
+                - Atelier-5.jpg
         -
             title: 'Partie électrique'
             description:

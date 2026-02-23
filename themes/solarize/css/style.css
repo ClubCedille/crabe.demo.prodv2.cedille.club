@@ -954,13 +954,31 @@ footer .container {
     margin-bottom: 15px;
 }
 
+/* Mobile */
+#navbar-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #mobile-menu-icon {
     cursor: pointer;
     display: none;
+    text-align: right;
 }
 
 #mobile-menu-icon a {
     color: white;
+}
+
+#mobile-club-logo {
+    height: 40px;
+}
+
+#mobile-club-logo img {
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
 }
 
 @media only screen and (max-width: 1495px) {

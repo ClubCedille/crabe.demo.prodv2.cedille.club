@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#mobile-menu-icon").click(function() {
         if (visible) {
             $("#nav").animate({
-                height: "26px"
+                height: "40px"
             }, {
                 duration: ANIMATION_DURATION,
                 done: function() {

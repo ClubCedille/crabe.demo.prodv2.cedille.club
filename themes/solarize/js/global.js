@@ -1,6 +1,8 @@
 $(document).ready(function() {
     let visible = false;
     const ANIMATION_DURATION = 400;
+
+    // Show or hide mobile menu
     $("#mobile-menu-icon").click(function() {
         if (visible) {
             $("#nav").animate({
@@ -23,6 +25,7 @@ $(document).ready(function() {
         visible = !visible;
     });
 
+    // Adjust navigation bar
     window.matchMedia("(min-width: 821px)")
         .addEventListener("change", function() {
             if (this.matches) {

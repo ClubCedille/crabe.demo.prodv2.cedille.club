@@ -1,6 +1,6 @@
-# C.R.A.B.E Website
+# C.R.A.B.E. Website
 
-The C.R.A.B.E website represents the bicycle club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
+The C.R.A.B.E. website represents the bicycle club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
 
 ## Getting Started
 ### Prequisites
@@ -15,7 +15,7 @@ Generally speaking, the web server needs to be started to be able to access the 
 
 ## Acknowledgements
 Developer:
-* Benjamin Mah - C.R.A.B.E Captain [GitHub](https://github.com/benjaminm278)
+* Benjamin Mah - C.R.A.B.E. Captain - [GitHub](https://github.com/benjaminm278)
 
 DevOps Specialists:
 * Julien Giguère - Cédille Co-captain - [GitHub](https://github.com/JulienGiguere)

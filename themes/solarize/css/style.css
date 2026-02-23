@@ -742,10 +742,6 @@ input[type="button"].small,
     color: white;
 }
 
-#banner .container {
-    padding: 0em 17em;
-}
-
 #banner h2 {
     display: inline-block;
     padding: 0.50em 0.30em;
@@ -767,6 +763,12 @@ input[type="button"].small,
 #banner span {
     background-color: #222222;
     padding: 1em;
+    max-width: 965px;
+}
+
+#banner .container {
+    display: inline-block;
+    padding: 0 3em;
 }
 
 /* Main */
@@ -979,6 +981,10 @@ footer .container {
     .wrapper {
         padding: 2em 0em;
     }
+
+    /* #banner .container {
+        padding: 0 17em;
+    } */
 }
 
 @media only screen and (max-width: 1295px) {
@@ -1079,6 +1085,11 @@ footer .container {
 
     #banner span {
         padding: 1em;
+    }
+
+    #nav > ul > li a {
+        letter-spacing: 1px;
+        text-transform: none;
     }
 }
 

@@ -23,7 +23,7 @@ $(document).ready(function() {
         visible = !visible;
     });
 
-    window.matchMedia("(min-width: 801px)")
+    window.matchMedia("(min-width: 821px)")
         .addEventListener("change", function() {
             if (this.matches) {
                 $("#nav ul").show();

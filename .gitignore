@@ -2,8 +2,6 @@
 
 !.gitignore
 !/config
-/config/security.yaml
-/config/plugins/git-sync.yaml
 !/pages
 !/plugins
 !/themes

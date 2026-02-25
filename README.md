@@ -11,7 +11,12 @@ See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more i
 
 ### Run Application
 
-Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8080.
+To start the Grav server, run the following command at the root of the grav project:
+```
+bin/grav server
+```
+
+You will be able to access the site at https://localhost:8000.
 
 The CMS can be accessed at https://localhost:8080/admin.
 

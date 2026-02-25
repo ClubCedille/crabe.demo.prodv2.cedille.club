@@ -26,7 +26,7 @@ Recreate the following configuration files in the content folder as these are sy
 
 Access the site at https://localhost:8080.
 
-The CMS can be accessed at https://localhost:8080/admin.
+The CMS can be accessed at https://localhost:8080/admin. When prompted to login, use `admin` as the username and `admin123` as the password.
 
 #### Without Docker
 Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8000.

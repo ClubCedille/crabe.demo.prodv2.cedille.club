@@ -7,7 +7,6 @@
     display: flex;
     font-size: 26px;
     font-weight: 600;
-    line-height: 1.3em;
     padding: 12px 0;
 }
 
@@ -25,7 +24,6 @@
 }
 
 .collapse-arrow {
-    margin-left: 10px;
     margin-right: 12px;
     height: 32px;
     width: 32px;

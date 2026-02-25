@@ -7,13 +7,31 @@ The C.R.A.B.E. website represents the bicycle club at Ã‰cole de technologie supÃ
 * PHP (>= 7.3.6)
 * Web Server
 
+### Optional
+* Docker Desktop
+
 See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).
 
 ### Run Application
 
-Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8080.
+#### With Docker
+Build the Docker image using the following command:
+```
+docker-compose up --build
+```
+
+Recreate the following configuration files in the content folder as these are symbolic links on GitHub:
+* git-sync.yaml
+* security.yaml
+
+Access the site at https://localhost:8080.
 
 The CMS can be accessed at https://localhost:8080/admin.
+
+#### Without Docker
+Generally speaking, the web server needs to be started to be able to access the website at https://localhost:8000.
+
+The CMS can be accessed at https://localhost:8000/admin.
 
 ## Acknowledgements
 Developer:

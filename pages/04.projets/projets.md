@@ -6,37 +6,37 @@ banner:
 intro:
     title: 'Innovation au sein de notre atelier'
     description:
-        - 'Situé dans une école de génie, notre club étudiant intégre le génie dans notre fonctionnement non seulement pour être efficace, mais aussi pour faciliter la mobilité durable et rayonner les capacités de chacun de nos membres.'
+        - 'Un des piliers de notre club étudiant est l''innovation! Situé dans une école d''ingénierie, nous cherchons d''appliquer nos connaissances et nos expériences pour améliorer notre atelier et faire la promotion de la mobilité durable. Que ce soit un logiciel fait-maison ou la fabrication des pièces avec notre imprimante 3D, nous intégrons l''ingénierie dans notre fonctionnement. Nous encourageons toujours nos membres de proposer des projets, des idées et des solutions pour faire rayonner ses capacités.'
 projects:
     in_progress:
         title: 'Projets en cours'
         items:
             -
                 title: 'Fabrication des outils en 3D'
-                description: 'Nous avons une imprimante 3D! Notre équipe est en train d''expérimenter avec l''imprimante pour voir comment on peut fabriquer nos outils sur place.'
-                picture: ''
+                description: 'Notre équipe expérimente avec une imprimante 3D pour fabriquer des pièces et même des outils. Beaucoup d''essais, mais nous somme confiant que nos membres vont maîtriser cette technologie!'
+                picture: velo-dossards.jpg
             -
                 title: 'Boîte à clé'
-                description: 'Système de location qui permettra les membres de la communauté de l''ÉTS de louer un vélo en gardant les clés pour chaque vélo.Fonctionne comme le système de Bixi!'
-                picture: ''
+                description: 'Nous aimerons concevoir un système de location qui permettra à nos abonné.e.s de louer un vélo grâce à notre boîte à clé. Cette boîte a été conçu pour être alimenté par électricité pour ensuite être capable de communiquer avec notre système d''inventaire.'
+                picture: velo-dossards.jpg
             -
-                title: 'Amélioration des processus d''atelier'
-                description: 'C''est certain qu''il y a toujours de procesus à optimiser dans notre atelier. Comment simplifier les achats de plusieurs articles? Quelles sont les façons efficaces pour donner une formation d''atelier? Nos chargés en logistiques nous donner ses conseils.'
-                picture: ''
+                title: 'Amélioration des opérations'
+                description: 'C''est certain qu''il y a toujours de procesus à optimiser dans notre atelier. Comment simplifier les achats de plusieurs articles? Quelles sont les façons efficaces pour donner une formation d''atelier? Nos mécanos et nos chargés en logistiques nous donne ses conseils et récommendations.'
+                picture: velo-dossards.jpg
     done:
         title: 'Projets complétés'
         items:
             -
                 title: 'Refonte du site web'
-                description: 'Le site web du C.R.A.B.E. a été entièrement refait en utilisant Grav, un système de gestion de contenu. Créé en suivant les standards d''aujourd''hui, le site web a été créé pour être plus moderne, plus clair et surtout plus attrayant.'
-                picture: ''
+                description: 'Le site web du C.R.A.B.E. a été entièrement refait en utilisant Grav, ce qui nous permet de créer des pages dynamiques. Les pages ont été conçue en suivant les standards modernes pour créer un design élégant, réactif et ouvert.'
+                picture: velo-dossards.jpg
             -
                 title: 'Système d''inventaire'
-                description: 'Application web conçue en PHP et SQL pour stocker les données de tous les articles de notre inventaire. C''est aussi une application que nos abonné.e.s utilisent pour effectuer des achats d''articles avec une interface élégante et simple.'
-                picture: ''
+                description: 'Application web conçue en PHP et SQL pour stocker les données de tous les articles de notre inventaire, permettant une gestion céntralisée et efficace. C''est aussi une application que nos abonné.e.s utilisent pour effectuer des achats d''articles avec une interface conviviale et moderne.'
+                picture: velo-dossards.jpg
             -
-                title: 'Nouveau atelier'
-                description: 'Lors de l''ouverture du pavillon D en 2019, le C.R.A.B.E. a préparé sa restruction. Anciennement situé dans le stationnement du pavillon A, le nouveau atelier en ES-2020 est une espace plus sécuritaire et moderne. L''aménagement a été répensé pour être plus compréhensif, un terrain de jeu qui est une rêve pour les cyclistes et les mécanos.'
-                picture: ''
+                title: 'Nouveau atelier à ES-2020'
+                description: 'Lors de l''ouverture du pavillon D en 2019, le C.R.A.B.E. a préparé sa restructuration pour le "CRABE 2.0". Anciennement situé dans le stationnement du pavillon A, l''atelier est situé à ES-2020, une espace avec un aménagement soigneusement pensé pour offrir une espace moderne et sécuritaire. Aujourd''hui, notre atelier est un terrain de jeu pour les mécanos et les passionné.e.s du cyclisme!'
+                picture: velo-dossards.jpg
 ---
 

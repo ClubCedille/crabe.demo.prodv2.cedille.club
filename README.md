@@ -4,10 +4,11 @@ The C.R.A.B.E. website represents the bicycle club at Ã‰cole de technologie supÃ
 
 ## Getting Started
 ### Prequisites
+If you will run the application using the Grav files already on your computer:
 * PHP (>= 7.3.6)
 * Web Server
 
-### Optional
+If you will use Docker:
 * Docker Desktop
 
 See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).

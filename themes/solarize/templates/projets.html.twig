@@ -4,7 +4,7 @@
 {% set projects = data_source.header.projects %}
 {% extends 'partials/base.html.twig' %}
 {% block pagestyles %}
-    {% do assets.addCss('theme://css/faq.css') %}
+    {% do assets.addCss('theme://css/projects.css') %}
 {% endblock %}
 
 {% block banner %}
@@ -26,33 +26,39 @@
         </section>
     </div>
 
+    {% if projects.in_progress.items %}
     <div class="wrapper primary-2 plain">
         <section class="container">
             <h1>{{ projects.in_progress.title }}</h1>
-            <div class="faq">
+            <div class="project-sect">
                 {% for proj in projects.in_progress.items %}
-                <div class="project-in-progress-sect">
-                    <img>
-                    <div>
-                        <h2>{{ proj.title }}</h2>
-                        <div>{{ proj.description|raw }}</div>
+                <div class="project-box">
+                    <div class="project-contents">
+                        <img src={{ data_source.media[proj.picture].url }}>
+                        <div class="project-text">
+                            <h2>{{ proj.title }}</h2>
+                            <div>{{ proj.description|raw }}</div>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
             </div>
         </section>
     </div>
+    {% endif %}
 
-    <div class="wrapper primary-2">
+    <div class="wrapper green-sect">
         <section class="container">
             <h1>{{ projects.done.title }}</h1>
-            <div class="faq">
+            <div class="project-sect">
                 {% for proj in projects.done.items %}
-                <div class="project-in-progress-sect">
-                    <img>
-                    <div>
-                        <h2>{{ proj.title }}</h2>
-                        <div>{{ proj.description|raw }}</div>
+                <div class="project-box completed-project">
+                    <div class="project-contents">
+                        <img src={{ data_source.media[proj.picture].url }}>
+                        <div class="project-text">
+                            <h2>{{ proj.title }}</h2>
+                            <div>{{ proj.description|raw }}</div>
+                        </div>
                     </div>
                 </div>
                 {% endfor %}

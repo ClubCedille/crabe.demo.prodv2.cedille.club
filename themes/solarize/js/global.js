@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
     // Adjust navigation bar
-    window.matchMedia("(min-width: 821px)")
+    window.matchMedia("(min-width: 851px)")
         .addEventListener("change", function() {
             if (this.matches) {
                 $("#nav ul").show();

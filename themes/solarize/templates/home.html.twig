@@ -13,7 +13,6 @@
 
 {% block body %}
 
-	{% if page.header.intro %}
     {% set intro = page.header.intro %}
     <div class="wrapper style2 evenpart">
         <section class="container">
@@ -25,9 +24,7 @@
             </div>
         </section>
     </div>
-    {% endif %}
 
-    {% if page.header.mission %}
     {% set notices = page.header.mission %}
     <div class="wrapper style4 plain">
         <section class="container">
@@ -50,9 +47,7 @@
             </div>
         </section>
     </div>
-    {% endif %}
 
-    {% if data_source.header.activities %}
     {% set act = data_source.header.activities %}
     <div class="wrapper green-sect">
         <section class="container">
@@ -72,9 +67,7 @@
             </div>
         </section>
     </div>
-    {% endif %}
 
-	{% if page.header.join %}
     {% set join = page.header.join %}
     <div class="wrapper style2 evenpart">
         <section class="container">
@@ -85,6 +78,5 @@
             </div>
         </section>
     </div>
-    {% endif %}
 
 {% endblock body %}

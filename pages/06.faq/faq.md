@@ -60,16 +60,6 @@ faq:
             answer:
                 - 'Nous serons ravis de vous rencontrer pour en parler plus détails avec toi! Que vous soyez en génie mécanique ou en génie logiciel, nous avons plein de projets et postes à proposer pour aller toujours plus loin. Contactez-nous par courriel!'
         -
-            question: 'Quels sont les projets que vous réalisez au club?'
-            answer:
-                - 'Nous réalisons plusieurs projets:'
-                - '1. Réparation de plusieurs vélos usagés pour les revendre à la communauté.'
-                - '2. Amélioration des opérations et de la logistique pour rendre notre atelier plus efficace.'
-                - '3. Mise en place d''un système de location de vélos.'
-                - '4. Campagne de partage de connaissances et promotion de la mobilité durable.'
-                - '5. Système d''inventaire pour centraliser le suivi de nos articles.'
-                - 'Et bien plus encore! Nous proposons des projets qui intéressent nos membres et qui laisseront un vrai impact sur la communauté.'
-        -
             question: 'Qui peut rejoindre le club?'
             answer:
                 - 'Tout.e étudiant.e de l''ÉTS peut rejoindre notre club quel que soit le programme (MEC, LOG, ÉLÉ, UX, CTN, etc.). Il suffit d''être curieux et prêt à apprendre! Nous valorisons la diversité, l''accessibilité et l''inclusivité au sein de notre équipe. Peu importe votre expérience, vos connaissances ou votre genre, nous croyons que chaque voix compte pour bâtir un futur plus vert.'

@@ -1,7 +1,6 @@
 ---
 title: Accueil
 menu: Accueil
-body_classes: homepage
 banner_pic: atelier-outils.jpg
 banner:
     club_logo: crabe-logo.jpg
@@ -30,7 +29,7 @@ mission:
 activities:
     title: 'Plus qu''un atelier'
     subtitle: 'Sorties de vélos, mécanique et même des projets en génie!'
-    description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe d''étudiant.e.s passionné.e.s par le vélo. Chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et celui du génie pour rendre notre atelier plus performant et efficace!'
+    description: 'Nous sommes plus qu''un atelier communautaire : nous sommes un groupe d''étudiant.e.s passionné.e.s par le vélo. Chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et celui du génie pour rendre notre atelier plus performant et efficace!'
     pictures:
         - atelier-mecanique-2022.jpg
         - cyclistes.jpeg

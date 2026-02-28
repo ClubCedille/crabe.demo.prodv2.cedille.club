@@ -11,56 +11,51 @@
 {% endblock banner %}
 
 {% block body %}
-    {% if page.header.introduction %}
     {% set intro = page.header.introduction %}
-        <div class="wrapper style2 evenpart">
-            <section class="container">
-                <h1>{{ intro.title }}</h1>
-                <div class="description">
-                    {% for d in intro.description %}
-                    <div>{{ d|raw }}</div>
-                    {% endfor %}
-            </section>
-        </div>
-    {% endif %}
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ intro.title }}</h1>
+            <div class="description">
+                {% for d in intro.description %}
+                <div>{{ d|raw }}</div>
+                {% endfor %}
+        </section>
+    </div>
     
-    {% if data_source.header.advantages %}
     {% set advantages = data_source.header.advantages %}
-        <div class="wrapper style4 plain">
-            <section class="container">
-                <header class="major">
-                    <h2>{{advantages.title}}</h2>
-                </header>
-                <div class="membership-reasons">
-                    {% for item in advantages.items %}
-                    <div class="membership-buy-reason-sect">
-                        <div class="membership-perk-icon">{{item.icon}}</div>
-                        <div>
-                            <b>{{item.title}}</b>
-                            <p>{{item.description}}</p>
-                        </div>
+    <div class="wrapper style4 plain">
+        <section class="container">
+            <header class="major">
+                <h2>{{advantages.title}}</h2>
+            </header>
+            <div class="membership-reasons">
+                {% for item in advantages.items %}
+                <div class="membership-buy-reason-sect">
+                    <div class="membership-perk-icon">{{item.icon}}</div>
+                    <div>
+                        <b>{{item.title}}</b>
+                        <p>{{item.description}}</p>
                     </div>
-                    {% endfor %}
                 </div>
-                <p>{{advantages.note}}</p>
-            </section>
-        </div>
-    {% endif %}
+                {% endfor %}
+            </div>
+            <p>{{advantages.note}}</p>
+        </section>
+    </div>
 
-    {% if data_source.header.procedure %}
     {% set procedure = data_source.header.procedure %}
-        <div class="wrapper style2 evenpart">
-            <section id="team" class="container">
-                <h2>{{procedure.title}}</h2>
-                <div class="row">
-                    {% for step in procedure.steps %}
-                    <div class="step">
-                        <b>{{ loop.index }}. {{ step.title }}</b>
-                        <p>{{step.description|raw}}</p>
-                    </div>
-                    {% endfor %}
+    <div class="wrapper style2 evenpart">
+        <section id="team" class="container">
+            <h2>{{procedure.title}}</h2>
+            <div class="row">
+                {% for step in procedure.steps %}
+                <div class="step">
+                    <b>{{ loop.index }}. {{ step.title }}</b>
+                    <p>{{step.description|raw}}</p>
                 </div>
-            </section>
-        </div>
-    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+    
 {% endblock body %}

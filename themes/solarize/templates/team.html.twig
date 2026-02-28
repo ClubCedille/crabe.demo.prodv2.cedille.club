@@ -11,59 +11,57 @@
 
 {% block body %}
 
-    {% if data_source.header.team %}
-        {% set team = data_source.header.team %}
-        <div class="wrapper primary-2">
-            <section id="current-team" class="container team-sect">
-                <header class="major">
-                    <h2>{{team.current_team_header}}</h2>
-                    <hr>
-                </header>
-                <div class="team-container">
-                    {% for portal in team.current %}
-                    <div class="member-profile">
-                        <div class="member-img-container">
-                            {% if portal.thumbnail %}
-                            {% set pic = portal.thumbnail %}
-                            {% else %}
-                            {% set pic = team.default_pic %}
-                            {% endif %}
-                            <img src="{{ data_source.media[pic].url }}">
-                        </div>
-                        <h2 class="member-name">{{ portal.name }}</h2>
-                        <div class="role">{{ portal.role|raw }}</div>
+    {% set team = data_source.header.team %}
+    <div class="wrapper primary-2">
+        <section id="current-team" class="container team-sect">
+            <header class="major">
+                <h2>{{team.current_team_header}}</h2>
+                <hr>
+            </header>
+            <div class="team-container">
+                {% for portal in team.current %}
+                <div class="member-profile">
+                    <div class="member-img-container">
+                        {% if portal.thumbnail %}
+                        {% set pic = portal.thumbnail %}
+                        {% else %}
+                        {% set pic = team.default_pic %}
+                        {% endif %}
+                        <img src="{{ data_source.media[pic].url }}">
                     </div>
-                    {% endfor %}
+                    <h2 class="member-name">{{ portal.name }}</h2>
+                    <div class="role">{{ portal.role|raw }}</div>
                 </div>
-                <div class="join-btn-container">
-                    <a class="page-join-btn" href="{{ header.join.link }}">{{ header.join.text }} <i class="fa-solid fa-circle-chevron-right"></i></a>
-                </div>
-            </section>
-        </div>
-        <div class="wrapper secondary">
-            <section id="old-team" class="container team-sect">
-                <header class="major">
-                    <h2>{{team.former_members_header}}</h2>
-                    <hr>
-                </header>
-                <div class="team-container">
-                    {% for portal in team.former %}
-                    <div class="member-profile">
-                        <div class="member-img-container">
-                            {% if portal.thumbnail %}
-                            {% set pic = portal.thumbnail %}
-                            {% else %}
-                            {% set pic = team.default_pic %}
-                            {% endif %}
-                            <img src="{{ data_source.media[pic].url }}">
-                        </div>
-                        <h2 class="member-name">{{ portal.name }}</h2>
-                        <div class="role">{{ portal.role|raw }}</div>
+                {% endfor %}
+            </div>
+            <div class="join-btn-container">
+                <a class="page-join-btn" href="{{ header.join.link }}">{{ header.join.text }} <i class="fa-solid fa-circle-chevron-right"></i></a>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper secondary">
+        <section id="old-team" class="container team-sect">
+            <header class="major">
+                <h2>{{team.former_members_header}}</h2>
+                <hr>
+            </header>
+            <div class="team-container">
+                {% for portal in team.former %}
+                <div class="member-profile">
+                    <div class="member-img-container">
+                        {% if portal.thumbnail %}
+                        {% set pic = portal.thumbnail %}
+                        {% else %}
+                        {% set pic = team.default_pic %}
+                        {% endif %}
+                        <img src="{{ data_source.media[pic].url }}">
                     </div>
-                    {% endfor %}
+                    <h2 class="member-name">{{ portal.name }}</h2>
+                    <div class="role">{{ portal.role|raw }}</div>
                 </div>
-            </section>
-        </div>
-    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
 
 {% endblock body %}

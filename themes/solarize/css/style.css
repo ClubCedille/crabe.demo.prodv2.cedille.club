@@ -150,7 +150,7 @@ footer.major {
 }
 
 #ets-logo {
-    height: 165px;
+    height: 145px;
 }
 
 .green-sect {
@@ -1047,17 +1047,17 @@ footer .container {
     }
 }
 
-@media only screen and (max-width: 420px) {
-    #ets-logo {
-        height: 100%;
-        width: 100%;
-    }
-}
-
 @media only screen and (max-width: 360px) {
     #banner-club-logo {
         height: 165px;
         width: 165px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #ets-logo {
+        height: 100%;
+        width: 100%;
     }
 }
 

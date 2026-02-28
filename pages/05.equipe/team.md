@@ -30,7 +30,7 @@ team:
             thumbnail: nicolas-bellerive-blais.jpg
         -
             name: 'Axel Bouchetti'
-            role: 'Chargé de projets logistiques'
+            role: 'Chargé de logistiques'
             thumbnail: axel-bouchetti.jpg
         -
             name: 'Rémy Martin'
@@ -50,7 +50,7 @@ team:
             thumbnail: samuel-klein-blain.jpg
         -
             name: 'Mathieu Dufour'
-            role: 'Chargé de projets logistiques'
+            role: 'Chargé de logistiques'
             thumbnail: mathieu-dufour.jpg
         -
             name: 'Anthony Stefanelli'

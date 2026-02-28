@@ -1,7 +1,6 @@
 ---
 title: Accueil
 menu: Accueil
-body_classes: homepage
 banner_pic: atelier-outils.jpg
 banner:
     club_logo: crabe-logo.jpg
@@ -9,7 +8,7 @@ banner:
 intro:
     title: 'Club étudiant de vélo'
     text:
-        - 'Mis sur pied par les étudiants de l’École de technologie supérieure en 2007, le C.R.A.B.E. (Centre de Réparation et d’Ajustement de Bicyclettes de l’ÉTS) est un club étudiant social-culturel qui offre un atelier communautaire de réparation de vélo. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Nous proposons aussi des activités de vélo à la communauté de l''ÉTS.'
+        - 'Mis sur pied par les étudiants de l’École de technologie supérieure en 2007, le C.R.A.B.E. (<b>C</b>entre de <b>R</b>éparation et d’<b>A</b>justement de <b>B</b>icyclettes de l’<b>É</b>TS) est un club étudiant socio-culturel qui offre un atelier communautaire de réparation de vélo. Nous fonctionnons avec un système d’adhésion qui donne un accès illimité à notre atelier et aux outils qui s’y trouvent. Nous proposons aussi des activités de vélo à la communauté de l''ÉTS.'
         - 'Le C.R.A.B.E. est un lieu d’apprentissage, d’engagement écologique et d’innovation, favorisant la mobilité durable. Peu importe le niveau (débutant, avancé), nous croyons que nous pouvons partager les connaissances et apprendre les uns des autres. C’est un regroupement d''étudiants passionnés par le vélo. Nous proposons des projets d’ingénierie pour innover au sein de l''atelier, ce qui rend nos processus plus efficaces.'
 mission:
     heading: 'Notre mission'
@@ -30,7 +29,7 @@ mission:
 activities:
     title: 'Plus qu''un atelier'
     subtitle: 'Sorties de vélos, mécanique et même des projets en génie!'
-    description: 'Nous sommes plus qu''un atelier communautaire. Nous sommes un groupe d''étudiant.e.s passionné.e.s par le vélo. Chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et celui du génie pour rendre notre atelier plus performant et efficace!'
+    description: 'Nous sommes plus qu''un atelier communautaire : nous sommes un groupe d''étudiant.e.s passionné.e.s par le vélo. Chaque été, le C.R.A.B.E. propose des sorties de vélo à la communauté de l''ÉTS. Parfois, nous offrons des ateliers mécaniques pour réparer les vélos. Puisque nous sommes dans une école de génie, nous faisons le pont entre le monde du vélo et celui du génie pour rendre notre atelier plus performant et efficace!'
     pictures:
         - atelier-mecanique-2022.jpg
         - cyclistes.jpeg

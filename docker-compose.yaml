@@ -1,0 +1,14 @@
+services:
+  grav:
+    build: 
+      context: .
+      args:
+        - GRAV_SKELETON_URL=https://github.com/getgrav/grav-skeleton-deliver-site/releases/download/1.2.1/grav-skeleton-deliver-site+admin-1.2.1.zip
+        - GRAV_SKELETON_FOLDER=grav-skeleton-deliver-site+admin
+    container_name: grav_local_dev
+    environment:
+      - CONTENT_REPO=https://github.com/ClubCedille/crabe.demo.prodv2.cedille.club.git
+    ports:
+      - "8080:80"
+    volumes:
+      - ./content:/var/www/html/user

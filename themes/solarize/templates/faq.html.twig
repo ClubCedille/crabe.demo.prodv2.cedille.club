@@ -13,27 +13,25 @@
 
 {% block body %}
 
-    {% if data_source.header.faq %}
-        {% set faq = data_source.header.faq %}
-        <div class="wrapper primary-2">
-            <section class="container">
-                <div class="faq">
-                    {% for question in faq.questions %}
-                    <div class="question-answer-sect" data-qa-id="{{ loop.index0 }}">
-                        <div class="question-header">
-                            <div class="question-text">{{ question.question }}</div>
-                            <div class="collapse-arrow"><i class="fa-solid fa-angle-down"></i></div>
-                        </div>
-                        <div class="answer-sect description">
-                            {% for a in question.answer %}
-                                <p>{{ a|raw }}</p>
-                            {% endfor %}
-                        </div>
+    {% set faq = data_source.header.faq %}
+    <div class="wrapper primary-2">
+        <section class="container">
+            <div class="faq">
+                {% for question in faq.questions %}
+                <div class="question-answer-sect" data-qa-id="{{ loop.index0 }}">
+                    <div class="question-header">
+                        <div class="question-text">{{ question.question }}</div>
+                        <div class="collapse-arrow"><i class="fa-solid fa-angle-down"></i></div>
                     </div>
-                    {% endfor %}
+                    <div class="answer-sect description">
+                        {% for a in question.answer %}
+                            <p>{{ a|raw }}</p>
+                        {% endfor %}
+                    </div>
                 </div>
-            </section>
-        </div>
-    {% endif %}
+                {% endfor %}
+            </div>
+        </section>
+    </div>
 
 {% endblock body %}

@@ -23,7 +23,7 @@ faq:
         -
             question: 'Si j''achète un abonnement, mon accès sera-t-il activé automatiquement?'
             answer:
-                - 'Non, l''accès n''est pas activé automatiquement. Un membre du C.R.A.B.E. doit initier le processus pour activer l''accès à votre carte étudiante. Selon votre situation, vous devrez compléter quelques formations avant l''activation de votre accès.'
+                - 'Non, l''accès n''est pas activé automatiquement. Un membre du C.R.A.B.E. doit traiter votre inscription pour activer l''accès à votre carte étudiante. Selon votre situation, vous devrez compléter quelques formations avant l''activation de votre accès.'
         -
             question: 'Quelles sont les activités proposées par le club?'
             answer:
@@ -31,7 +31,7 @@ faq:
                 - '<b>1. Sorties de vélo et le Tour de l''île :</b> Chaque été, le C.R.A.B.E. propose des sorties de vélo sur l''''île de Montréal aux membres de la communauté de l''''ÉTS. C''''est l''''occassion parfaite pour profiter du soleil et de belles températures!'
                 - '<b>2. Ateliers mécaniques :</b> Avant le début de la saison du vélo, nous organisons des ateliers mécaniques pour réparer gratuitement les vélos de membres de l''''ÉTS.'
                 - '<b>3. Conférences du vélo :</b> Nous proposons des conférences qui ont but d''''enseigner et partager des astuces, que ce soit le vélo d''''hiver ou le bikepacking.'
-                - '<b>4. Friperie :</b> À l''''occassion, nous recevons des vélos abandonnés. Quand c''est possible, nous réparons les vélos pour ensuite les vendre à un prix très abordable.'
+                - '<b>4. Friperie :</b> À l''occassion, nous recevons des vélos abandonnés. Quand c''est possible, nous réparons les vélos pour ensuite les vendre à un prix très abordable.'
                 - 'Et plus encore!'
         -
             question: 'Vendez-vous des vélos?'

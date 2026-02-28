@@ -26,32 +26,31 @@
     <div class="wrapper style4 plain">
         <section class="container">
             <header class="major">
-                <h2>{{advantages.title}}</h2>
+                <h2>{{ advantages.title }}</h2>
             </header>
             <div class="membership-reasons">
                 {% for item in advantages.items %}
                 <div class="membership-buy-reason-sect">
                     <div class="membership-perk-icon">{{item.icon}}</div>
                     <div>
-                        <b>{{item.title}}</b>
-                        <p>{{item.description}}</p>
+                        <b>{{ item.title }}</b>
+                        <p>{{ item.description|raw }}</p>
                     </div>
                 </div>
                 {% endfor %}
             </div>
-            <p>{{advantages.note}}</p>
         </section>
     </div>
 
     {% set procedure = data_source.header.procedure %}
     <div class="wrapper style2 evenpart">
         <section id="team" class="container">
-            <h2>{{procedure.title}}</h2>
+            <h2>{{ procedure.title }}</h2>
             <div class="row">
                 {% for step in procedure.steps %}
                 <div class="step">
                     <b>{{ loop.index }}. {{ step.title }}</b>
-                    <p>{{step.description|raw}}</p>
+                    <p>{{ step.description|raw }}</p>
                 </div>
                 {% endfor %}
             </div>

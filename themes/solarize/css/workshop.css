@@ -7,6 +7,10 @@
     margin-bottom: 30px;
 }
 
+.workshop-aspect-sect hr {
+    margin: 1.5em 0 3em;
+}
+
 .workshop-aspect-sect p {
     margin-bottom: 16px;
 }

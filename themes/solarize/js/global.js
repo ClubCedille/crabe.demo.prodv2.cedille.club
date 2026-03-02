@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("#mobile-menu-icon").click(function() {
         if (visible) {
             $("#nav").animate({
-                height: "40px"
+                height: "30px"
             }, {
                 duration: ANIMATION_DURATION,
                 done: function() {
@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
     // Adjust navigation bar
-    window.matchMedia("(min-width: 821px)")
+    window.matchMedia("(min-width: 851px)")
         .addEventListener("change", function() {
             if (this.matches) {
                 $("#nav ul").show();

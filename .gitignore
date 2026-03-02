@@ -5,4 +5,7 @@
 !/pages
 !/plugins
 !/themes
+!docker-compose.yaml
+!Dockerfile
+!entrypoint.sh
 !README.md

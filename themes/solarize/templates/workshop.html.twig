@@ -12,10 +12,10 @@
 {% block body %}
     <div class="wrapper style2 evenpart">
         <section class="container">
-            <h1>{{ header.page_header }}</h1>
+            <h1>{{ header.page_header|raw }}</h1>
             <div class="description">
                 {% for desc in header.description %}
-                    <p>{{ desc }}</p>
+                    <p>{{ desc|raw }}</p>
                 {% endfor %}
             </div>
         </section>
@@ -27,7 +27,7 @@
                 <h1>{{ header.tour.title }}</h1>
                 <div class="description">
                     {% for desc in header.tour.description %}
-                    <p>{{ desc }}</p>
+                    <p>{{ desc|raw }}</p>
                     {% endfor %}
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 <h2>{{ sect.title }}</h2>
                 <div class="description">
                     {% for desc in sect.description %}
-                    <p>{{ desc }}</p>
+                    <p>{{ desc|raw }}</p>
                     {% endfor %}
                 </div>
 

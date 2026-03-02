@@ -1,0 +1,67 @@
+{% set data_source = data_source|default(page) %}
+{% set banner_pic = data_source.media[data_source.header.banner_pic].url %}
+{% set intro = data_source.header.intro %}
+{% set projects = data_source.header.projects %}
+{% extends 'partials/base.html.twig' %}
+{% block pagestyles %}
+    {% do assets.addCss('theme://css/projects.css') %}
+{% endblock %}
+
+{% block banner %}
+
+	{% include 'partials/banner.html.twig' %}
+
+{% endblock banner %}
+
+{% block body %}
+
+    <div class="wrapper style2 evenpart">
+        <section class="container">
+            <h1>{{ intro.title }}</h1>
+            <div class="description">
+                {% for desc in intro.description %}
+                    <p>{{ desc|raw }}</p>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper primary-2 plain">
+        <section class="container">
+            <h1>{{ projects.in_progress.title }}</h1>
+            <div class="project-sect">
+                {% for proj in projects.in_progress.items %}
+                <div class="project-box">
+                    <div class="project-contents">
+                        <img src={{ data_source.media[proj.picture].url }}>
+                        <div class="project-text">
+                            <h2>{{ proj.title }}</h2>
+                            <div>{{ proj.description|raw }}</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+    <div class="wrapper green-sect">
+        <section class="container">
+            <h1>{{ projects.done.title }}</h1>
+            <div class="project-sect">
+                {% for proj in projects.done.items %}
+                <div class="project-box completed-project">
+                    <div class="project-contents">
+                        <img src={{ data_source.media[proj.picture].url }}>
+                        <div class="project-text">
+                            <h2>{{ proj.title }}</h2>
+                            <div>{{ proj.description|raw }}</div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
+
+{% endblock body %}

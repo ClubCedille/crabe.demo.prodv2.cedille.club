@@ -13,27 +13,24 @@
 
 {% block body %}
 
-	{% if page.header.intro %}
     {% set intro = page.header.intro %}
     <div class="wrapper style2 evenpart">
         <section class="container">
             <h1>{{ intro.title }}</h1>
             <div class="introduction-container">
                 {% for t in intro.text %}
-                <div class="intro-text">{{ t }}</div>
+                <div class="intro-text">{{ t|raw }}</div>
                 {% endfor %}
             </div>
         </section>
     </div>
-    {% endif %}
 
-    {% if page.header.mission %}
     {% set notices = page.header.mission %}
     <div class="wrapper style4 plain">
         <section class="container">
             <header class="major">
-                <h2>{{ notices.heading }}</h2>
-                <span class="byline">{{ notices.byline }}</span>
+                <h2>{{ notices.heading|raw }}</h2>
+                <span class="byline">{{ notices.byline|raw }}</span>
             </header>
             <div class="row flush">
                 <div class="mission-box-container">
@@ -41,18 +38,16 @@
                     <div class="mission-box">
                         <div class="mission-header">
                             <span class="mission-icon fa-solid fa-{{ item.icon }}"></span>
-                            <h3>{{ item.heading }}</h3>
+                            <h3>{{ item.heading|raw }}</h3>
                         </div>
-                        <p>{{ item.point }}</p>
+                        <p>{{ item.point|raw }}</p>
                     </div>
                     {% endfor %}
                 </div>
             </div>
         </section>
     </div>
-    {% endif %}
 
-    {% if data_source.header.activities %}
     {% set act = data_source.header.activities %}
     <div class="wrapper green-sect">
         <section class="container">
@@ -72,19 +67,16 @@
             </div>
         </section>
     </div>
-    {% endif %}
 
-	{% if page.header.join %}
     {% set join = page.header.join %}
     <div class="wrapper style2 evenpart">
         <section class="container">
             <h1>{{ join.title }}</h1>
-            <div>{{ join.text }}</div>
+            <div>{{ join.text|raw }}</div>
             <div class="join-btn-container">
-                <a class="page-join-btn" href="{{ join.link }}">{{ join.button }} <i class="fa-solid fa-circle-chevron-right"></i></a>
+                <a class="page-join-btn" href="{{ join.link }}">{{ join.button|raw }} <i class="fa-solid fa-circle-chevron-right"></i></a>
             </div>
         </section>
     </div>
-    {% endif %}
 
 {% endblock body %}

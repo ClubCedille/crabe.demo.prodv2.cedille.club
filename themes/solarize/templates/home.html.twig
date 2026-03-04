@@ -25,16 +25,16 @@
         </section>
     </div>
 
-    {% set notices = page.header.mission %}
+    {% set missions = page.header.mission %}
     <div class="wrapper style4 plain">
         <section class="container">
             <header class="major">
-                <h2>{{ notices.heading|raw }}</h2>
-                <span class="byline">{{ notices.byline|raw }}</span>
+                <h2>{{ missions.heading|raw }}</h2>
+                <span class="byline">{{ missions.byline|raw }}</span>
             </header>
             <div class="row flush">
                 <div class="mission-box-container">
-                    {% for item in notices.items %}
+                    {% for item in missions.items %}
                     <div class="mission-box">
                         <div class="mission-header">
                             <span class="mission-icon fa-solid fa-{{ item.icon }}"></span>

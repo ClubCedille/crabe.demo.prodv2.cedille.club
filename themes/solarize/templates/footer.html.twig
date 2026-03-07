@@ -1,0 +1,40 @@
+{% set footer_page = page.find('/footer') %}
+
+<footer id="footer">
+    <div class="container">
+        <div class="links">
+            <ul class="icons">
+                {% for social in footer_page.header.socials %}
+                <li><a href="{{ social.link }}" class="fa-brands fa-{{ social.icon }}"><span>{{ social.platform }}</span></a></li>
+                {% endfor %}
+            </ul>
+            <div id="coordinates">
+                <div class="contact-container">
+                    <div>
+                        <a href="mailto:{{ footer_page.header.contact.email }}">
+                            <i class="fa fa-envelope"></i>{{ footer_page.header.contact.email }}
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-container">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div>
+                        {% set location = footer_page.header.contact.location %}
+                        <div>{{ location.address }}</div>
+                        <div>{{ location.office }}</div>
+                        <div>{{ location.workshop }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logos">
+            <img id="ets-logo" src="{{ footer_page.media[footer_page.header.school_logo].url }}">
+        </div>
+    </div>
+
+    <div id="copyright">
+        &copy; {{ 'now' | date('Y') }} | {{ footer_page.header.club_name }}
+    </div>
+</footer>

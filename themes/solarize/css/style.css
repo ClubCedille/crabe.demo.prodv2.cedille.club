@@ -185,12 +185,12 @@ textarea {
     width: 100%;
 }
 
-    input[type="text"]:focus,
-    input[type="password"]:focus,
-    input[type="email"]:focus,
-    textarea:focus {
-        border-color: #82b440;
-    }
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #82b440;
+}
 
 input[type="text"],
 input[type="password"],
@@ -855,7 +855,6 @@ footer .container {
 }
 
 #banner-club-logo {
-    border-radius: 120px;
     height: 220px;
     width: 220px;
     margin-bottom: 15px;

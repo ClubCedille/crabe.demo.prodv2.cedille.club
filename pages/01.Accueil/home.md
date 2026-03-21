@@ -3,7 +3,7 @@ title: Accueil
 menu: Accueil
 banner_pic: atelier-outils.jpg
 banner:
-    club_logo: crabe-logo.jpg
+    club_logo: crabe-logo.svg
     title: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 intro:
     title: 'Club étudiant de vélo'

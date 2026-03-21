@@ -34,6 +34,11 @@ Generally speaking, the web server needs to be started to be able to access the 
 
 The CMS can be accessed at `localhost:8000/admin`.
 
+## Development
+When working on the project, it is recommended that you create a new branch. Once the changes are ready to be deployed, merge to the `main` branch.
+
+Then, visit the site console (`crabe.etsmtl.ca/admin` and perform a manual Git sync).
+
 ## Acknowledgements
 Developer:
 * Benjamin Mah - C.R.A.B.E. Captain - [GitHub](https://github.com/benjaminm278)

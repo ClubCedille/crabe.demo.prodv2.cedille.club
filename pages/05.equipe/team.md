@@ -45,7 +45,7 @@ team:
             role: Mécanicien
             thumbnail: justin-setton.jpg
         -
-            name: 'Samuel Klein-Blain'
+            name: 'Samuel Klein-Bichain'
             role: Mécanicien
             thumbnail: samuel-klein-blain.jpg
         -

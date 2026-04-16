@@ -57,6 +57,9 @@ team:
             role: 'Chargé de projets électriques'
             thumbnail: anthony-stefanelli.jpg
         -
+            name: 'Antoine Gagné'
+            role: 'Responsable d''atelier'
+        -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'
             thumbnail: gabrielle-beaudin.jpg

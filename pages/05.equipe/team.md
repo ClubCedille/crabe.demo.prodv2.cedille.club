@@ -17,8 +17,12 @@ team:
             role: Capitaine
             thumbnail: benjamin-mah.jpg
         -
-            name: 'Louis-David Gauthier'
+            name: 'Mathieu Dufour'
             role: Co-capitaine
+            thumbnail: mathieu-dufour.jpg
+        -
+            name: 'Louis-David Gauthier'
+            role: 'Chef d''équipe'
             thumbnail: louis-david-gauthier.jpg
         -
             name: 'Elias Barmani'
@@ -44,10 +48,6 @@ team:
             name: 'Samuel Klein-Bichain'
             role: Mécanicien
             thumbnail: samuel-klein-blain.jpg
-        -
-            name: 'Mathieu Dufour'
-            role: 'Chargé de logistiques'
-            thumbnail: mathieu-dufour.jpg
         -
             name: 'Anthony Stefanelli'
             role: 'Chargé de projets électriques'

@@ -754,6 +754,7 @@ footer .container {
     padding: 1em 0em 1.5em;
     color: inherit;
     opacity: .80;
+    z-index: -1;
 }
 
 #copyright a {
@@ -795,7 +796,7 @@ footer .container {
 
 .photo-sect img {
     border-radius: 40px;
-    height: 610px;
+    height: 550px;
     object-fit: cover;
     width: 100%;
 }

@@ -41,10 +41,6 @@ team:
             role: Mécanicien
             thumbnail: alexis-papin.jpg
         -
-            name: 'Justin Setton'
-            role: Mécanicien
-            thumbnail: justin-setton.jpg
-        -
             name: 'Samuel Klein-Bichain'
             role: Mécanicien
             thumbnail: samuel-klein-blain.jpg
@@ -64,6 +60,10 @@ team:
             role: 'Liaison du BDD'
             thumbnail: gabrielle-beaudin.jpg
     former:
+        -
+            name: 'Justin Setton'
+            role: Mécanicien
+            thumbnail: justin-setton.jpg
         -
             name: 'Alex Vincent'
             role: Co-capitaine

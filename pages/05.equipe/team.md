@@ -55,6 +55,7 @@ team:
         -
             name: 'Antoine Gagné'
             role: 'Responsable d''atelier'
+            thumbnail: antoine-gagné.jpg
         -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'

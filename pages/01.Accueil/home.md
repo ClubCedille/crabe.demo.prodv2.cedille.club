@@ -16,10 +16,10 @@ overview:
             description: 'Tu as une question ou une idée pour améliorer les services vélo à l''ÉTS? On veut t''entendre!'
         -
             pic: atelier-pavillon-a.jpg
-            title: 'Rejoignez notre comité'
+            title: 'Rejoignez notre équipe!'
             link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
             link_text: Formulaire
-            description: 'Tu cherches à rejoindre un club étudiant de vélo? Tu as une passion pour la mobilité durable ou l’environnement? On a une place pour toi au sein de notre comité. Tous les programmes sont les bienvenus!'
+            description: 'Tu cherches à rejoindre un club étudiant de vélo? Tu as une passion pour la mobilité durable ou l’environnement? On a une place pour toi au sein de notre équipe. Tous les programmes sont les bienvenus!'
 intro:
     title: 'Club étudiant de vélo'
     text:

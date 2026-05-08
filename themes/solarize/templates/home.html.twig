@@ -14,6 +14,32 @@
 {% block body %}
 
     {% set intro = page.header.intro %}
+    {% set overview = page.header.overview %}
+    <div class="overview-wrapper">
+        <section class="container">
+            <div id="main-banner">
+                <div class="banner-symbol" style='color:rgb(255, 120, 30);'>?</div>
+                {{ overview.message|raw }}
+                <div class="banner-symbol" style='color:rgb(255, 120, 30);'>?</div>
+            </div>
+            <div id="links-grid">
+                {% for t in overview.links %}
+                <div class="link-box">
+                    <img src="{{ data_source.media[t.pic].url }}">
+                    <div class="link-box-text">
+                        <div class="link-description">
+                            <div class="link-header">{{ t.title|raw }}</div>
+                            <div class="link-element">
+                                <a href="{{ t.link }}" target="_blank">{{ t.link_text }}</a>
+                            </div>
+                        </div>
+                        <div class="link-box-desc">{{ t.description|raw }}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+    </div>
     <div class="wrapper style2 evenpart">
         <section class="container">
             <h1>{{ intro.title }}</h1>

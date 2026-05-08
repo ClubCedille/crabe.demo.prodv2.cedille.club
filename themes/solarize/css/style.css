@@ -893,7 +893,7 @@ footer .container {
         height: 525px;
     }
 
-    .container:not(#banner .container, #header .container) {
+    .container:not(#banner .container, #header .container, .overview-wrapper .container) {
         margin: 0 auto;
         max-width: 1300px;
         padding: 20px 24px 30px;
@@ -911,7 +911,7 @@ footer .container {
 }
 
 @media only screen and (max-width: 1050px) {
-    .container:not(#banner .container, #header .container) {
+    .container:not(#banner .container, #header .container, .overview-wrapper .container) {
         padding: 20px 20px 30px;
     }
 

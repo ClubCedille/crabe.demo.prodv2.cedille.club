@@ -6,21 +6,20 @@ banner:
     club_logo: crabe-logo.svg
     title: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
 overview:
-    message: <a href="https://notebooklm.google.com/notebook/bf5ed135-4735-4c14-9742-4ba3a3e5f36f" target="_blank">Posez vos questions à notre agent IA!</a>
+    message: '<a href="https://notebooklm.google.com/notebook/bf5ed135-4735-4c14-9742-4ba3a3e5f36f" target="_blank">Posez vos questions à notre agent IA!</a>'
     links:
         -
             pic: atelier.jpg
-            title: Questions et suggestions
-            link: https://forms.office.com/Pages/ResponsePage.aspx?id=t-OqcDufTUiPlUno-7eDwMai1pIIiM1FmAJoyuWNXQlUN1lRT0dFNFVRRjY2MVFPV1RKMDM3MjRIUy4u
-            link_text: Formulaire Microsoft
-            description: Tu as une question ou une idée pour améliorer les services vélo à l'ÉTS? On veut t'entendre!
+            title: 'Questions et suggestions'
+            link: 'https://forms.office.com/Pages/ResponsePage.aspx?id=t-OqcDufTUiPlUno-7eDwMai1pIIiM1FmAJoyuWNXQlUN1lRT0dFNFVRRjY2MVFPV1RKMDM3MjRIUy4u'
+            link_text: 'Formulaire Microsoft'
+            description: 'Tu as une question ou une idée pour améliorer les services vélo à l''ÉTS? On veut t''entendre!'
         -
             pic: atelier-pavillon-a.jpg
-            title: Rejoignez notre cômité
-            link: https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0
+            title: 'Rejoignez notre comité'
+            link: 'https://formulaires.etsmtl.ca/ClubEtudiantAdhesion?requete=crabe&categorie=0'
             link_text: Formulaire
-            description: Tu cherches à rejoindre un club étudiant de vélo? Tu as une passion pour la mobilité durable ou l’environnement? On a une place pour toi au sein de notre comité. Tous les programmes sont les bienvenus!
-
+            description: 'Tu cherches à rejoindre un club étudiant de vélo? Tu as une passion pour la mobilité durable ou l’environnement? On a une place pour toi au sein de notre comité. Tous les programmes sont les bienvenus!'
 intro:
     title: 'Club étudiant de vélo'
     text:

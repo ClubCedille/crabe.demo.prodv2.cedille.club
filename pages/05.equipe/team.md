@@ -15,7 +15,7 @@ team:
         -
             name: 'Benjamin Mah'
             role: Capitaine
-            thumbnail: benjamin-mah.jpg
+            thumbnail: benjamin-mah.JPG
         -
             name: 'Mathieu Dufour'
             role: Co-capitaine

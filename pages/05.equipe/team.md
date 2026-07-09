@@ -41,10 +41,6 @@ team:
             role: Mécanicien
             thumbnail: alexis-papin.jpg
         -
-            name: 'Samuel Klein-Bichain'
-            role: Mécanicien
-            thumbnail: samuel-klein-blain.jpg
-        -
             name: 'Anthony Stefanelli'
             role: 'Chargé de projets électriques'
             thumbnail: anthony-stefanelli.jpg

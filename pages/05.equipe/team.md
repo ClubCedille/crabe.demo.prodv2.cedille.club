@@ -155,7 +155,7 @@ team:
             role: 'Responsable de l''atelier'
             thumbnail: simon-lesage.jpg
         -
-            name: 'Andrew Leongr'
+            name: 'Andrew Leong'
             role: 'Membre du conseil d''administration'
             thumbnail: andrew-leongr.jpg
         -

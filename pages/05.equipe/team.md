@@ -33,10 +33,6 @@ team:
             role: Mécanicien
             thumbnail: nicolas-bellerive-blais.jpg
         -
-            name: 'Axel Bouchetti'
-            role: 'Chargé de logistiques'
-            thumbnail: axel-bouchetti.jpg
-        -
             name: 'Rémy Martin'
             role: Communications
             thumbnail: remy-martin.jpeg

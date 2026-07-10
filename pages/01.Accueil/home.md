@@ -9,7 +9,7 @@ overview:
     message: '<a href="https://notebooklm.google.com/notebook/bf5ed135-4735-4c14-9742-4ba3a3e5f36f" target="_blank">Posez vos questions à notre agent IA!</a>'
     links:
         -
-            pic: coop.png
+            pic: groupe-coop.png
             title: 'C.R.A.B.E. x Coop ÉTS — Une collaboration pour mieux rouler!'
             description: 'On s''est associés à la Coop ÉTS pour te rapprocher des produits dont tu as besoin. Retrouve notre sélection de produits vélo directement en magasin, disponible pour tous les cyclistes du campus!'
         -

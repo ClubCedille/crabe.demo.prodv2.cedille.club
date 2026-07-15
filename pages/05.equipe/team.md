@@ -55,6 +55,15 @@ team:
             name: 'Kevin Impasina Chan Yane'
             role: 'Mécanicien junior'
         -
+            name: 'Laura Bascopé Butron'
+            role: 'Coordinatrice en rayonnement'
+        -
+            name: 'Lian Diep'
+            role: 'Coordinatrice en rayonnement'
+        -
+            name: 'Arianne Villar Carlin'
+            role: 'Coordinatrice en rayonnement'
+        -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'
             thumbnail: gabrielle-beaudin.jpg

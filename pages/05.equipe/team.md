@@ -61,6 +61,9 @@ team:
             name: 'Lian Diep'
             role: 'Coordinatrice en rayonnement'
         -
+            name: 'Mathieu Abou Jaoude'
+            role: 'Chargé de projets électriques'
+        -
             name: 'Arianne Villar Carlin'
             role: 'Coordinatrice en rayonnement'
         -

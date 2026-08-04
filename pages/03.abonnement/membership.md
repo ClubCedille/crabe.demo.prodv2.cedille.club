@@ -7,8 +7,8 @@ introduction:
     title: 'Abonnez-vous à notre atelier!'
     description:
         - 'Nous offrons un abonnement à notre atelier aux membres de la communauté de l''ÉTS (étudiant.e, professeur.e, personnel, etc.).  Notre atelier est l''endroit idéal pour ceux et celles qui cherchent à réparer son vélo sans se ruiner. Fondé en 2007, l''atelier est géré par un regroupement d''étudiants passionnés par le vélo.'
-        - '<b>Tarif</b> : 30$ pour l''année scolaire actuelle.'
-        - '<b>Validité</b> : Jusqu''au 31 août, quelle que soit la date d''achat.'
+        - '<b>Tarif</b> : 30$.'
+        - '<b>Validité</b> : 1 an.'
 advantages:
     title: 'Pourquoi acheter un abonnement?'
     items:

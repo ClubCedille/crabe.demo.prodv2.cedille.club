@@ -34,7 +34,7 @@
     "gulp": "^5.0.0",
     "gulp-autoprefixer": "^9.0.0",
     "gulp-clean-css": "^4.3.0",
-    "gulp-csscomb": "^0.1.0",
+    "gulp-csscomb": "^3.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-webpack": "^0.0.1",
     "immutable": "^4.0.0-rc.12",

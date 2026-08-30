@@ -49,9 +49,6 @@ team:
             role: 'Responsable d''atelier'
             thumbnail: antoine-gagné.jpg
         -
-            name: 'Estelle Noubi Kemeugne'
-            role: 'Mécanicienne junior'
-        -
             name: 'Kevin Impasina Chan Yane'
             role: 'Mécanicien junior'
         -

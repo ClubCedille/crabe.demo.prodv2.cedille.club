@@ -13,17 +13,17 @@ team:
     default_pic: crabe-logo.jpg
     current:
         -
-            name: 'Benjamin Mah'
+            name: 'Louis-David Gauthier'
             role: Capitaine
-            thumbnail: benjamin-mah.JPG
+            thumbnail: louis-david-gauthier.jpg
         -
             name: 'Mathieu Dufour'
             role: Co-capitaine
             thumbnail: mathieu-dufour.jpg
         -
-            name: 'Louis-David Gauthier'
-            role: 'Chef d''équipe'
-            thumbnail: louis-david-gauthier.jpg
+            name: 'Benjamin Mah'
+            role: 'Chef d''activités et de projets'
+            thumbnail: benjamin-mah.JPG
         -
             name: 'Elias Barmani'
             role: Trésorier
@@ -66,6 +66,15 @@ team:
         -
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
+        -
+            name: 'Écaterina Kiosse'
+            role: 'Coordinatrice en rayonnement'
+        -
+            name: 'Liliane Tran Le'
+            role: Développeuse
+        -
+            name: 'Manuel Orlando Poldo Silva'
+            role: Membre
         -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'

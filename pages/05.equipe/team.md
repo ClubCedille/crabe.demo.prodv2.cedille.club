@@ -67,11 +67,8 @@ team:
             name: 'Écaterina Kiosse'
             role: 'Coordinatrice en rayonnement'
         -
-            name: 'Liliane Tran Le'
-            role: Développeuse
-        -
             name: 'Manuel Orlando Poldo Silva'
-            role: Membre
+            role: 'Chargé de projets en construction'
         -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'

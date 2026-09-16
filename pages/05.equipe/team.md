@@ -41,10 +41,6 @@ team:
             role: Mécanicien
             thumbnail: alexis-papin.jpg
         -
-            name: 'Anthony Stefanelli'
-            role: 'Chargé de projets électriques'
-            thumbnail: anthony-stefanelli.jpg
-        -
             name: 'Antoine Gagné'
             role: 'Responsable d''atelier'
             thumbnail: antoine-gagné.jpg

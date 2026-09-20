@@ -4,6 +4,7 @@ The C.R.A.B.E. website represents the bicycle student club at École de technolo
 
 ## Getting Started
 ### Prerequisites
+* Visual Studio Code
 * Git Bash
 
 If you use Grav:
@@ -47,10 +48,10 @@ When working on the project, it is recommended that you create a new branch usin
 git checkout -b "name_of_branch"
 ```
 
-Files should be added by specifying the path of the folder or file. Here is how to push a change:
+Files should be added by specifying the path of the folder or file. Here is an example of how to push multiple files and folders:
 
 ```
-git add name-of-files-or-folders-space-separated
+git add themes README.md pages/05.equipe/team.md
 git commit -m "your message here"
 git push
 ```
@@ -63,6 +64,8 @@ Once the changes are ready to be deployed to the website, create a pull request 
 ## Deployment
 
 Once the changes have been merged to main, navigate to the site console (`crabe.etsmtl.ca/admin`) and perform a manual Git sync.
+
+## Documentation
 
 ## Acknowledgements
 Developer:

@@ -69,9 +69,9 @@ Once the changes have been merged to main, navigate to the site console (`crabe.
 
 ## Acknowledgements
 Developer:
-* Benjamin Mah - C.R.A.B.E. Captain - [GitHub](https://github.com/benjaminm278)
+* Benjamin Mah - C.R.A.B.E. President - [GitHub](https://github.com/benjaminm278)
 
 DevOps Specialists:
-* Julien Giguère - Cédille Co-captain - [GitHub](https://github.com/JulienGiguere)
-* Alexandre Baudouin Vegas - Cédille Captain - [GitHub](https://github.com/alexvegas22)
-* Jonathan Lopez - Former Cédille Captain - [GitHub](https://github.com/SonOfLope)
+* Julien Giguère - Cédille Co-president - [GitHub](https://github.com/JulienGiguere)
+* Alexandre Baudouin Vegas - Cédille President - [GitHub](https://github.com/alexvegas22)
+* Jonathan Lopez - Former Cédille President - [GitHub](https://github.com/SonOfLope)

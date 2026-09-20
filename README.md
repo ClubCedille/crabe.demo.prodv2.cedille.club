@@ -56,7 +56,7 @@ git push
 ```
 
 > [!WARNING]  
-> There are two symlink files that should not be pushed to GitHub under config: `plugins/git-sync.yaml` and `security.yaml`. Pushing updates of these files to GitHub will break the site when merged with main, as these files are pointers to its data (which we don't currently have). If this happens, contact Cédille.
+> There are two symlink files that should not be pushed to GitHub under config: `plugins/git-sync.yaml` and `security.yaml`. Pushing updates of these files to GitHub will break the site when merged with main, as these files are pointers to its data (which we don't currently have). If these files change, contact Cédille to apply the corrections.
 
 Once the changes are ready to be deployed to the website, create a pull request on GitHub.
 

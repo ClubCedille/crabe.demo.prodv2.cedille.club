@@ -1,6 +1,6 @@
 # C.R.A.B.E. Website
 
-The C.R.A.B.E. website represents the bicycle club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
+The C.R.A.B.E. website represents the bicycle student club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
 
 ## Getting Started
 ### Prerequisites
@@ -47,16 +47,18 @@ When working on the project, it is recommended that you create a new branch usin
 git checkout -b "name_of_branch"
 ```
 
-Files should be added by specifying the path of the folder or file. For example:
+Files should be added by specifying the path of the folder or file. Here is how to push a change:
 
 ```
 git add name-of-files-or-folders-space-separated
+git commit -m "your message here"
+git push
 ```
 
 > [!WARNING]  
 > There are two symlink files that should not be pushed to GitHub under config: `plugins/git-sync.yaml` and `security.yaml`. Pushing updates of these files to GitHub will break the site when merged with main, as these files are pointers to its data (which we don't currently have). If this happens, contact Cédille.
 
-Once the changes are ready to be deployed to the website, create a pull request.
+Once the changes are ready to be deployed to the website, create a pull request on GitHub.
 
 ## Deployment
 

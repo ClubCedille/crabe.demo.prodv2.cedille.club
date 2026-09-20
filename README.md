@@ -65,8 +65,6 @@ Once the changes are ready to be deployed to the website, create a pull request 
 
 Once the changes have been merged to main, navigate to the site console (`crabe.etsmtl.ca/admin`) and perform a manual Git sync.
 
-## Documentation
-
 ## Acknowledgements
 Developer:
 * Benjamin Mah - C.R.A.B.E. President - [GitHub](https://github.com/benjaminm278)

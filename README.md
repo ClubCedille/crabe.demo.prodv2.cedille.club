@@ -3,19 +3,30 @@
 The C.R.A.B.E. website represents the bicycle club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
 
 ## Getting Started
-### Prequisites
-If you will run the application using the Grav files already on your computer:
-* PHP (>= 7.3.6)
-* Web Server
+### Prerequisites
+* Git Bash
 
-If you will use Docker:
+If you use Grav:
+* PHP (>= 7.3.6)
+
+If you use Docker:
 * Docker Desktop
 
 See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).
 
-### Run Application
+## Run Application
 
-#### With Docker
+### Grav
+From the root of the project, run the command to run the built-in PHP server:
+```
+bin/grav server
+```
+
+Access the website at `localhost:8000`.
+
+The admin panel can be accessed at `localhost:8000/admin`.
+
+### Docker
 Build the Docker image using the following command:
 ```
 docker-compose up --build
@@ -29,15 +40,27 @@ Access the site at `localhost:8080`.
 
 The CMS can be accessed at `localhost:8080/admin`. When prompted to login, use `admin` as the username and `admin123` as the password.
 
-#### Without Docker
-Generally speaking, the web server needs to be started to be able to access the website at `localhost:8000`.
-
-The CMS can be accessed at `localhost:8000/admin`.
-
 ## Development
-When working on the project, it is recommended that you create a new branch. Once the changes are ready to be deployed, merge to the `main` branch.
+When working on the project, it is recommended that you create a new branch using the following command:
 
-Then, visit the site console (`crabe.etsmtl.ca/admin` and perform a manual Git sync).
+```
+git checkout -b "name_of_branch"
+```
+
+Files should be added by specifying the path of the folder or file. For example:
+
+```
+git add name-of-files-or-folders-space-separated
+```
+
+> [!WARNING]  
+> There are two symlink files that should not be pushed to GitHub under config: `plugins/git-sync.yaml` and `security.yaml`. Pushing updates of these files to GitHub will break the site when merged with main, as these files are pointers to its data (which we don't currently have). If this happens, contact Cédille.
+
+Once the changes are ready to be deployed to the website, create a pull request.
+
+## Deployment
+
+Once the changes have been merged to main, navigate to the site console (`crabe.etsmtl.ca/admin`) and perform a manual Git sync.
 
 ## Acknowledgements
 Developer:

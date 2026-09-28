@@ -1,75 +1,86 @@
-# C.R.A.B.E. Website
+# Site web du C.R.A.B.E.
 
-The C.R.A.B.E. website represents the bicycle student club at École de technologie supérieure. It uses the Grav CMS to manage content and pages. This also replaces the Wordpress system that was used for the old C.R.A.B.E. site.
+Le site web du C.R.A.B.E. représente le club étudiant de vélo de l'École de technologie supérieure. Il utilise le CMS Grav pour gérer le contenu et les pages. Il remplace le système WordPress utilisé pour l'ancien site du C.R.A.B.E.
 
-## Getting Started
-### Prerequisites
-* Visual Studio Code
+## Préréquis
+### Configuration requise
+* Visual Studio Code (VS Code)
 * Git Bash
 
-If you use Grav:
+Si vous souhaitez exécuter Grav localement :
 * PHP (>= 7.3.6)
 
-If you use Docker:
+Si vous utilisez Docker :
 * Docker Desktop
 
-See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).
+Consultez la [documentation de Grav](https://learn.getgrav.org/17/basics/requirements) pour plus d'informations sur la configuration de Grav et d'un serveur web (dépend de votre machine).
 
-## Run Application
+## Configuration - Grav local uniquement
+1. Téléchargez les fichiers de base de Grav depuis [https://getgrav.org/downloads](https://getgrav.org/downloads).
+2. Extrayez le dossier `grav` dans l'emplacement de votre choix.
+3. Ouvrez VS Code, puis le projet `grav`.
+4. Ouvrez un terminal bash dans VS Code et naviguez vers le dossier `user`.
+5. Clonez le projet Grav depuis Git à l'aide de la commande :
+```
+git clone https://github.com/ClubCedille/crabe.demo.prodv2.cedille.club.git .
+```
+
+> [!WARNING]  
+> Si vous obtenez des erreurs d'autorisation (403), contactez Cédille (Club étudiant à l'ÉTS) en rejoignant leur Discord et en laissant un commentaire dans le fil `Site web C.R.A.B.E.` sous `Projets`.
+
+## Lancement de l'application
 
 ### Grav
-From the root of the project, run the command to run the built-in PHP server:
+Depuis la racine du projet, exécutez la commande suivante pour lancer le serveur PHP intégré :
 ```
 bin/grav server
 ```
 
-Access the website at `localhost:8000`.
+Accédez au site web à l'adresse `localhost:8000`.
 
-The admin panel can be accessed at `localhost:8000/admin`.
+Le panneau d'administration est accessible à l'adresse `localhost:8000/admin`.
 
 ### Docker
-Build the Docker image using the following command:
+Construisez l'image Docker à l'aide de la commande suivante :
 ```
 docker-compose up --build
 ```
 
-Recreate the following configuration files in the content folder as these are symbolic links on GitHub:
+Recréez les fichiers de configuration suivants dans le dossier de contenu, car ce sont des liens symboliques sur GitHub :
 * git-sync.yaml
 * security.yaml
 
-Access the site at `localhost:8080`.
+Accédez au site à l'adresse `localhost:8080`.
 
-The CMS can be accessed at `localhost:8080/admin`. When prompted to login, use `admin` as the username and `admin123` as the password.
+Le panneau d'administration est accessible à l'adresse `localhost:8000/admin`.
 
-## Development
-When working on the project, it is recommended that you create a new branch using the following command:
-
+## Développement
+Lorsque vous travaillez sur le projet, il est recommandé de créer une nouvelle branche à l'aide de la commande suivante :
 ```
-git checkout -b "name_of_branch"
+git checkout -b "nom_de_branche"
 ```
 
-Files should be added by specifying the path of the folder or file. Here is an example of how to push multiple files and folders:
-
+Les fichiers doivent être ajoutés en spécifiant le chemin du dossier ou du fichier. Voici un exemple de la façon de pousser plusieurs fichiers et dossiers :
 ```
 git add themes README.md pages/05.equipe/team.md
-git commit -m "your message here"
+git commit -m "ton message ici"
 git push
 ```
 
 > [!WARNING]  
-> There are two symlink files that should not be pushed to GitHub under config: `plugins/git-sync.yaml` and `security.yaml`. Pushing updates of these files to GitHub will break the site when merged with main, as these files are pointers to its data (which we don't currently have). If these files change, contact Cédille to apply the corrections.
+> Deux fichiers de liens symboliques sous config ne doivent pas être poussés vers GitHub : `plugins/git-sync.yaml` et `security.yaml`. Pousser des mises à jour de ces fichiers vers GitHub fera planter le site lors de la fusion avec la branche principale (main), car ces fichiers sont des pointeurs vers ses données (que nous n'avons pas actuellement). Si ces fichiers changent, contactez Cédille pour appliquer les corrections.
 
-Once the changes are ready to be deployed to the website, create a pull request on GitHub.
+Une fois que les modifications sont prêtes à être déployées sur le site web, créez une demande d'extraction (pull request) sur GitHub.
 
-## Deployment
+## Déploiement
 
-Once the changes have been merged to main, navigate to the site console (`crabe.etsmtl.ca/admin`) and perform a manual Git sync.
+Une fois les modifications fusionnées dans la branche principale (main), naviguez vers la console du site (`crabe.etsmtl.ca/admin`) et effectuez une synchronisation Git manuelle.
 
-## Acknowledgements
-Developer:
-* Benjamin Mah - C.R.A.B.E. President - [GitHub](https://github.com/benjaminm278)
+## Remerciements
+Développeur :
+* Benjamin Mah - Capitaine du C.R.A.B.E. - [GitHub](https://github.com/benjaminm278)
 
-DevOps Specialists:
-* Julien Giguère - Cédille Co-president - [GitHub](https://github.com/JulienGiguere)
-* Alexandre Baudouin Vegas - Cédille President - [GitHub](https://github.com/alexvegas22)
-* Jonathan Lopez - Former Cédille President - [GitHub](https://github.com/SonOfLope)
+Spécialistes DevOps :
+* Julien Giguère - Co-capitaine de Cédille - [GitHub](https://github.com/JulienGiguere)
+* Alexandre Baudouin Vegas - Capitaine de Cédille - [GitHub](https://github.com/alexvegas22)
+* Jonathan Lopez - Ancien capitaine de Cédille - [GitHub](https://github.com/SonOfLope)

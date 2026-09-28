@@ -4,16 +4,30 @@ The C.R.A.B.E. website represents the bicycle student club at École de technolo
 
 ## Getting Started
 ### Prerequisites
-* Visual Studio Code
+* Visual Studio Code (VS Code)
 * Git Bash
 
-If you use Grav:
+If you want to run Grav locally:
 * PHP (>= 7.3.6)
 
 If you use Docker:
 * Docker Desktop
 
 See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more information about setting up Grav and a web server (depends on your machine).
+
+## Setup - Local Grav only
+1. Download Grav Core files from [https://getgrav.org/downloads](https://getgrav.org/downloads).
+2. Extract the `grav` folder to a location of your choice.
+3. Open VS Code and open the `grav` project.
+4. Empty the `user` folder (but do not delete)
+5. Open a bash terminal in VS Code and navigate to the `user` folder.
+6. Clone the Grav project from Git by using the command:
+```
+git clone https://github.com/ClubCedille/crabe.demo.prodv2.cedille.club.git .
+```
+
+> [!WARNING]  
+> If you get unauthorized errors (403), contact Cédille (Student club at ÉTS) by joining their Discord and leaving a comment in the thread `Site web C.R.A.B.E.` under `Projects`.
 
 ## Run Application
 
@@ -39,7 +53,7 @@ Recreate the following configuration files in the content folder as these are sy
 
 Access the site at `localhost:8080`.
 
-The CMS can be accessed at `localhost:8080/admin`. When prompted to login, use `admin` as the username and `admin123` as the password.
+The CMS can be accessed at `localhost:8080/admin`. You will be prompted to create an account.
 
 ## Development
 When working on the project, it is recommended that you create a new branch using the following command:

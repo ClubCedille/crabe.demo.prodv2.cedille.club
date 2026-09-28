@@ -18,7 +18,7 @@ Consultez la [documentation de Grav](https://learn.getgrav.org/17/basics/require
 ## Configuration - Grav local uniquement
 1. Téléchargez les fichiers de base de Grav depuis [https://getgrav.org/downloads](https://getgrav.org/downloads).
 2. Extrayez le dossier `grav` dans l'emplacement de votre choix.
-3. Ouvrez VS Code et ouvrez le projet `grav`.
+3. Ouvrez VS Code, puis le projet `grav`.
 4. Ouvrez un terminal bash dans VS Code et naviguez vers le dossier `user`.
 5. Clonez le projet Grav depuis Git à l'aide de la commande :
 ```
@@ -52,7 +52,7 @@ Recréez les fichiers de configuration suivants dans le dossier de contenu, car 
 
 Accédez au site à l'adresse `localhost:8080`.
 
-Le CMS est accessible à l'adresse `localhost:8080/admin`. Vous serez invité à créer un compte.
+Le panneau d'administration est accessible à l'adresse `localhost:8000/admin`.
 
 ## Développement
 Lorsque vous travaillez sur le projet, il est recommandé de créer une nouvelle branche à l'aide de la commande suivante :

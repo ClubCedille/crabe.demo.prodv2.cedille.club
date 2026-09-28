@@ -19,9 +19,8 @@ See the [Grav Docs](https://learn.getgrav.org/17/basics/requirements) for more i
 1. Download Grav Core files from [https://getgrav.org/downloads](https://getgrav.org/downloads).
 2. Extract the `grav` folder to a location of your choice.
 3. Open VS Code and open the `grav` project.
-4. Empty the `user` folder (but do not delete)
-5. Open a bash terminal in VS Code and navigate to the `user` folder.
-6. Clone the Grav project from Git by using the command:
+4. Open a bash terminal in VS Code and navigate to the `user` folder.
+5. Clone the Grav project from Git by using the command:
 ```
 git clone https://github.com/ClubCedille/crabe.demo.prodv2.cedille.club.git .
 ```

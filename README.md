@@ -30,7 +30,9 @@ git clone https://github.com/ClubCedille/crabe.demo.prodv2.cedille.club.git .
 
 ## Lancement de l'application
 
-### Grav
+Vous pouvez exécuter l'application en utilisant un de ces méthodes :
+
+### 1. Grav
 Depuis la racine du projet, exécutez la commande suivante pour lancer le serveur PHP intégré :
 ```
 bin/grav server
@@ -40,7 +42,7 @@ Accédez au site web à l'adresse `localhost:8000`.
 
 Le panneau d'administration est accessible à l'adresse `localhost:8000/admin`.
 
-### Docker
+### 2. Docker
 Construisez l'image Docker à l'aide de la commande suivante :
 ```
 docker-compose up --build
@@ -70,7 +72,7 @@ git push
 > [!WARNING]  
 > Deux fichiers de liens symboliques sous config ne doivent pas être poussés vers GitHub : `plugins/git-sync.yaml` et `security.yaml`. Pousser des mises à jour de ces fichiers vers GitHub fera planter le site lors de la fusion avec la branche principale (main), car ces fichiers sont des pointeurs vers ses données (que nous n'avons pas actuellement). Si ces fichiers changent, contactez Cédille pour appliquer les corrections.
 
-Une fois que les modifications sont prêtes à être déployées sur le site web, créez une demande d'extraction (pull request) sur GitHub.
+Une fois que les modifications sont prêtes à être déployées sur le site web, créez un *pull request* sur GitHub.
 
 ## Déploiement
 

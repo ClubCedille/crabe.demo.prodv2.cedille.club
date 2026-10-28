@@ -27,7 +27,7 @@ team:
         -
             name: 'Benjamin Mah'
             role: 'Chef d''activités et de projets'
-            thumbnail: benjamin-mah.JPG
+            thumbnail: benjamin-mah.png
         -
             name: 'Nicolas Bellerive-Blais'
             role: Mécanicien

@@ -60,7 +60,7 @@ team:
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
         -
-            name: 'Écaterina Kiosse'
+            name: 'Ecaterina Kiosse'
             role: 'Coordinatrice en rayonnement'
         -
             name: 'Manuel Orlando Poldo Silva'

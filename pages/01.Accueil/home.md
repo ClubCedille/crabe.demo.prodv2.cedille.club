@@ -4,7 +4,7 @@ menu: Accueil
 banner_pic: atelier-outils.jpg
 banner:
     club_logo: crabe-logo.svg
-    title: 'Centre de réparation et ajustement de bicyclettes de l''ÉTS'
+    title: 'Centre de réparation et d''ajustement de bicyclettes de l''ÉTS'
 overview:
     message: '<a href="https://notebooklm.google.com/notebook/bf5ed135-4735-4c14-9742-4ba3a3e5f36f" target="_blank">Posez vos questions à notre agent IA!</a>'
     links:

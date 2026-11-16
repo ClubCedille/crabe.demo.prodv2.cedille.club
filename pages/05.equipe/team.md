@@ -57,6 +57,9 @@ team:
             name: 'Arianne Villar Carlin'
             role: 'Coordinatrice en rayonnement'
         -
+            name: 'Armelle Flora Kadje Kuate'
+            role: 'Coordinatrice en rayonnement'
+        -
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
         -
@@ -65,6 +68,33 @@ team:
         -
             name: 'Manuel Orlando Poldo Silva'
             role: 'Chargé de projets en construction'
+        -
+            name: 'Olivier Cartier-Racicot'
+            role: Membre
+        -
+            name: 'Olivier Larocque'
+            role: Membre
+        -
+            name: 'Christophe Leroux'
+            role: Membre
+        -
+            name: 'Charles Lesage'
+            role: Membre
+        -
+            name: 'Franklin Minville'
+            role: Membre
+        -
+            name: 'Thien Kim Long Nguyen'
+            role: Membre
+        -
+            name: 'Olivier Ozorai'
+            role: Membre
+        -
+            name: 'Théo Perignon'
+            role: Membre
+        -
+            name: 'Félix St-Sauveur'
+            role: Membre
         -
             name: 'Gabrielle Beaudin'
             role: 'Liaison du BDD'

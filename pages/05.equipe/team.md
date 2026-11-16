@@ -70,19 +70,19 @@ team:
             role: 'Chargé de projets en construction'
         -
             name: 'Olivier Cartier-Racicot'
-            role: Membre
+            role: 'Chargé de projets mécaniques'
         -
             name: 'Olivier Larocque'
             role: Membre
         -
             name: 'Christophe Leroux'
-            role: Membre
+            role: 'Chargé de projets mécaniques'
         -
             name: 'Charles Lesage'
             role: Membre
         -
             name: 'Franklin Minville'
-            role: Membre
+            role: 'Chargé de projets mécaniques'
         -
             name: 'Thien Kim Long Nguyen'
             role: Membre
@@ -91,7 +91,7 @@ team:
             role: Membre
         -
             name: 'Théo Perignon'
-            role: Membre
+            role: 'Chargé de projets mécaniques'
         -
             name: 'Félix St-Sauveur'
             role: Membre

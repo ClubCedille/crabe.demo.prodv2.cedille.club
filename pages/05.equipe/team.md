@@ -63,16 +63,16 @@ team:
             name: 'Arianne Villar Carlin'
             role: 'Coordinatrice en rayonnement'
         -
+            name: 'Ecaterina Kiosse'
+            role: 'Coordinatrice en rayonnement'
+            thumbnail: ecaterina-kiosse.jpg
+        -
             name: 'Armelle Flora Kadje Kuate'
             role: 'Coordinatrice en rayonnement'
         -
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
             thumbnail: mathieu-abou-jaoude.jpg
-        -
-            name: 'Ecaterina Kiosse'
-            role: 'Coordinatrice en rayonnement'
-            thumbnail: ecaterina-kiosse.jpg
         -
             name: 'Manuel Orlando Poldo Silva'
             role: 'Chargé de projets en construction'

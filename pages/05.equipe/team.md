@@ -222,6 +222,7 @@ team:
         -
             name: 'Marc-André Beauchamp'
             role: 'Fondateur du club'
+            thumbnail: marc-andre-beauchamp.jpg
 media_order: 'alek-vincent.jpg,alexandre-bureau.jpg,alexis-papin.jpg,andrew-leongr.jpg,anthony-stefanelli.jpg,atelier-pavillon-a.jpg,axel-bouchetti.jpg,benjamin-mah.jpg,camille-champagne.jpg,crabe-logo.jpg,elias-barmani.jpg,felix-antoine-tremblay.jpg,gabriel-niquet.jpg,gabrielle-beaudin.jpg,jonathan-lecuyer-lesperance.jpg,julien-bercier.jpg,justin-setton.jpg,louis-david-gauthier.jpg,martin-ortega.jpg,mathieu-dufour.jpg,nicolas-bellerive-blais.jpg,odile-gauthier-plamondon.jpg,raphaelle-jutras-michaud.jpg,remy-martin.jpeg,samuel-klein-blain.jpg,simon-lesage.jpg,antoine-gagné.jpg'
 ---
 

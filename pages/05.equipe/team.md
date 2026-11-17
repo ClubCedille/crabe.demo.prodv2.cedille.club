@@ -67,9 +67,6 @@ team:
             role: 'Coordinatrice en rayonnement'
             thumbnail: ecaterina-kiosse.jpg
         -
-            name: 'Armelle Flora Kadje Kuate'
-            role: 'Coordinatrice en rayonnement'
-        -
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
             thumbnail: mathieu-abou-jaoude.jpg

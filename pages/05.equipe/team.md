@@ -47,7 +47,7 @@ team:
         -
             name: 'Antoine Gagné'
             role: Mécanicien
-            thumbnail: antoine-gagné.jpg
+            thumbnail: antoine-gagne.jpg
         -
             name: 'Kevin Impasina Chan Yane'
             role: 'Mécanicien junior'

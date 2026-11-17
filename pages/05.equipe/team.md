@@ -47,9 +47,11 @@ team:
         -
             name: 'Kevin Impasina Chan Yane'
             role: 'Mécanicien junior'
+            thumbnail: kevin-chan.jpg
         -
             name: 'Laura Bascopé Butron'
             role: 'Coordinatrice en rayonnement'
+            thumbnail: laura-bascope-butron.jpg
         -
             name: 'Lian Diep'
             role: 'Coordinatrice en rayonnement'
@@ -62,9 +64,11 @@ team:
         -
             name: 'Mathieu Abou Jaoude'
             role: 'Chargé de projets électriques'
+            thumbnail: mathieu-abou-jaoude.jpg
         -
             name: 'Ecaterina Kiosse'
             role: 'Coordinatrice en rayonnement'
+            thumbnail: ecaterina-kiosse.jpg
         -
             name: 'Manuel Orlando Poldo Silva'
             role: 'Chargé de projets en construction'

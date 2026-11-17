@@ -46,7 +46,7 @@ team:
             thumbnail: alexis-papin.jpg
         -
             name: 'Antoine Gagné'
-            role: 'Responsable d''atelier'
+            role: Mécanicien
             thumbnail: antoine-gagné.jpg
         -
             name: 'Kevin Impasina Chan Yane'

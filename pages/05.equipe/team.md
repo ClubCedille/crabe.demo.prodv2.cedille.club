@@ -30,8 +30,12 @@ team:
             thumbnail: benjamin-mah.png
         -
             name: 'Nicolas Bellerive-Blais'
-            role: Mécanicien
+            role: 'Chef d''atelier'
             thumbnail: nicolas-bellerive-blais.jpg
+        -
+            name: 'Gabrielle Beaudin'
+            role: 'Liaison du BDD'
+            thumbnail: gabrielle-beaudin.jpg
         -
             name: 'Rémy Martin'
             role: Communications
@@ -99,10 +103,6 @@ team:
         -
             name: 'Félix St-Sauveur'
             role: Membre
-        -
-            name: 'Gabrielle Beaudin'
-            role: 'Liaison du BDD'
-            thumbnail: gabrielle-beaudin.jpg
     former:
         -
             name: 'Justin Setton'

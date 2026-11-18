@@ -88,6 +88,7 @@ team:
         -
             name: 'Franklin Minville'
             role: 'Chargé de projets mécaniques'
+            thumbnail: franklin-minville.jpg
         -
             name: 'Thien Kim Long Nguyen'
             role: Membre
@@ -100,6 +101,7 @@ team:
         -
             name: 'Félix St-Sauveur'
             role: Membre
+            thumbnail: felix-st-sauveur.jpg
     former:
         -
             name: 'Justin Setton'
